@@ -26,8 +26,8 @@ SELECT
   REGEXP_REPLACE(COALESCE(formula_detalle.observacion, ''), E'[\n\r;]+', '', 'g') AS observacion,
   formula_detalle.cantidad,
   REGEXP_REPLACE(COALESCE(formula_detalle.frecuencia, ''), E'[\n\r;]+', '', 'g') AS frecuencia,
-  COALESCE(usuario.nombre, 'PROFESIONAL DE LA SALUD') AS medico,
-  COALESCE(especialidad.descripcion, 'ODONTOLOGIA GENERAL') AS especialidad,
+  COALESCE(TRIM(tercero.nombre), TRIM(usuario.nombre), 'PROFESIONAL DE LA SALUD') AS medico,
+  COALESCE(TRIM(especialidad.descripcion), 'MEDICINA GENERAL') AS especialidad,
   '' AS col_extra
 
 FROM formula_detalle
@@ -38,8 +38,9 @@ JOIN servicio ON servicio.servicio = formula_detalle.servicio
 JOIN concepto ON concepto.concepto = formula_detalle.concepto
 JOIN registro ON registro.registro = formula_detalle.registro
 LEFT JOIN unidad_servicio ON unidad_servicio.unidad_servicio = registro.unidad_servicio
-LEFT JOIN usuario ON usuario.usuario = COALESCE(formula_encabezado.medico, formula_encabezado.usuario)
-LEFT JOIN especialidad ON especialidad.especialidad = usuario.especialidad
+LEFT JOIN usuario ON usuario.usuario = formula_encabezado.usuario
+LEFT JOIN tercero ON tercero.tercero = COALESCE(formula_encabezado.medico, usuario.tercero_citas, usuario.medico, usuario.documento, formula_encabezado.usuario)
+LEFT JOIN especialidad ON especialidad.especialidad = COALESCE(tercero.especialidad, usuario.especialidad)
 
 WHERE formula_encabezado.ind_aprobada = 'S'
   AND formula_encabezado.fecha_formula >= '2026-01-01 00:00:00'
@@ -92,6 +93,7 @@ GROUP BY
   formula_detalle.observacion,
   formula_detalle.cantidad,
   formula_detalle.frecuencia,
+  tercero.nombre,
   usuario.nombre,
   especialidad.descripcion
 

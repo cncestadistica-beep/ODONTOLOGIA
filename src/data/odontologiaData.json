@@ -22,13 +22,8 @@
     },
     {
       "id": "",
-      "name": "PROFESIONAL DE LA SALUD",
-      "specialty": "ODONTOLOGIA GENERAL"
-    },
-    {
-      "id": "",
       "name": "ELKIN DAVID HOYOS MALDONADO",
-      "specialty": "MEDICINA GENERAL"
+      "specialty": "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE"
     },
     {
       "id": "",
@@ -47,7 +42,7 @@
     },
     {
       "id": "",
-      "name": "JAIRO ANDRES CERON SOTOMAYOR",
+      "name": "JAIRO ANDRES  CERON SOTOMAYOR",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -82,7 +77,7 @@
     },
     {
       "id": "",
-      "name": "NIYIRETH CASTAÑO CORTES",
+      "name": "NIYIRETH CASTANO CORTES",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -102,7 +97,7 @@
     },
     {
       "id": "",
-      "name": "LINA MARCELA CASTAÑO NOGUERA",
+      "name": "LINA MARCELA CASTANO NOGUERA",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -117,7 +112,7 @@
     },
     {
       "id": "",
-      "name": "LLOVELA ANDRADE ROSERO",
+      "name": "JAIRI LLOVELA ANDRADE ROSERO",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -137,7 +132,7 @@
     },
     {
       "id": "",
-      "name": "CLAUDIA MARCELA SINISTERRA MONTAÑO",
+      "name": "CLAUDIA MARCELA SINISTERRA MONTANO",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -178,7 +173,7 @@
     {
       "id": "",
       "name": "JENNY PAOLA ROMERO SABOGAL",
-      "specialty": "PEDIATRIA"
+      "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
@@ -187,7 +182,7 @@
     },
     {
       "id": "",
-      "name": "CATALINA ARROYAVE SILVA",
+      "name": "CATALINA  ARROYAVE SILVA",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -232,7 +227,7 @@
     },
     {
       "id": "",
-      "name": "MARIA CAMILA GOMEZ  VALENCIA",
+      "name": "MARIA CAMILA GOMEZ VALENCIA",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -252,8 +247,8 @@
     },
     {
       "id": "",
-      "name": "YULY FERNANDA MOTTA A",
-      "specialty": "GERIATRIA CLINICA"
+      "name": "YULY FERNANDA MOTTA ARTUNDUAGA",
+      "specialty": "GERIATRIA"
     },
     {
       "id": "",
@@ -292,7 +287,7 @@
     },
     {
       "id": "",
-      "name": "URIEL OVIDIO CARDONA NUÑEZ",
+      "name": "URIEL OVIDIO CARDONA NUNEZ",
       "specialty": "CIRUGIA GENERAL"
     }
   ],
@@ -303,16 +298,16 @@
     "CIRUGIA PLASTICA",
     "DERMATOLOGIA",
     "FISIATRIA",
-    "GERIATRIA CLINICA",
+    "GERIATRIA",
     "GINECOLOGIA ALTA COMPLEJIDAD",
     "INTENSIVISTA",
     "MD., ESP., MSC Y PHD CBM ENFASIS GENÉTICA MÉDICA",
+    "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE",
     "MEDICINA FAMILIAR",
     "MEDICINA GENERAL",
     "NEFROLOGIA",
     "NEUMOLOGIA",
     "NEUROLOGIA",
-    "ODONTOLOGIA GENERAL",
     "OTORRINOLARINGOLOGIA",
     "PEDIATRIA",
     "REUMATOLOGIA"
@@ -322,181 +317,174 @@
     "Laboratorio Clínico",
     "Honorarios Médicos",
     "Procedimientos Quirúrgicos",
+    "Ecografías",
     "Imágenes Diagnósticas"
   ],
   "dataByYearMonth": {
     "2026": {
       "Enero": {
         "totalHonorarios": 119,
-        "totalLaboratorios": 788,
-        "totalMedicamentos": 2139,
+        "totalLaboratorios": 26,
+        "totalMedicamentos": 28,
         "totalConsultasRealizadas": 78,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 119,
         "orders": {
-          "medicamentos": 2139,
-          "laboratorios": 788,
-          "honorarios": 570,
-          "procedimientos": 22,
-          "ecografias": 35,
-          "imagenes": 56
+          "medicamentos": 28,
+          "laboratorios": 26,
+          "honorarios": 73,
+          "procedimientos": 17,
+          "ecografias": 0,
+          "imagenes": 3
         }
       },
       "Febrero": {
         "totalHonorarios": 126,
-        "totalLaboratorios": 1043,
-        "totalMedicamentos": 2211,
+        "totalLaboratorios": 26,
+        "totalMedicamentos": 15,
         "totalConsultasRealizadas": 97,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 126,
         "orders": {
-          "medicamentos": 2211,
-          "laboratorios": 1043,
-          "honorarios": 880,
-          "procedimientos": 25,
-          "ecografias": 45,
-          "imagenes": 94
+          "medicamentos": 15,
+          "laboratorios": 26,
+          "honorarios": 88,
+          "procedimientos": 20,
+          "ecografias": 0,
+          "imagenes": 6
         }
       },
       "Marzo": {
         "totalHonorarios": 144,
-        "totalLaboratorios": 1092,
-        "totalMedicamentos": 2706,
+        "totalLaboratorios": 22,
+        "totalMedicamentos": 29,
         "totalConsultasRealizadas": 117,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 144,
         "orders": {
-          "medicamentos": 2706,
-          "laboratorios": 1092,
-          "honorarios": 859,
-          "procedimientos": 25,
-          "ecografias": 49,
-          "imagenes": 99
+          "medicamentos": 29,
+          "laboratorios": 22,
+          "honorarios": 89,
+          "procedimientos": 22,
+          "ecografias": 0,
+          "imagenes": 11
         }
       },
       "Abril": {
         "totalHonorarios": 145,
-        "totalLaboratorios": 750,
-        "totalMedicamentos": 2296,
+        "totalLaboratorios": 53,
+        "totalMedicamentos": 23,
         "totalConsultasRealizadas": 99,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 145,
         "orders": {
-          "medicamentos": 2296,
-          "laboratorios": 750,
-          "honorarios": 563,
-          "procedimientos": 31,
-          "ecografias": 29,
-          "imagenes": 32
+          "medicamentos": 23,
+          "laboratorios": 53,
+          "honorarios": 105,
+          "procedimientos": 26,
+          "ecografias": 0,
+          "imagenes": 11
         }
       },
       "Mayo": {
         "totalHonorarios": 133,
-        "totalLaboratorios": 586,
-        "totalMedicamentos": 2436,
+        "totalLaboratorios": 46,
+        "totalMedicamentos": 22,
         "totalConsultasRealizadas": 85,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 133,
         "orders": {
-          "medicamentos": 2436,
-          "laboratorios": 586,
-          "honorarios": 675,
-          "procedimientos": 34,
-          "ecografias": 49,
-          "imagenes": 67
+          "medicamentos": 22,
+          "laboratorios": 46,
+          "honorarios": 99,
+          "procedimientos": 28,
+          "ecografias": 0,
+          "imagenes": 15
         }
       },
       "Junio": {
         "totalHonorarios": 91,
-        "totalLaboratorios": 643,
-        "totalMedicamentos": 2269,
+        "totalLaboratorios": 17,
+        "totalMedicamentos": 22,
         "totalConsultasRealizadas": 72,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 91,
         "orders": {
-          "medicamentos": 2269,
-          "laboratorios": 643,
-          "honorarios": 673,
-          "procedimientos": 10,
-          "ecografias": 40,
-          "imagenes": 74
+          "medicamentos": 22,
+          "laboratorios": 17,
+          "honorarios": 62,
+          "procedimientos": 6,
+          "ecografias": 0,
+          "imagenes": 9
         }
       },
       "Julio": {
         "totalHonorarios": 138,
-        "totalLaboratorios": 732,
-        "totalMedicamentos": 2314,
+        "totalLaboratorios": 37,
+        "totalMedicamentos": 26,
         "totalConsultasRealizadas": 90,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 138,
         "orders": {
-          "medicamentos": 2314,
-          "laboratorios": 732,
-          "honorarios": 694,
-          "procedimientos": 32,
-          "ecografias": 34,
-          "imagenes": 94
+          "medicamentos": 26,
+          "laboratorios": 37,
+          "honorarios": 90,
+          "procedimientos": 28,
+          "ecografias": 0,
+          "imagenes": 11
         }
       },
       "Agosto": {
         "totalHonorarios": 133,
-        "totalLaboratorios": 620,
-        "totalMedicamentos": 2311,
+        "totalLaboratorios": 11,
+        "totalMedicamentos": 11,
         "totalConsultasRealizadas": 57,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 133,
         "orders": {
-          "medicamentos": 2311,
-          "laboratorios": 620,
-          "honorarios": 637,
-          "procedimientos": 22,
-          "ecografias": 40,
-          "imagenes": 93
+          "medicamentos": 11,
+          "laboratorios": 11,
+          "honorarios": 69,
+          "procedimientos": 14,
+          "ecografias": 0,
+          "imagenes": 7
         }
       },
       "Septiembre": {
         "totalHonorarios": 149,
-        "totalLaboratorios": 1222,
-        "totalMedicamentos": 2751,
+        "totalLaboratorios": 42,
+        "totalMedicamentos": 27,
         "totalConsultasRealizadas": 91,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 149,
         "orders": {
-          "medicamentos": 2751,
-          "laboratorios": 1222,
-          "honorarios": 1010,
-          "procedimientos": 36,
-          "ecografias": 62,
-          "imagenes": 95
+          "medicamentos": 27,
+          "laboratorios": 42,
+          "honorarios": 95,
+          "procedimientos": 29,
+          "ecografias": 0,
+          "imagenes": 11
         }
       },
       "Octubre": {
         "totalHonorarios": 95,
-        "totalLaboratorios": 706,
-        "totalMedicamentos": 2045,
+        "totalLaboratorios": 40,
+        "totalMedicamentos": 24,
         "totalConsultasRealizadas": 63,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 95,
         "orders": {
-          "medicamentos": 2045,
-          "laboratorios": 706,
-          "honorarios": 596,
-          "procedimientos": 29,
-          "ecografias": 32,
-          "imagenes": 66
+          "medicamentos": 24,
+          "laboratorios": 40,
+          "honorarios": 63,
+          "procedimientos": 22,
+          "ecografias": 0,
+          "imagenes": 4
         }
       }
     }
   },
   "ordersBySpecialty": {
-    "2026_10_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2021,
-      "laboratorios": 666,
-      "honorarios": 533,
-      "procedimientos": 7,
-      "ecografias": 32,
-      "imagenes": 62
-    },
     "2026_10_CIRUGIA MAXILOFACIAL": {
       "medicamentos": 24,
       "laboratorios": 40,
@@ -505,10 +493,18 @@
       "ecografias": 0,
       "imagenes": 4
     },
+    "2026_10_MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
     "2026_10_MEDICINA GENERAL": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 5,
+      "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -536,14 +532,6 @@
       "procedimientos": 29,
       "ecografias": 0,
       "imagenes": 11
-    },
-    "2026_9_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2724,
-      "laboratorios": 1180,
-      "honorarios": 915,
-      "procedimientos": 7,
-      "ecografias": 62,
-      "imagenes": 84
     },
     "2026_9_GINECOLOGIA ALTA COMPLEJIDAD": {
       "medicamentos": 0,
@@ -601,14 +589,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2300,
-      "laboratorios": 609,
-      "honorarios": 568,
-      "procedimientos": 8,
-      "ecografias": 40,
-      "imagenes": 86
-    },
     "2026_8_OTORRINOLARINGOLOGIA": {
       "medicamentos": 0,
       "laboratorios": 0,
@@ -649,14 +629,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2288,
-      "laboratorios": 695,
-      "honorarios": 604,
-      "procedimientos": 4,
-      "ecografias": 34,
-      "imagenes": 83
-    },
     "2026_7_MEDICINA GENERAL": {
       "medicamentos": 0,
       "laboratorios": 0,
@@ -688,14 +660,6 @@
       "procedimientos": 1,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_6_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2247,
-      "laboratorios": 626,
-      "honorarios": 611,
-      "procedimientos": 4,
-      "ecografias": 40,
-      "imagenes": 65
     },
     "2026_6_CIRUGIA MAXILOFACIAL": {
       "medicamentos": 22,
@@ -729,29 +693,13 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_PEDIATRIA": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 3,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
     "2026_5_MEDICINA GENERAL": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 10,
+      "honorarios": 12,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_5_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2414,
-      "laboratorios": 540,
-      "honorarios": 576,
-      "procedimientos": 6,
-      "ecografias": 49,
-      "imagenes": 52
     },
     "2026_5_CIRUGIA MAXILOFACIAL": {
       "medicamentos": 22,
@@ -777,18 +725,18 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2273,
-      "laboratorios": 697,
-      "honorarios": 458,
-      "procedimientos": 5,
-      "ecografias": 29,
-      "imagenes": 21
+    "2026_5_PEDIATRIA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 1,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
     },
     "2026_4_MEDICINA GENERAL": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 14,
+      "honorarios": 15,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -796,7 +744,7 @@
     "2026_4_PEDIATRIA": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 3,
+      "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -841,14 +789,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2677,
-      "laboratorios": 1070,
-      "honorarios": 770,
-      "procedimientos": 3,
-      "ecografias": 49,
-      "imagenes": 88
-    },
     "2026_3_CIRUGIA MAXILOFACIAL": {
       "medicamentos": 29,
       "laboratorios": 22,
@@ -860,7 +800,7 @@
     "2026_3_MEDICINA GENERAL": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 3,
+      "honorarios": 4,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -868,7 +808,7 @@
     "2026_3_PEDIATRIA": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 4,
+      "honorarios": 3,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -889,7 +829,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_GERIATRIA CLINICA": {
+    "2026_3_GERIATRIA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -904,14 +844,6 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_2_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2196,
-      "laboratorios": 1017,
-      "honorarios": 792,
-      "procedimientos": 5,
-      "ecografias": 45,
-      "imagenes": 88
     },
     "2026_2_CIRUGIA MAXILOFACIAL": {
       "medicamentos": 15,
@@ -944,14 +876,6 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_1_ODONTOLOGIA GENERAL": {
-      "medicamentos": 2111,
-      "laboratorios": 762,
-      "honorarios": 497,
-      "procedimientos": 5,
-      "ecografias": 35,
-      "imagenes": 53
     },
     "2026_1_DERMATOLOGIA": {
       "medicamentos": 0,
@@ -1011,14 +935,6 @@
     }
   },
   "ordersBySpecialist": {
-    "2026_10_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2021,
-      "laboratorios": 666,
-      "honorarios": 533,
-      "procedimientos": 7,
-      "ecografias": 32,
-      "imagenes": 62
-    },
     "2026_10_VALENTINA SANCHEZ FERNANDEZ": {
       "medicamentos": 24,
       "laboratorios": 40,
@@ -1059,7 +975,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_10_JAIRO ANDRES CERON SOTOMAYOR": {
+    "2026_10_JAIRO ANDRES  CERON SOTOMAYOR": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1075,14 +991,6 @@
       "ecografias": 0,
       "imagenes": 11
     },
-    "2026_9_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2724,
-      "laboratorios": 1180,
-      "honorarios": 915,
-      "procedimientos": 7,
-      "ecografias": 62,
-      "imagenes": 84
-    },
     "2026_9_MIGUEL ALBERTO RODRIGUEZ GARZON": {
       "medicamentos": 0,
       "laboratorios": 0,
@@ -1091,7 +999,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_9_JAIRO ANDRES CERON SOTOMAYOR": {
+    "2026_9_JAIRO ANDRES  CERON SOTOMAYOR": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1147,7 +1055,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_9_NIYIRETH CASTAÑO CORTES": {
+    "2026_9_NIYIRETH CASTANO CORTES": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1179,14 +1087,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2300,
-      "laboratorios": 609,
-      "honorarios": 568,
-      "procedimientos": 8,
-      "ecografias": 40,
-      "imagenes": 86
-    },
     "2026_8_PAOLA ANDREA BUITRAGO PERDOMO": {
       "medicamentos": 0,
       "laboratorios": 0,
@@ -1195,7 +1095,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_LINA MARCELA CASTAÑO NOGUERA": {
+    "2026_8_LINA MARCELA CASTANO NOGUERA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 2,
@@ -1211,7 +1111,7 @@
       "ecografias": 0,
       "imagenes": 7
     },
-    "2026_8_JAIRO ANDRES CERON SOTOMAYOR": {
+    "2026_8_JAIRO ANDRES  CERON SOTOMAYOR": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1243,7 +1143,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_LLOVELA ANDRADE ROSERO": {
+    "2026_8_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1275,15 +1175,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2288,
-      "laboratorios": 695,
-      "honorarios": 604,
-      "procedimientos": 4,
-      "ecografias": 34,
-      "imagenes": 83
-    },
-    "2026_7_CLAUDIA MARCELA SINISTERRA MONTAÑO": {
+    "2026_7_CLAUDIA MARCELA SINISTERRA MONTANO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1315,7 +1207,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_LINA MARCELA CASTAÑO NOGUERA": {
+    "2026_7_LINA MARCELA CASTANO NOGUERA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1331,7 +1223,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_JAIRO ANDRES CERON SOTOMAYOR": {
+    "2026_7_JAIRO ANDRES  CERON SOTOMAYOR": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1395,14 +1287,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2247,
-      "laboratorios": 626,
-      "honorarios": 611,
-      "procedimientos": 4,
-      "ecografias": 40,
-      "imagenes": 65
-    },
     "2026_6_VALENTINA SANCHEZ FERNANDEZ": {
       "medicamentos": 22,
       "laboratorios": 17,
@@ -1411,7 +1295,7 @@
       "ecografias": 0,
       "imagenes": 9
     },
-    "2026_6_LLOVELA ANDRADE ROSERO": {
+    "2026_6_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 2,
@@ -1451,14 +1335,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2414,
-      "laboratorios": 540,
-      "honorarios": 576,
-      "procedimientos": 6,
-      "ecografias": 49,
-      "imagenes": 52
-    },
     "2026_5_VALENTINA SANCHEZ FERNANDEZ": {
       "medicamentos": 22,
       "laboratorios": 46,
@@ -1467,7 +1343,7 @@
       "ecografias": 0,
       "imagenes": 15
     },
-    "2026_5_LLOVELA ANDRADE ROSERO": {
+    "2026_5_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 4,
@@ -1475,7 +1351,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_CATALINA ARROYAVE SILVA": {
+    "2026_5_CATALINA  ARROYAVE SILVA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1507,7 +1383,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_LINA MARCELA CASTAÑO NOGUERA": {
+    "2026_5_LINA MARCELA CASTANO NOGUERA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1538,14 +1414,6 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_4_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2273,
-      "laboratorios": 697,
-      "honorarios": 458,
-      "procedimientos": 5,
-      "ecografias": 29,
-      "imagenes": 21
     },
     "2026_4_MARIA JIMENA RODRIGUEZ SANCHEZ": {
       "medicamentos": 0,
@@ -1611,7 +1479,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_LLOVELA ANDRADE ROSERO": {
+    "2026_4_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 3,
@@ -1627,7 +1495,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_NIYIRETH CASTAÑO CORTES": {
+    "2026_4_NIYIRETH CASTANO CORTES": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 2,
@@ -1659,14 +1527,6 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2677,
-      "laboratorios": 1070,
-      "honorarios": 770,
-      "procedimientos": 3,
-      "ecografias": 49,
-      "imagenes": 88
-    },
     "2026_3_VALENTINA SANCHEZ FERNANDEZ": {
       "medicamentos": 29,
       "laboratorios": 22,
@@ -1675,7 +1535,7 @@
       "ecografias": 0,
       "imagenes": 11
     },
-    "2026_3_MARIA CAMILA GOMEZ  VALENCIA": {
+    "2026_3_MARIA CAMILA GOMEZ VALENCIA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1723,7 +1583,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_YULY FERNANDA MOTTA A": {
+    "2026_3_YULY FERNANDA MOTTA ARTUNDUAGA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1731,7 +1591,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_LLOVELA ANDRADE ROSERO": {
+    "2026_3_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1762,14 +1622,6 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_2_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2196,
-      "laboratorios": 1017,
-      "honorarios": 792,
-      "procedimientos": 5,
-      "ecografias": 45,
-      "imagenes": 88
     },
     "2026_2_VALENTINA SANCHEZ FERNANDEZ": {
       "medicamentos": 15,
@@ -1803,7 +1655,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_2_LLOVELA ANDRADE ROSERO": {
+    "2026_2_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 2,
@@ -1818,14 +1670,6 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
-    },
-    "2026_1_PROFESIONAL DE LA SALUD": {
-      "medicamentos": 2111,
-      "laboratorios": 762,
-      "honorarios": 497,
-      "procedimientos": 5,
-      "ecografias": 35,
-      "imagenes": 53
     },
     "2026_1_ELIZABETH MILENA ARCINIEGAS BASTIDAS": {
       "medicamentos": 0,
@@ -1851,7 +1695,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_LINA MARCELA CASTAÑO NOGUERA": {
+    "2026_1_LINA MARCELA CASTANO NOGUERA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -1875,7 +1719,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_LLOVELA ANDRADE ROSERO": {
+    "2026_1_JAIRI LLOVELA ANDRADE ROSERO": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 4,
@@ -1907,7 +1751,7 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_URIEL OVIDIO CARDONA NUÑEZ": {
+    "2026_1_URIEL OVIDIO CARDONA NUNEZ": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 1,
@@ -2144,18 +1988,8 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
       "especialista": "ELKIN DAVID HOYOS MALDONADO",
-      "especialidad": "MEDICINA GENERAL",
+      "especialidad": "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2194,18 +2028,8 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "JAIRO ANDRES CERON SOTOMAYOR",
+      "especialista": "JAIRO ANDRES  CERON SOTOMAYOR",
       "especialidad": "MEDICINA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Septiembre",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2224,7 +2048,7 @@
     {
       "anio": 2026,
       "mes": "Septiembre",
-      "especialista": "JAIRO ANDRES CERON SOTOMAYOR",
+      "especialista": "JAIRO ANDRES  CERON SOTOMAYOR",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2294,7 +2118,7 @@
     {
       "anio": 2026,
       "mes": "Septiembre",
-      "especialista": "NIYIRETH CASTAÑO CORTES",
+      "especialista": "NIYIRETH CASTANO CORTES",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2334,16 +2158,6 @@
     {
       "anio": 2026,
       "mes": "Agosto",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Agosto",
       "especialista": "PAOLA ANDREA BUITRAGO PERDOMO",
       "especialidad": "OTORRINOLARINGOLOGIA",
       "totalCitas": 0,
@@ -2354,7 +2168,7 @@
     {
       "anio": 2026,
       "mes": "Agosto",
-      "especialista": "LINA MARCELA CASTAÑO NOGUERA",
+      "especialista": "LINA MARCELA CASTANO NOGUERA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2364,7 +2178,7 @@
     {
       "anio": 2026,
       "mes": "Agosto",
-      "especialista": "JAIRO ANDRES CERON SOTOMAYOR",
+      "especialista": "JAIRO ANDRES  CERON SOTOMAYOR",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2404,7 +2218,7 @@
     {
       "anio": 2026,
       "mes": "Agosto",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2444,17 +2258,7 @@
     {
       "anio": 2026,
       "mes": "Julio",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Julio",
-      "especialista": "CLAUDIA MARCELA SINISTERRA MONTAÑO",
+      "especialista": "CLAUDIA MARCELA SINISTERRA MONTANO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2484,7 +2288,7 @@
     {
       "anio": 2026,
       "mes": "Julio",
-      "especialista": "LINA MARCELA CASTAÑO NOGUERA",
+      "especialista": "LINA MARCELA CASTANO NOGUERA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2504,7 +2308,7 @@
     {
       "anio": 2026,
       "mes": "Julio",
-      "especialista": "JAIRO ANDRES CERON SOTOMAYOR",
+      "especialista": "JAIRO ANDRES  CERON SOTOMAYOR",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2584,17 +2388,7 @@
     {
       "anio": 2026,
       "mes": "Junio",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Junio",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2625,7 +2419,7 @@
       "anio": 2026,
       "mes": "Mayo",
       "especialista": "JENNY PAOLA ROMERO SABOGAL",
-      "especialidad": "PEDIATRIA",
+      "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2644,17 +2438,7 @@
     {
       "anio": 2026,
       "mes": "Mayo",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Mayo",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2664,7 +2448,7 @@
     {
       "anio": 2026,
       "mes": "Mayo",
-      "especialista": "CATALINA ARROYAVE SILVA",
+      "especialista": "CATALINA  ARROYAVE SILVA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2704,7 +2488,7 @@
     {
       "anio": 2026,
       "mes": "Mayo",
-      "especialista": "LINA MARCELA CASTAÑO NOGUERA",
+      "especialista": "LINA MARCELA CASTANO NOGUERA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2736,16 +2520,6 @@
       "mes": "Mayo",
       "especialista": "CAROLINA SALINAS SUAREZ",
       "especialidad": "PEDIATRIA",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Abril",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2824,7 +2598,7 @@
     {
       "anio": 2026,
       "mes": "Abril",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2844,7 +2618,7 @@
     {
       "anio": 2026,
       "mes": "Abril",
-      "especialista": "NIYIRETH CASTAÑO CORTES",
+      "especialista": "NIYIRETH CASTANO CORTES",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2855,7 +2629,7 @@
       "anio": 2026,
       "mes": "Abril",
       "especialista": "JENNY PAOLA ROMERO SABOGAL",
-      "especialidad": "PEDIATRIA",
+      "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2884,17 +2658,7 @@
     {
       "anio": 2026,
       "mes": "Marzo",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Marzo",
-      "especialista": "MARIA CAMILA GOMEZ  VALENCIA",
+      "especialista": "MARIA CAMILA GOMEZ VALENCIA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2954,8 +2718,8 @@
     {
       "anio": 2026,
       "mes": "Marzo",
-      "especialista": "YULY FERNANDA MOTTA A",
-      "especialidad": "GERIATRIA CLINICA",
+      "especialista": "YULY FERNANDA MOTTA ARTUNDUAGA",
+      "especialidad": "GERIATRIA",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -2964,7 +2728,7 @@
     {
       "anio": 2026,
       "mes": "Marzo",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -2995,17 +2759,7 @@
       "anio": 2026,
       "mes": "Marzo",
       "especialista": "JENNY PAOLA ROMERO SABOGAL",
-      "especialidad": "PEDIATRIA",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Febrero",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
+      "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -3044,7 +2798,7 @@
     {
       "anio": 2026,
       "mes": "Febrero",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -3056,16 +2810,6 @@
       "mes": "Febrero",
       "especialista": "CARLOS JULIAN CONTRERAS MERCHAN",
       "especialidad": "PEDIATRIA",
-      "totalCitas": 0,
-      "realizadas": 0,
-      "primeraVez": 0,
-      "control": 0
-    },
-    {
-      "anio": 2026,
-      "mes": "Enero",
-      "especialista": "PROFESIONAL DE LA SALUD",
-      "especialidad": "ODONTOLOGIA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
       "primeraVez": 0,
@@ -3094,7 +2838,7 @@
     {
       "anio": 2026,
       "mes": "Enero",
-      "especialista": "LINA MARCELA CASTAÑO NOGUERA",
+      "especialista": "LINA MARCELA CASTANO NOGUERA",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -3124,7 +2868,7 @@
     {
       "anio": 2026,
       "mes": "Enero",
-      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
       "especialidad": "MEDICINA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,
@@ -3164,7 +2908,7 @@
     {
       "anio": 2026,
       "mes": "Enero",
-      "especialista": "URIEL OVIDIO CARDONA NUÑEZ",
+      "especialista": "URIEL OVIDIO CARDONA NUNEZ",
       "especialidad": "CIRUGIA GENERAL",
       "totalCitas": 0,
       "realizadas": 0,

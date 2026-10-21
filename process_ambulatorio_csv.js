@@ -344,12 +344,19 @@ async function processAll() {
         cisenOrders.push(orderItem);
       }
 
-      // Link to cita for detail modals without duplicating
+      // Link to cita for detail modals without duplicating across domains
+      let attachedToCita = false;
       if (reg && regToCitaMap.has(reg)) {
         const citas = regToCitaMap.get(reg);
-        const targetCita = citas.find(c => c.medico === medico) || citas[0];
-        targetCita.ord.push(orderItem);
-      } else if (yr === '2026') {
+        const matchingCita = citas.find(c => c.isOdonto === isOdonto && c.medico === medico) || 
+                             citas.find(c => c.isOdonto === isOdonto);
+        if (matchingCita) {
+          matchingCita.ord.push(orderItem);
+          attachedToCita = true;
+        }
+      }
+
+      if (!attachedToCita && yr === '2026') {
         const targetMap = isOdonto ? odontoByMonthAndDoc : cisenByMonthAndDoc;
         // Prescribe in doctor's monthly bucket for detail modals so it is not dropped
         if (!targetMap[monthName]) targetMap[monthName] = {};
@@ -366,7 +373,7 @@ async function processAll() {
           espNom: especialidad,
           cups: servicio,
           s: descripcion,
-          t: 'Consulta',
+          t: 'Prescripción',
           r: 'S',
           ord: [orderItem],
           year: yr,
@@ -605,7 +612,7 @@ async function processAll() {
 
   const odontoData = buildDashboardData(odontoConsultas, odontoOrders, [
     'Medicamentos', 'Laboratorio Clínico', 'Honorarios Médicos',
-    'Procedimientos Quirúrgicos', 'Imágenes Diagnósticas'
+    'Procedimientos Quirúrgicos', 'Ecografías', 'Imágenes Diagnósticas'
   ]);
 
   fs.writeFileSync('src/data/cisenData.json', JSON.stringify(cisenData, null, 2));
