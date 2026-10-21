@@ -98,6 +98,7 @@ async function processAll() {
   const cRl = readline.createInterface({ input: cStream, crlfDelay: Infinity });
 
   let cHeader = null;
+  const cColMap = {};
   const cisenConsultas = [];
   const odontoConsultas = [];
   const regToCitaMap = new Map();
@@ -111,24 +112,33 @@ async function processAll() {
 
   for await (const line of cRl) {
     if (!cHeader) {
-      cHeader = line.split(';');
+      cHeader = line.split(';').map(c => c.trim().toLowerCase());
+      cHeader.forEach((col, idx) => { cColMap[col] = idx; });
       continue;
     }
     if (!line.trim()) continue;
     const cols = line.split(';');
 
-    const fecha = cols[2]?.trim();
-    const cedula = cols[4]?.trim();
-    const medico = cols[8]?.trim().toUpperCase();
-    const especialidad = cols[9]?.trim();
-    const cumplida = cols[12]?.trim().toUpperCase() === 'S';
-    const cancelada = cols[13]?.trim().toUpperCase() === 'S';
-    const primeraVez = cols[14]?.trim().toUpperCase() === 'S';
-    const registro = cols[16]?.trim();
-    const rawDx = cols[21]?.trim() || '';
+    const getCVal = (name, fallbackIdx) => {
+      if (cColMap[name] !== undefined && cols[cColMap[name]] !== undefined) {
+        return cols[cColMap[name]]?.trim();
+      }
+      return cols[fallbackIdx]?.trim();
+    };
+
+    const fecha = getCVal('fecha_hora', 2);
+    const cedula = getCVal('cedula', 4);
+    const pacienteNombre = getCVal('paciente', -1);
+    const medico = (getCVal('medico', 8) || '').toUpperCase();
+    const especialidad = getCVal('especialidad', 9) || '';
+    const cumplida = (getCVal('cita_cumplida', 12) || '').toUpperCase() === 'S';
+    const cancelada = (getCVal('ind_cancelada', 13) || '').toUpperCase() === 'S';
+    const primeraVez = (getCVal('ind_primera_vez', 14) || '').toUpperCase() === 'S';
+    const registro = getCVal('registro', 16) || '';
+    const rawDx = getCVal('dx_ingreso', 21) || '';
     const diagDescription = getDiagnosisDescription(rawDx);
-    const servicio = cols[25]?.trim() || '';
-    const servicioDes = cols[26]?.trim() || '';
+    const servicio = getCVal('servicio', 25) || '';
+    const servicioDes = getCVal('servicio_des', 26) || '';
 
     if (!fecha || !medico) continue;
 
@@ -178,7 +188,7 @@ async function processAll() {
       continue;
     }
 
-    const patientName = cedulaToName.get(cedula) || cedula;
+    const patientName = (pacienteNombre && pacienteNombre.length > 2 && !/^\d+$/.test(pacienteNombre)) ? pacienteNombre : (cedulaToName.get(cedula) || cedula);
 
     const citaObj = {
       f: fStr,
@@ -242,24 +252,33 @@ async function processAll() {
     const oRl = readline.createInterface({ input: oStream, crlfDelay: Infinity });
 
     let oHeader = null;
+    const oColMap = {};
     for await (const line of oRl) {
       if (!oHeader) {
-        oHeader = line.split(';');
+        oHeader = line.split(';').map(c => c.trim().toLowerCase());
+        oHeader.forEach((col, idx) => { oColMap[col] = idx; });
         continue;
       }
       if (!line.trim()) continue;
       const cols = line.split(';');
 
-      const reg = cols[0]?.trim();
-      const concepto = cols[2]?.trim();
-      const fecha = cols[3]?.trim();
-      const servicio = cols[6]?.trim();
-      const descripcion = cols[7]?.trim();
-      const observacion = cols[8]?.trim();
-      const cantidad = parseFloat(cols[9]?.replace(',', '.')) || 1;
-      const frecuencia = cols[10]?.trim();
-      const medico = (cols[11]?.trim() || 'MEDICO AMBULATORIO').toUpperCase();
-      const especialidad = (cols[12]?.trim() || 'MEDICINA GENERAL').toUpperCase();
+      const getOVal = (name, fallbackIdx) => {
+        if (oColMap[name] !== undefined && cols[oColMap[name]] !== undefined) {
+          return cols[oColMap[name]]?.trim();
+        }
+        return cols[fallbackIdx]?.trim();
+      };
+
+      const reg = getOVal('registro', 0);
+      const concepto = getOVal('concepto', 2);
+      const fecha = getOVal('fecha_formula', 3);
+      const servicio = getOVal('servicio', 6);
+      const descripcion = getOVal('descripcion', 7);
+      const observacion = getOVal('observacion', 8);
+      const cantidad = parseFloat((getOVal('cantidad', 9) || '1').replace(',', '.')) || 1;
+      const frecuencia = getOVal('frecuencia', 10);
+      const medico = (getOVal('medico', 11) || 'MEDICO AMBULATORIO').toUpperCase();
+      const especialidad = (getOVal('especialidad', 12) || 'MEDICINA GENERAL').toUpperCase();
 
       const grupo = normalizeOrderGroup(concepto, descripcion);
       let gKey = null;
@@ -379,9 +398,9 @@ async function processAll() {
     const ordersBySpecialty = {};
     const ordersBySpecialist = {};
     const tableDataMap = new Map();
-    const diagMap = {};
+    const diagMapAgg = {};
     const diagCounts = {};
-    const procMap = {};
+    const procMapAgg = {};
     const procCounts = {};
 
     const maxMonthNum = new Date().getMonth() + 1;
@@ -466,8 +485,16 @@ async function processAll() {
 
       if (diag) {
         diagCounts[diag] = (diagCounts[diag] || 0) + 1;
-        if (!diagMap[diag]) diagMap[diag] = [];
-        diagMap[diag].push([2026, monthName, medico, especialidad, 1, cumplida ? 1 : 0, primeraVez ? 1 : 0, primeraVez ? 0 : 1]);
+        if (!diagMapAgg[diag]) diagMapAgg[diag] = new Map();
+        const dKey = `${monthName}_${medico}_${especialidad}`;
+        if (!diagMapAgg[diag].has(dKey)) {
+          diagMapAgg[diag].set(dKey, [2026, monthName, medico, especialidad, 0, 0, 0, 0]);
+        }
+        const row = diagMapAgg[diag].get(dKey);
+        row[4]++;
+        if (cumplida) row[5]++;
+        if (primeraVez) row[6]++;
+        else row[7]++;
       }
 
       const procDesc = (c.s || '').trim() || `CONSULTA POR ${especialidad}`;
@@ -475,8 +502,26 @@ async function processAll() {
       const procLabel = procCode ? `${procCode} - ${procDesc}` : procDesc;
 
       procCounts[procLabel] = (procCounts[procLabel] || 0) + 1;
-      if (!procMap[procLabel]) procMap[procLabel] = [];
-      procMap[procLabel].push([2026, monthName, medico, especialidad, 1, cumplida ? 1 : 0, primeraVez ? 1 : 0, primeraVez ? 0 : 1, procCode, procDesc]);
+      if (!procMapAgg[procLabel]) procMapAgg[procLabel] = new Map();
+      const pKey = `${monthName}_${medico}_${especialidad}`;
+      if (!procMapAgg[procLabel].has(pKey)) {
+        procMapAgg[procLabel].set(pKey, [2026, monthName, medico, especialidad, 0, 0, 0, 0, procCode, procDesc]);
+      }
+      const row = procMapAgg[procLabel].get(pKey);
+      row[4]++;
+      if (cumplida) row[5]++;
+      if (primeraVez) row[6]++;
+      else row[7]++;
+    });
+
+    const diagMap = {};
+    Object.entries(diagMapAgg).forEach(([k, map]) => {
+      diagMap[k] = Array.from(map.values());
+    });
+
+    const procMap = {};
+    Object.entries(procMapAgg).forEach(([k, map]) => {
+      procMap[k] = Array.from(map.values());
     });
 
     // Process exact orders without dropping or duplicating
@@ -584,13 +629,11 @@ async function processAll() {
     try { fs.unlinkSync(path.join(odontoCitasDir, `2026_${mName}.json`)); } catch (e) {}
   }
 
-  // Write CIS EMCALI monthly detail JSON files
+  // Write CIS EMCALI monthly detail JSON files (modular chunking by month for maximum performance)
   MONTH_NAMES.slice(0, currentMaxMonthNum).forEach(m => {
     const fPath = path.join(cisenCitasDir, `2026_${m}.json`);
     fs.writeFileSync(fPath, JSON.stringify(cisenByMonthAndDoc[m] || {}));
   });
-  const cisenMasterPath = path.join(publicDataDir, 'citas_cisen_2026.json');
-  fs.writeFileSync(cisenMasterPath, JSON.stringify(cisenByMonthAndDoc));
   console.log('      ✓ public/data/citas_cisen/2026_*.json sincronizados.');
 
   // Write Odontología monthly detail JSON files
@@ -598,8 +641,10 @@ async function processAll() {
     const fPath = path.join(odontoCitasDir, `2026_${m}.json`);
     fs.writeFileSync(fPath, JSON.stringify(odontoByMonthAndDoc[m] || {}));
   });
-  const odontoMasterPath = path.join(publicDataDir, 'citas_odonto_2026.json');
-  fs.writeFileSync(odontoMasterPath, JSON.stringify(odontoByMonthAndDoc));
+  try {
+    const odontoMasterPath = path.join(publicDataDir, 'citas_odonto_2026.json');
+    fs.writeFileSync(odontoMasterPath, JSON.stringify(odontoByMonthAndDoc));
+  } catch (e) {}
   console.log('      ✓ public/data/citas_odonto/2026_*.json sincronizados.');
 
   console.log('========================================================================');
