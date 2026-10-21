@@ -101,10 +101,12 @@ async function processAll() {
   const cisenConsultas = [];
   const odontoConsultas = [];
   const regToCitaMap = new Map();
-  const citasByMonthAndDoc = {};
+  const cisenByMonthAndDoc = {};
+  const odontoByMonthAndDoc = {};
 
   MONTH_NAMES.forEach(m => {
-    citasByMonthAndDoc[m] = {};
+    cisenByMonthAndDoc[m] = {};
+    odontoByMonthAndDoc[m] = {};
   });
 
   for await (const line of cRl) {
@@ -219,10 +221,11 @@ async function processAll() {
 
     // Accumulate by month & doctor for detail modal JSONs
     if (year === '2026') {
-      if (!citasByMonthAndDoc[monthName][medico]) {
-        citasByMonthAndDoc[monthName][medico] = [];
+      const targetMap = isOdonto ? odontoByMonthAndDoc : cisenByMonthAndDoc;
+      if (!targetMap[monthName][medico]) {
+        targetMap[monthName][medico] = [];
       }
-      citasByMonthAndDoc[monthName][medico].push(citaObj);
+      targetMap[monthName][medico].push(citaObj);
     }
   }
 
@@ -328,10 +331,11 @@ async function processAll() {
         const targetCita = citas.find(c => c.medico === medico) || citas[0];
         targetCita.ord.push(orderItem);
       } else if (yr === '2026') {
+        const targetMap = isOdonto ? odontoByMonthAndDoc : cisenByMonthAndDoc;
         // Prescribe in doctor's monthly bucket for detail modals so it is not dropped
-        if (!citasByMonthAndDoc[monthName]) citasByMonthAndDoc[monthName] = {};
-        if (!citasByMonthAndDoc[monthName][medico]) citasByMonthAndDoc[monthName][medico] = [];
-        citasByMonthAndDoc[monthName][medico].push({
+        if (!targetMap[monthName]) targetMap[monthName] = {};
+        if (!targetMap[monthName][medico]) targetMap[monthName][medico] = [];
+        targetMap[monthName][medico].push({
           f: fecha,
           c: 'S/D',
           p: 'PACIENTE AMBULATORIO',
@@ -564,47 +568,39 @@ async function processAll() {
   console.log('      ✓ src/data/cisenData.json actualizado.');
   console.log('      ✓ src/data/odontologiaData.json actualizado.');
 
-  // Clean up any future month files for 2026
+  // Dedicated directories for CIS EMCALI and Odontología to never overwrite Central de Especialistas
+  const publicDataDir = 'public/data';
+  const cisenCitasDir = path.join(publicDataDir, 'citas_cisen');
+  const odontoCitasDir = path.join(publicDataDir, 'citas_odonto');
+  if (!fs.existsSync(cisenCitasDir)) fs.mkdirSync(cisenCitasDir, { recursive: true });
+  if (!fs.existsSync(odontoCitasDir)) fs.mkdirSync(odontoCitasDir, { recursive: true });
+
   const currentMaxMonthNum = new Date().getMonth() + 1;
+
+  // Clean up any future month files for 2026
   for (let mIdx = currentMaxMonthNum; mIdx < 12; mIdx++) {
-    const fPath = path.join(citasDir, `2026_${MONTH_NAMES[mIdx]}.json`);
-    if (fs.existsSync(fPath)) {
-      try { fs.unlinkSync(fPath); } catch (e) {}
-    }
+    const mName = MONTH_NAMES[mIdx];
+    try { fs.unlinkSync(path.join(cisenCitasDir, `2026_${mName}.json`)); } catch (e) {}
+    try { fs.unlinkSync(path.join(odontoCitasDir, `2026_${mName}.json`)); } catch (e) {}
   }
 
-  // Merge into monthly detail JSON files (public/data/citas/2026_*.json) only up to current month
+  // Write CIS EMCALI monthly detail JSON files
   MONTH_NAMES.slice(0, currentMaxMonthNum).forEach(m => {
-    const fPath = path.join(citasDir, `2026_${m}.json`);
-    let monthData = {};
-    if (fs.existsSync(fPath)) {
-      try {
-        monthData = JSON.parse(fs.readFileSync(fPath, 'utf8'));
-      } catch (e) {}
-    }
-    const newDocCitas = citasByMonthAndDoc[m] || {};
-    Object.entries(newDocCitas).forEach(([doc, citas]) => {
-      monthData[doc] = citas;
-    });
-    fs.writeFileSync(fPath, JSON.stringify(monthData));
+    const fPath = path.join(cisenCitasDir, `2026_${m}.json`);
+    fs.writeFileSync(fPath, JSON.stringify(cisenByMonthAndDoc[m] || {}));
   });
-  console.log('      ✓ public/data/citas/2026_*.json sincronizados.');
+  const cisenMasterPath = path.join(publicDataDir, 'citas_cisen_2026.json');
+  fs.writeFileSync(cisenMasterPath, JSON.stringify(cisenByMonthAndDoc));
+  console.log('      ✓ public/data/citas_cisen/2026_*.json sincronizados.');
 
-  // Sync master citas_2026.json
-  const masterPath = 'public/data/citas_2026.json';
-  if (fs.existsSync(masterPath)) {
-    const combined = {};
-    MONTH_NAMES.forEach(m => {
-      const fPath = path.join(citasDir, `2026_${m}.json`);
-      if (fs.existsSync(fPath)) {
-        try {
-          combined[m] = JSON.parse(fs.readFileSync(fPath, 'utf8'));
-        } catch (e) {}
-      }
-    });
-    fs.writeFileSync(masterPath, JSON.stringify(combined));
-    console.log('      ✓ public/data/citas_2026.json sincronizado.');
-  }
+  // Write Odontología monthly detail JSON files
+  MONTH_NAMES.slice(0, currentMaxMonthNum).forEach(m => {
+    const fPath = path.join(odontoCitasDir, `2026_${m}.json`);
+    fs.writeFileSync(fPath, JSON.stringify(odontoByMonthAndDoc[m] || {}));
+  });
+  const odontoMasterPath = path.join(publicDataDir, 'citas_odonto_2026.json');
+  fs.writeFileSync(odontoMasterPath, JSON.stringify(odontoByMonthAndDoc));
+  console.log('      ✓ public/data/citas_odonto/2026_*.json sincronizados.');
 
   console.log('========================================================================');
   console.log('   ¡TODOS LOS TABLEROS HAN SIDO ACTUALIZADOS CON EXITO!                 ');

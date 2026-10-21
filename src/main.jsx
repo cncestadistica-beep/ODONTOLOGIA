@@ -509,7 +509,8 @@ function GroupOrdersDetailModal({
   specialty = 'Todas las Especialidades',
   selectedDiagnosis = 'Todos los Diagnósticos',
   onClose,
-  dbData
+  dbData,
+  activePage = 'especialistas'
 }) {
   const initialGroup = typeof groupInfo === 'object' ? groupInfo.group : (groupInfo || 'ALL');
   const initialSpecialist = typeof groupInfo === 'object' && groupInfo.specialist ? groupInfo.specialist : specialist;
@@ -535,10 +536,15 @@ function GroupOrdersDetailModal({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
 
-  const monthOptions = useMemo(() => [
-    'Todos los Meses', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
-    'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-  ], []);
+  const monthOptions = useMemo(() => {
+    const curYear = new Date().getFullYear();
+    const curMonthIdx = new Date().getMonth();
+    let months = [...MONTH_NAMES];
+    if (Number(year) === curYear) {
+      months = months.filter((_, idx) => idx <= curMonthIdx);
+    }
+    return ['Todos los Meses', ...months];
+  }, [year]);
 
   const groupOptions = useMemo(() => {
     const base = dbData?.orderingGroups || [
@@ -558,15 +564,18 @@ function GroupOrdersDetailModal({
 
     const loadData = async () => {
       try {
+        const detailDir = activePage === 'cisen' ? 'citas_cisen' : activePage === 'odontologia' ? 'citas_odonto' : 'citas';
+        const masterFile = activePage === 'cisen' ? `/data/citas_cisen_${year}.json` : activePage === 'odontologia' ? `/data/citas_odonto_${year}.json` : `/data/citas_${year}.json`;
+
         if (selectedM && selectedM !== 'Todos los Meses') {
-          const res = await fetch(`/data/citas/${year}_${selectedM}.json`);
+          const res = await fetch(`/data/${detailDir}/${year}_${selectedM}.json`);
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           const data = await res.json();
           setRawCitasMap({ [selectedM]: data });
           setLoading(false);
         } else {
           try {
-            const res = await fetch(`/data/citas_${year}.json`);
+            const res = await fetch(masterFile);
             if (res.ok) {
               const data = await res.json();
               setRawCitasMap(data);
@@ -575,12 +584,17 @@ function GroupOrdersDetailModal({
             }
           } catch (e) {}
 
-          const monthsToFetch = dbData?.months || ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre'];
+          const curMonthIdx = new Date().getMonth();
+          const curYear = new Date().getFullYear();
+          let monthsToFetch = dbData?.months || MONTH_NAMES;
+          if (Number(year) === curYear) {
+            monthsToFetch = monthsToFetch.filter((_, idx) => idx <= curMonthIdx);
+          }
           const map = {};
           await Promise.all(
             monthsToFetch.map(async (m) => {
               try {
-                const r = await fetch(`/data/citas/${year}_${m}.json`);
+                const r = await fetch(`/data/${detailDir}/${year}_${m}.json`);
                 if (r.ok) {
                   map[m] = await r.json();
                 }
@@ -598,7 +612,7 @@ function GroupOrdersDetailModal({
     };
 
     loadData();
-  }, [year, selectedM, dbData]);
+  }, [year, selectedM, dbData, activePage]);
 
   const normDoc = (str) => (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toUpperCase();
 
@@ -1029,7 +1043,15 @@ function GroupOrdersDetailModal({
   );
 }
 
-function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, selectedDiagnosis, selectedProcedure, dbData }) {
+function DoctorAppointmentsModal({
+  doctorRow,
+  onClose,
+  allowOrders = false,
+  selectedDiagnosis,
+  selectedProcedure,
+  dbData,
+  activePage = 'especialistas'
+}) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [rawCitas, setRawCitas] = useState([]);
@@ -1077,10 +1099,15 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
 
-  const monthOptions = useMemo(() => [
-    'Todos los Meses', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
-    'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-  ], []);
+  const monthOptions = useMemo(() => {
+    const curYear = new Date().getFullYear();
+    const curMonthIdx = new Date().getMonth();
+    let months = [...MONTH_NAMES];
+    if (doctorRow && Number(doctorRow.anio) === curYear) {
+      months = months.filter((_, idx) => idx <= curMonthIdx);
+    }
+    return ['Todos los Meses', ...months];
+  }, [doctorRow]);
 
   useEffect(() => {
     if (!doctorRow) return;
@@ -1088,8 +1115,11 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
     setError(null);
     const { anio, especialista } = doctorRow;
 
+    const detailDir = activePage === 'cisen' ? 'citas_cisen' : activePage === 'odontologia' ? 'citas_odonto' : 'citas';
+    const masterFile = activePage === 'cisen' ? `/data/citas_cisen_${anio}.json` : activePage === 'odontologia' ? `/data/citas_odonto_${anio}.json` : `/data/citas_${anio}.json`;
+
     if (selectedMonth && selectedMonth !== 'Todos los Meses') {
-      fetch(`/data/citas/${anio}_${selectedMonth}.json`)
+      fetch(`/data/${detailDir}/${anio}_${selectedMonth}.json`)
         .then((res) => {
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           return res.json();
@@ -1100,7 +1130,7 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
           setLoading(false);
         })
         .catch((err) => {
-          fetch(`/data/citas_${anio}.json`)
+          fetch(masterFile)
             .then((r) => r.json())
             .then((ydata) => {
               const list = (ydata[selectedMonth]?.[especialista] || []).map((item) => ({ ...item, mesName: selectedMonth }));
@@ -1114,7 +1144,7 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
             });
         });
     } else {
-      fetch(`/data/citas_${anio}.json`)
+      fetch(masterFile)
         .then((res) => res.json())
         .then((data) => {
           const list = [];
@@ -1131,7 +1161,7 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
           setLoading(false);
         });
     }
-  }, [doctorRow, selectedMonth]);
+  }, [doctorRow, selectedMonth, activePage]);
 
   const uniqueRawCitas = useMemo(() => {
     const seen = new Set();
@@ -2169,6 +2199,7 @@ function DataTable({
   selectedDiagnosis,
   selectedProcedure,
   dbData,
+  activePage = 'especialistas',
   onOpenOrdersModal
 }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -2485,6 +2516,7 @@ function DataTable({
           selectedDiagnosis={selectedDiagnosis}
           selectedProcedure={selectedProcedure}
           dbData={dbData}
+          activePage={activePage}
         />
       )}
     </section>
@@ -4577,6 +4609,7 @@ function Dashboard({ activePage, setActivePage }) {
               selectedDiagnosis={selectedDiagnosis}
               selectedProcedure={selectedProcedure}
               dbData={dbData}
+              activePage={activePage}
               onOpenOrdersModal={(grpInfo) => setSelectedOrdersGroup(grpInfo)}
             />
 
@@ -4590,6 +4623,7 @@ function Dashboard({ activePage, setActivePage }) {
                 selectedDiagnosis={selectedDiagnosis}
                 onClose={() => setSelectedOrdersGroup(null)}
                 dbData={dbData}
+                activePage={activePage}
               />
             )}
           </>

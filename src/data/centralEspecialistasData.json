@@ -1011,352 +1011,62 @@
     },
     {
       "id": "",
-      "name": "MONICA BEATRIZ GONGORA CORTES",
+      "name": "LEIVI SOLANDY SALDANA LASSO",
       "specialty": "ENFERMERA(O) JEFE"
     },
     {
       "id": "",
-      "name": "ANDRES FELIPE OCAMPO ARMERO",
+      "name": "GUSTAVO EMILIO LOBO HOYOS",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "OLIDA MANUELA CASTILLA LOPEZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "MAYRA ALEJANDRA GIRALDO CASAS",
-      "specialty": "TERAPISTA ENTEROSTOMAL"
-    },
-    {
-      "id": "",
-      "name": "ROSA  ANGELICA LEMOS GONZALEZ",
+      "name": "CARLOS ANDRES ROJAS LOPEZ",
       "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
-      "name": "SANTIAGO PEREA GAMBOA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YULY ANDREA ALEGRIA MONTILLA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "PAULA ANDREA MONTES BETANCOURT",
-      "specialty": "TERAPIA RESPIRATORIA PEDIATRICA"
-    },
-    {
-      "id": "",
-      "name": "AURA LUCIA MENDOZA ARAUJO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANDRES FERNANDO CRUZ ROJAS",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "YENI MARCELA BAUTISTA ALDERETE",
-      "specialty": "PSICOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "GERMAN ALBERTO MONTANO VARGAS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LUZ ELENA MAGALLANES SALGADO",
+      "name": "ALVARO JOSE RODAS MORALES",
       "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
-      "name": "LAURA SOTO GIRALDO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KAREN ANDREA LENIS VALLEJO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YULIANA JANETH CORTES",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JULIO CESAR BUITRAGO CARDONA",
+      "name": "JUAN JOSE POSSO SIERRA",
       "specialty": "ANESTESIOLOGIA"
     },
     {
       "id": "",
-      "name": "ELIANA ALVAREZ RIAÑOS",
-      "specialty": "ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "OLGA MILENA VANEGAS ARIAS",
+      "name": "KELLY VANESSA DIAGO LOAIZA",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "WENDY YOHANA HURTADO OROBIO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA CAMILA QUIÑONES NUÑEZ",
-      "specialty": "TRABAJO SOCIAL"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA MARITZA VALENCIA RODRIGUEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DAVID ALEJANDRO ROMERO LOPEZ",
+      "name": "MARIA JIMENA RODRIGUEZ SANCHEZ",
       "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
-      "name": "LIANA MARCELA GONZALEZ PAZ",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "JOSE FELIPE PALMA LOPEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ALEX FERNANDO ROJAS MARTINEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "BRITTANY VANESSA HURTADO LONDOÑO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CARLOS ANDRES MUÑOZ CHAVES",
-      "specialty": "CIRUGIA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "GABRIELA VICTORIA PALACIOS MEJIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JEFERSON DANIEL RIASCOS CARDENAS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ISABELA CONCHA BOLAÑOS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "HAROLD ARMANDO AVENDAÑO MORALES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "HERMAN ANTONIO CASTANO GONZALEZ",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "EVERLIN FLORALBA QUIÑONES CORTES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "EFRAIN SANCHEZ SANCHEZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "GERALDINE ARIAS BUITRAGO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LENIN ANDRES NIEVES DIAZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LAURA CAMILA UZURIAGA APONZA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CESAR AUGUSTO CHAUX ESTRADA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "SEBASTIAN CASTAÑO FLOREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DANIELA BUENO FONTAL",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DAYANA ANDREA ARBOLEDA ALVARADO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "CAROLINA ROJAS CEBALLOS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUISA MARIA SEGURA ARDILA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "CAROLAIN LOPEZ QUIROZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANA SOFIA ARCE LOPEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JOSE LUIS BARRANCO CARVAJAL",
-      "specialty": "INTENSIVISTA"
-    },
-    {
-      "id": "",
-      "name": "PAULA XIMENA TORRES MENESES",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "GISELA SANCHEZ GOMEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JOHANA KATHERINE MELO SOLARTE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JOSE ISIDORO ROMERO VASQUEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "YASSIRA CAROLINA RUA LOPEZ",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "LILIANA VARELA GUEVARA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JOSE LUIS ROSALES VARGAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "HAROLD SOLIS RODRIGUEZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "JEFERSSON ESTEBAN OBANDO CORDOBA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "THIANY YULISSA PEREA ASPRILLA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA MARCELA SINISTERRA MONTANO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MELISA GELIS GUZMAN",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "ANGELICA MARIA BENJUMEA MARULANDA",
+      "name": "DIEGO LUIS QUEZADA GUERRERO",
       "specialty": "ANESTESIOLOGIA"
     },
     {
       "id": "",
-      "name": "JUVENAL ANDRES RAMOS RIVERA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ESTEPHANIA MAPURA ALVAREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARINA VALENCIA LEON",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JUAN DAVID GARCIA MANRIQUE",
+      "name": "KATHERYN HELEIN ROBLEDO COLMENARES",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "STEFANNY RESTREPO RIOS",
+      "name": "LAURA XIMENA TRUJILLO DUSSAN",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "DAVID POLANCO ROA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA FERNANDA SUAREZ MUELAS",
+      "name": "MARIA FERNANDA BONILLA JIMENEZ",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "MALLERLY ALEJANDRA BERMUDEZ RIAÑO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CRISTHIAN CAMILO GARCIA MUNOZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA BURBANO SANTANILLA",
+      "name": "DIANA LIZETH RODRIGUEZ DURAN",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -1366,253 +1076,8 @@
     },
     {
       "id": "",
-      "name": "DANIEL FELIPE CERON CAICEDO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "GLADYS EUGENIA ALHAJJ BENAVIDES",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "KAROL MICHELL DELGADO CASTRO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YENNI ALEJANDRA ORTIZ LOPEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "ASTRID VALERIA CASTRO VELASCO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KEVIN STEVEN MORENO MANTILLA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CRISTIAN DAVID RAMIREZ CORTES",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JHOAN DANIEL QUIÑONES CASTILLO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JORGE HERNAN URREGO GRUESO",
-      "specialty": "GINECOLOGIA Y OBSTETRICIA"
-    },
-    {
-      "id": "",
-      "name": "RUBY JHOANA ZAMORA OLAVE",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "EDWIN RICARDO RAMIREZ VICTORIA",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "CARLOS ARIEL DIAZ CHANDILLO",
-      "specialty": "TERAPISTA ENTEROSTOMAL"
-    },
-    {
-      "id": "",
-      "name": "ABELINA GIRALDO BEDOYA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JULIETH VANESSA RODRIGUEZ GUERRERO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ELEANA CEREZO SINISTERRA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "TAMARA  AGREDO INCHIMA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SERGIO DANIEL PENA ROJAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "PILAR ANDREA MORALES IDROBO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CAROLINA VALDERRUTEN ARIAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CARLOS ANDRES OSORIO GOMEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LINA YULIZA PALACIOS RODRIGUEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "LEIVI SOLANDY SALDANA LASSO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "MELITZA MARIA CHAPARRO SUTACHAN",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "MYRIAN JAQUELINE USECHE BECERRA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "IGOR FRANCISCO VERGARA BLANDON",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA CAMILA MURILLO RODRIGUEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUIS EDUARDO GARZON FAGUA",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "YULI MAYERLY RENGIFO VEGA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "EFRAIN ANTONIO VELASQUEZ SANCHEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA XIMENA ZAPATA DUARTE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "SEBASTIAN PATINO URBANO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "PAULA ANDREA MUNOZ GAVIRIA",
-      "specialty": "AUDITOR MEDICO"
-    },
-    {
-      "id": "",
-      "name": "SANDRA CECILIA GOMEZ PATINO",
-      "specialty": "OTORRINOLARINGOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "JESUS ALBERTO CABRERA CEBALLOS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "AURA CRISTINA PALOMINO DOMINGUEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JESUS DAVID PRIETO SCARPETTA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "NOHORA FERNANDA URQUIZA CABRERA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "VIVIANA MAYOR BARRERA",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "LUISA FERNANDA ORTIZ ZAPE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LINDA LIZETH RODRIGUEZ NARVAEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CARLOS JULIAN CONTRERAS MERCHAN",
+      "name": "HAROLD SOLIS RODRIGUEZ",
       "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "MAURICIO VIDAL CAMPO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "TANIA ALEXANDRA MARIN GARCIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SANDRA VIVIANA MARTINEZ CRIOLLO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DIEGO FERNANDO SCARPETTA GONZALEZ",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "LINDA JHOSELIN GUZMAN MONTES",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA LORENA GONZALEZ LOPEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA SOFIA BELTRAN GRIJALBA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KATHERINE CHARA SANDOVAL",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LAURA GONZALEZ MONTOYA",
-      "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
@@ -1621,183 +1086,18 @@
     },
     {
       "id": "",
-      "name": "ADA ROSERO ANGULO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIANA ZULUAGA GIRALDO",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "ANGIE KATHERINE MUNOZ CABRERA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "ALEJANDRO SILVA GIRALDO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DIANA MARCELA OCORO BONILLA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "FERNANDO ZAPATA GARCIA",
+      "name": "JULIO CESAR BUITRAGO CARDONA",
       "specialty": "ANESTESIOLOGIA"
     },
     {
       "id": "",
-      "name": "NICOLE YUSNEIDI CAJIAO RAMOS",
+      "name": "CLAUDIA MARCELA SINISTERRA MONTANO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIANA CAROLINA FRANCO FRANCO",
       "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JOSE DAVID LOPEZ CABAL",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "GONZALO ANDRES ROSAS ROLDAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN JOSE GODOY MEJIA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JORGE ALEXANDER SOLARTE HENAO",
-      "specialty": "INTENSIVISTA"
-    },
-    {
-      "id": "",
-      "name": "MELISSA SANCHEZ MOSQUERA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NATHALY CUNDUMI PERALTA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VANESSA NATHALY ROSERO GOMEZ",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "EDUARDO RENE ARIAS SALAZAR",
-      "specialty": "CIRUGIA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MICHELLE ROCIO MARRUGO ARIAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JENNIFER VANESSA TOQUICA GUERRERO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "EVER HEYLER LUNA ROJAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DERLY ORTEGA ANAYA",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA MARCELA ASTUDILLO CAMPUZANO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN PABLO ACEVEDO GALLEGO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "SHIRLYN MELISSA BELALCAZAR CAMPO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LAYLY RUNEYTH VARGAS CAYCEDO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ISABELA BALANTA MORALES",
-      "specialty": "NUTRICIONISTA"
-    },
-    {
-      "id": "",
-      "name": "JIMMY FERNANDO RECALDE MORILLO",
-      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "JONATHAN GONZALEZ VASQUEZ",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "INGRID KHATERINNE RODRIGUEZ MOLINA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CAROLINA TIQUE RUA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JAIR JADETH QUINTERO SERPA",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "DIANA ALEJANDRA RODRIGUEZ RODRIGUEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ELIANA CARDONA PAZOS",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "NIDIA SULEYMA NUNEZ ERAZO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VALERIA DUQUE CUBIDES",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LEIDY MARCELA GARZON CASTILLO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA ARROYO RAMIREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JHOAN SEBASTIAN HOME SANCHEZ",
-      "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
@@ -1806,297 +1106,77 @@
     },
     {
       "id": "",
-      "name": "YEISY VIVIANA ORTEGA VASABE",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA MONTEALEGRE CARDONA",
+      "name": "HERNEY VARELA LENIS",
       "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
-      "name": "LAURA JIMENA BUITRAGO CIFUENTES",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "LUIS ANGEL SANCHEZ ASTUDILLO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "BLAINDY JOHANA ESCORCIA GARCIA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "DIEGO FERNANDO BATERO SANTOFIMIO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "EDGARDO EMIRO AGUAS AGREDO",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "GERALDIN MELISSA PATINO GOMEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "EDIER ESTEBAN BETANCUR MORENO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "REYMARY AKYNEY LAREZ MONCADA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANGY ALEJANDRA MARTINEZ ORDONEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "GUSTAVO EMILIO LOBO HOYOS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CRISTIAN DAVID CAICEDO DIAZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MONICA LUGO BONILLA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VIVIANA PALACIOS TOBAR",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "CAMILA MEJIA LERMA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN JOSE POSSO SIERRA",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "JULIO CESAR GUTIERREZ OSPINA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DUAIT DAVID HOOKER VELASQUEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "EMILY YAJAIRA OCORO CARABALI",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "IVAN CAMILO GONZALEZ BURGOS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA CAMILA GOMEZ VALENCIA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JESUS DAVID GARCIA RAMIREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "SEBASTIAN BOHORQUEZ BENITEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARTHA LUZ AMARIS HERNANDEZ",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "ESTEPHANIA LINARES LOAIZA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CARMENZA DEL SOCORRO SOLARTE CABRERA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "LEIDY JOHANA MEDINA SANCHEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JHOSELIN ANDREA FLOREZ MONTOYA",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "GISELLE SALAZAR CAICEDO",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "VALERIA URREGO MARTINEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "NATASCHA MARTINEZ URIBE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KAREN NATALIA MUNOZ VALENCIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "EDWIN FABIAN OCHOA CALAMBAS",
+      "name": "ILICH FABIAN PLATA CANO",
       "specialty": "MEDICINA INTERNA"
     },
     {
       "id": "",
-      "name": "DIANA MARIA TRUJILLO COBO",
+      "name": "CAREN ALEZANDRA HERNANDEZ TOMBE",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "YENSY NATHALIA BALANTA GONZALEZ",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN CAMILO RODRIGUEZ PAZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YULY ANDREA PEDROZA BOTACHE",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SULLY YANILA ZAPATA DIAZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LUISA FERNANDA PABON VALENCIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "RONALD ANDRES VARGAS IMBAQUIN",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NIYIRETH CASTANO CORTES",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JOHN ALEJANDRO VILLALOBOS PINTOPINTA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SARA GISELE CEBALLOS MOSQUERA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA MUNOZ GONZALEZ",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "SIRLY CAROLINA SUAREZ ARREDONDO",
+      "name": "GABRIELA CIFUENTES MONTES",
       "specialty": "ENFERMERA(O) JEFE"
     },
     {
       "id": "",
-      "name": "SERGIO PAUL SILVA MARIN",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "LILIA CLEMENCIA MEJIA JIMENEZ",
-      "specialty": "TERAPISTA ENTEROSTOMAL"
-    },
-    {
-      "id": "",
-      "name": "DAVID SINISTERRA ZAPATA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KATHERINE ESCOBAR ZULETA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA PAULA CAICEDO MONTOYA",
+      "name": "ADA ROSERO ANGULO",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "ESMERALDA MONTES QUINTERO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
+      "name": "YESSID CEBALLOS DELGADO",
+      "specialty": "MEDICINA INTERNA"
     },
     {
       "id": "",
-      "name": "CAROLINA SALINAS SUAREZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "MONICA NATALIA ORTEGA NARVAEZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "ANGIE STHEFANIA SILVA RIOS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MELIDA LOZANO GARCIA",
+      "name": "BRYAN ANDRES GONZALEZ PEREA",
       "specialty": "ENFERMERA(O)"
     },
     {
       "id": "",
-      "name": "SANTIAGO RAMIREZ ARAGON",
-      "specialty": "MEDICINA DE URGENCIAS Y DOMICILIARIA"
+      "name": "DERLY ORTEGA ANAYA",
+      "specialty": "FISIOTERAPIA"
     },
     {
       "id": "",
-      "name": "LUZ ADRIANA QUIQUE AGUDELO",
+      "name": "JOSE MAURICIO PAGUATIAN ESCUDERO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ELYS SELENA OLAVE PORTOCARRERO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA AMU SIERRA",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "ALEJANDRO SILVA GIRALDO",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "LINA MARCELA CASTANO NOGUERA",
+      "name": "JESSICA IVETTE JORI JIMENEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LINA VANESSA GUTIERREZ SINISTERRA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "DIANA ALEJANDRA RODRIGUEZ RODRIGUEZ",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -2106,27 +1186,137 @@
     },
     {
       "id": "",
-      "name": "NATHALIA RAMOS ERAZO",
+      "name": "STEFANY CASANOVA BEDOYA",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "ROBINSON COBO FLOR",
+      "name": "DANIELA MARIN MORENO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LILIA CLEMENCIA MEJIA JIMENEZ",
+      "specialty": "TERAPISTA ENTEROSTOMAL"
+    },
+    {
+      "id": "",
+      "name": "CAMILA MEJIA LERMA",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "EDWIN ARMANDO PUERCHAMBUD ASCUNTAR",
-      "specialty": "FISIOTERAPIA"
+      "name": "CARLOS ANDRES OSORIO GOMEZ",
+      "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
-      "name": "YULITZA ROMERO TABORDA",
+      "name": "LEIDY XIOMARA ALOMIA VENTE",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "ALVARO JOSE RODAS MORALES",
+      "name": "CLAUDIA XIMENA ZAPATA DUARTE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA ANGELICA CAMACHO MONTANO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DIANA CAROLINA GONGORA ANGULO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "EMILY YAJAIRA OCORO CARABALI",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "KELLY JHOANNA VERGARA VALENCIA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "JAVIER OBANDO RODRIGUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "NARLY NORELY RODRIGUEZ CASTILLO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MONICA BEATRIZ GONGORA CORTES",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "JOSE FELIPE PALMA LOPEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JULIET TATIANA RODRIGUEZ GUERRERO",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "REYMARY AKYNEY LAREZ MONCADA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CARLOS ANDRES MUÑOZ CHAVES",
+      "specialty": "CIRUGIA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "SANTIAGO RAMIREZ ARAGON",
+      "specialty": "MEDICINA DE URGENCIAS Y DOMICILIARIA"
+    },
+    {
+      "id": "",
+      "name": "ISABELLA  ALZATE PATIÑO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SARA GISELE CEBALLOS MOSQUERA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JHON JAMES LOAIZA VARGAS",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "DANA MELISA MEZA QUIÑONES",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "EVER HEYLER LUNA ROJAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANGIE LIZETH PALACIOS AGUILAR",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MILADY RODRIGUEZ DAZA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JULIETH VANESSA RODRIGUEZ GUERRERO",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -2136,17 +1326,1937 @@
     },
     {
       "id": "",
+      "name": "MONICA LUGO BONILLA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SEGUNDO SIGIFREDO ROSERO QUIROZ",
+      "specialty": "MEDICINA DE EMERGENCIAS"
+    },
+    {
+      "id": "",
+      "name": "CRISTIAN DAVID CAICEDO DIAZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JOSE LUIS ROSALES VARGAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LINA FERNANDA FERNANDEZ RODRIGUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "GERALDIN MELISSA PATINO GOMEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "DIEGO FELIPE HUERTAS SAENZ",
+      "specialty": "MEDICO INTERNO"
+    },
+    {
+      "id": "",
+      "name": "EFRAIN ANTONIO VELASQUEZ SANCHEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANDREA MEDINA AGREDO",
+      "specialty": "ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YENSY NATHALIA BALANTA GONZALEZ",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "DANIEL STEVENS ARCE PEREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUAN JOSE GODOY MEJIA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "NIDIA SULEYMA NUNEZ ERAZO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JIMMY FERNANDO RECALDE MORILLO",
+      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "JOHNY ALBERTO MARIN AGUIRRE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIANA ZULUAGA GIRALDO",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "SERGIO PAUL SILVA MARIN",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "EDWIN FABIAN OCHOA CALAMBAS",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "SERGIO DE JESUS LOPEZ ZAPATA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MYRIAN JAQUELINE USECHE BECERRA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "JUAN DAVID GARCIA  BARCO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA FERNANDA GOMEZ CERON",
+      "specialty": "NEONATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN SEBASTIAN CARMONA SILVA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "FRANCISCO JAVIER VALENCIA RAMIREZ",
+      "specialty": "AUXILIAR ADMINISTRATIVO"
+    },
+    {
+      "id": "",
+      "name": "YULI MAYERLY RENGIFO VEGA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "DILANY GORDILLO JARAMILLO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LINA ALEJANDRA VELEZ GARCIA",
+      "specialty": "ORTOPEDIA - TRAUMATOLOGIA - ONCOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ELKIN DAVID HOYOS MALDONADO",
+      "specialty": "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE"
+    },
+    {
+      "id": "",
+      "name": "LILI VALENTINA REZA IBARRA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANGELA VIVIANA VALENCIA ARCOS",
+      "specialty": "HIGIENISTA ORAL"
+    },
+    {
+      "id": "",
+      "name": "JEFERSSON ESTEBAN OBANDO CORDOBA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "NELLY ALEXANDRA DELGADO SAAVEDRA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "HEIDY YULITZA GARCIA DAZA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUZ ADRIANA GALVIS RAMIREZ",
+      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "EDWIN RICARDO RAMIREZ VICTORIA",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "JAIRO ANDRES  CERON SOTOMAYOR",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "IVAN CAMILO GONZALEZ BURGOS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "SERGIO DANIEL PENA ROJAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANDRES VELASCO ECHEVERRY",
+      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ANDRES FERNANDO CRUZ ROJAS",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN PABLO ACEVEDO GALLEGO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ISABELLA SALAMANCA MARTINEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LEIDY JOHANA MEDINA SANCHEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "LEIDY VEIRA CASTANEDA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "PAULA XIMENA TORRES MENESES",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "CARLOS ARIEL DIAZ CHANDILLO",
+      "specialty": "TERAPISTA ENTEROSTOMAL"
+    },
+    {
+      "id": "",
+      "name": "YARY HERNAN LEAL ORTIZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ESTEPHANIA LINARES LOAIZA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANA MILETH CERON SANTANDER",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "RONALD ANDRES VARGAS IMBAQUIN",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YURANI TORRES QUINONES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DIANA PATRICIA BOLANOS GUZMAN",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "LILI PAMELA ORTEGA DAZA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MARIA FERNANDA MANZANO ENCARNACION",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ANGIE VANESSA DIZU OLANO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "KATHERINE ESCOBAR ZULETA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ALEXANDRA VANESSA USME ARDILA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "TAMARA  AGREDO INCHIMA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ESTEPHANIA MAPURA ALVAREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JHOAN SEBASTIAN HOME SANCHEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA MUNOZ GONZALEZ",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "ELSY DEL ROSIO PEÑA CARVAJAL",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "LUIS ANGEL SANCHEZ ASTUDILLO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JOSE ISIDORO ROMERO VASQUEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "LINA YULIZA PALACIOS RODRIGUEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MONICA NATALIA ORTEGA NARVAEZ",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "NATHALY CUNDUMI PERALTA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "THIANY YULISSA PEREA ASPRILLA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA ISABELLA VILLA CARDOZO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LINA MARCELA CEBALLOS CARVAJAL",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MARISOL CARDONA RAMIREZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SANTIAGO OSORIO HERNANDEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LAURA VALENCIA HUERTAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIANA MARIA LEAL MILLAN",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ANGY ALEJANDRA MARTINEZ ORDONEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA PAULA CAICEDO MONTOYA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "GABRIELA MARTINEZ JIMENEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "YASSIRA CAROLINA RUA LOPEZ",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA DEL SOCORRO CORRALES QUINTERO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "KEVIN STEVEN MORENO MANTILLA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANGELICA MARIA BENJUMEA MARULANDA",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA CAMILA GOMEZ VALENCIA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JOSE LUIS BARRANCO CARVAJAL",
+      "specialty": "INTENSIVISTA"
+    },
+    {
+      "id": "",
+      "name": "KAROL DANIELA GARCIA CARMONA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "PAULA ANDREA BETANCOURT CHICANGANA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA CAMILA MURILLO RODRIGUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "EDUARDO RENE ARIAS SALAZAR",
+      "specialty": "CIRUGIA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CATALINA  ARROYAVE SILVA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JULIE ESTEFANIA RAMIREZ PIRAJAN",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CRISTIAN DAVID RAMIREZ CORTES",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "DANIEL FELIPE CERON CAICEDO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DANIELA CAICEDO MEDINA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUIS EDUARDO GARZON FAGUA",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "CHARON VONE IBARGUEN RIVAS",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "CRISTIAN DAVID HINCAPIE MARTINEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "SANTIAGO PEREA GAMBOA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA BURBANO SANTANILLA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CRISTIAN CAMILO DIAZ BOLANOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MAIRA ALEJANDRA CALVACHE ALVAREZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ANGIE LORENA PARRA",
+      "specialty": "NUTRICIONISTA"
+    },
+    {
+      "id": "",
+      "name": "AISHA MEDINA ZULEYMAN",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "LUZ ADRIANA QUIQUE AGUDELO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CRISTHIAN CAMILO GARCIA MUNOZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "BRIANNA LIZETH GRISALES SARRIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JESUS EDUARDO SALCEDO UMANA",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "YESENIA KARINA ESTUPIÑAN CETRE",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "CESAR AUGUSTO CHAUX ESTRADA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ANGELICA MARIA BAQUERO MICOLTA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "NATASCHA MARTINEZ URIBE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "PAOLA ANDREA ARDILA MARTINEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DIANA FERNANDA DIAZ ALVARADO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JERLIN TATIANA ZARATE RODRIGUEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "RICARDO RAMIREZ VILLADA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MAYRA ALEJANDRA GIRALDO CASAS",
+      "specialty": "TERAPISTA ENTEROSTOMAL"
+    },
+    {
+      "id": "",
+      "name": "KAREN ANDREA LENIS VALLEJO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "EDWARDO ADRIAM LERMA ALBAN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ELIANA CARDONA PAZOS",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "KAREN NATALIA MUNOZ VALENCIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "FERNANDO ZAPATA GARCIA",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "PILAR ANDREA MORALES IDROBO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MICHELL AGUDELO GUERRERO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JAMIL ALFONSO RIQUETT CASTRO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "TANIA ALEXANDRA MARIN GARCIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN PABLO BOTERO SUAREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "PAULA NATHALY OROZCO AGREDA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA QUINTERO SALGADO",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN FELIPE OCAMPO SOSA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MATEO OLAVE GUZMAN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIEGO FERNANDO BATERO SANTOFIMIO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DEISY VIVIANA SARRIA CAMPO",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "LUZ NATHALIA MARULANDA GARCIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN JOSE SALAZAR CHAVEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ESMERALDA MONTES QUINTERO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARTIN ALEJANDRO HERRERA RENDON",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LUISA MARIA GULUMA MANJARRES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DAVID ALEJANDRO ROMERO LOPEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CAROLINA VALDERRUTEN ARIAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ALEX FERNANDO ROJAS MARTINEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "JENNIFER PRIMERO RENGIFO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA MARCELA ASTUDILLO CAMPUZANO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CARMENZA DEL SOCORRO SOLARTE CABRERA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "KARENT VIVIANA MARTINEZ TORRES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DAVID POLANCO ROA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CARLOS JULIAN CONTRERAS MERCHAN",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "NESTOR URIEL ROA MACUASE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUAN DAVID TOLEDO  AGUDELO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LUISA FERNANDA ORTIZ ZAPE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "AURA CRISTINA PALOMINO DOMINGUEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ROSA  ANGELICA LEMOS GONZALEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DAYANA ANDREA ARBOLEDA ALVARADO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "HEDYS ANDRES VIERA ARROYO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "KAROL DAYANNA ALZATE LLANOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JENNIFER NUBIETH VALENCIA ESTRELLA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "MELISSA SANCHEZ MOSQUERA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUIS CARLOS AGUILAR PLAZA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JORGE ALEXANDER SOLARTE HENAO",
+      "specialty": "INTENSIVISTA"
+    },
+    {
+      "id": "",
+      "name": "AURA LUCIA MENDOZA ARAUJO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LAURA JIMENA BUITRAGO CIFUENTES",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "CESAR DAVID LOPEZ QUINONEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ROSA  ANGELICA PEREZ BAUZAN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JHOAN DANIEL QUIÑONES CASTILLO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ERICA YULIETH RINCON CALDERON",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA MONTEALEGRE CARDONA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "WILLIAM ANDRES ANGOLA ESTUPINAN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JESUS DAVID PRIETO SCARPETTA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUAN DAVID GARCIA MANRIQUE",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUZ ENETH JARAMILLO GOMEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LAURA CAMILA UZURIAGA APONZA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA CATALINA MEDINA ESCOBAR",
+      "specialty": "NEONATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ANDRES FELIPE RUIZ CASTRO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DIANA MARCELA OCORO BONILLA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JHOANA GARCIA UZURIAGA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "PAULA ANDREA MUNOZ GAVIRIA",
+      "specialty": "AUDITOR MEDICO"
+    },
+    {
+      "id": "",
+      "name": "GLADYS EUGENIA ALHAJJ BENAVIDES",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ELDER JOSE BARRANCO CARVAJAL",
+      "specialty": "INTENSIVISTA"
+    },
+    {
+      "id": "",
+      "name": "CAROLAIN LOPEZ QUIROZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA LUISA MURILLO QUINTANA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YULY ANDREA PEDROZA BOTACHE",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "PAOLA ANDREA OVIEDO RESTREPO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "KATTY FABIOLA CORTES RENGIFO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ASTRID VALERIA CASTRO VELASCO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA MARCELA MARTINEZ MOSQUERA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "NIYIRETH CASTANO CORTES",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "HERNAN ENRIQUE MORINSSON EBRATH",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ENIS YULIANA CAMPO MARTINEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "IGOR FRANCISCO VERGARA BLANDON",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "SULLY YANILA ZAPATA DIAZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA INES VALENCIA ARROYO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "SEBASTIAN PATINO URBANO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "ANGIE STHEFANIA SILVA RIOS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "YULITZA ROMERO TABORDA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MAURICIO VIDAL CAMPO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "TANIA JACKELINE SOLIS TRUJILLO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "LUZ KARINA MORALES GONZALEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MELISA GELIS GUZMAN",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "EDWIN ARMANDO PUERCHAMBUD ASCUNTAR",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA CABRERA LOPEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "XIOMARA MILLAN DELGADO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YENI MARCELA BAUTISTA ALDERETE",
+      "specialty": "PSICOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ESTEFANIA CIFUENTES BUITRAGO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LINA MARCELA RAMIREZ VALENCIA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "SIRLY CAROLINA SUAREZ ARREDONDO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "RUBY JHOANA ZAMORA OLAVE",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JUVENAL ANDRES RAMOS RIVERA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA MARITZA VALENCIA RODRIGUEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "GISELLE SALAZAR CAICEDO",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "KATHERIN ANDREA BERRIO BOLANOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "FABIAN ANDRES CRUZ CANO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "JOSE DAVID PEREIRA TAPIERO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARITZA RODRIGUEZ MONTANO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "SANDRA YULIETH JIMENEZ PALACIO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "EDIER ESTEBAN BETANCUR MORENO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "LILIANA VARELA GUEVARA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JUAN STIVEN RODRIGUEZ MARROQUIN",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA LIZETH AGUILERA SERRANO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANYI MELISA LOPEZ MUNOZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "VANESSA NATHALY ROSERO GOMEZ",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "GISELA SANCHEZ GOMEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "EDUARDO JOSE ACOSTA HOLGUIN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JOSE DAVID LOPEZ CABAL",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "LIDA SOLEY DURANGO FUENTES",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "LAURA SOTO GIRALDO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "NOHORA FERNANDA URQUIZA CABRERA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUAN PABLO LOPEZ ANDRADE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "GUSTAVO ADOLFO VANEGAS PAREJA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA ARROYO RAMIREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JESUS DAVID GARCIA RAMIREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "KAROL MARCELA MARULANDA FRANCO",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "YARITZABEL MUESES MOLINA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ADRIANA DEL PILAR CASTELLANOS GONZALEZ",
+      "specialty": "DERMATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA MARCELA CARVAJAL TABORDA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CARLOS ALBERTO SALGADO CIFUENTES",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "TATIANA ESMERALDA ORTIZ BANGUERA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DANIELA BUENO FONTAL",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "YENNI ALEJANDRA ORTIZ LOPEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "LUZ ELENA MAGALLANES SALGADO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUAN SEBASTIAN MOYANO GUACANEME",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "SANDRA VIVIANA MARTINEZ CRIOLLO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DANIELA CAGUASANGO FAJARDO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "NATHALIA RAMOS ERAZO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "KAREN SIRLEY SILVA SALAZAR",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA VASQUEZ CALDAS",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "ANA SOFIA ARCE LOPEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JUDITH CANO RINCON",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DARLY MELIZA CONTRERAS SINISTERRA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARITZA JANNETH PROANOS TUTISTAR",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
       "name": "ANGIE VANESSA CAICEDO CAICEDO",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "MARIA ANGELICA CAMACHO MONTANO",
+      "name": "OLIDA MANUELA CASTILLA LOPEZ",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "DIANA MARIA TRUJILLO COBO",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "JESSICA IVETTE JORI JIMENEZ",
+      "name": "YULIANA NIEVA JURADO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "DUAIT DAVID HOOKER VELASQUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "GONZALO ANDRES ROSAS ROLDAN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIANA CAROLINA LOPEZ ESPINOSA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MICHELLE ROCIO MARRUGO ARIAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ANGIE KATHERINE MUNOZ CABRERA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JOHANA KATHERINE MELO SOLARTE",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DANIELA ALEJANDRA HERNANDEZ MUÑOZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "VALERIA DUQUE CUBIDES",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA VELASQUEZ ALVAREZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "EDGARDO EMIRO AGUAS AGREDO",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "MARINA VALENCIA LEON",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA MERA CARDONA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DAVID ALBERTO CARDONA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LIANA MARCELA GONZALEZ PAZ",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "LESLY ALEJANDRA GAMBOA BRAND",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "JUAN DAVID BOLAÑOS PALADINES",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "CLAUDIA LORENA GONZALEZ LOPEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA CONSTANZA BACCA BRAVO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LAURA MARCELA RAMIREZ PAYA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LINA MARCELA CASTANO NOGUERA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CAROLINA ROJAS CEBALLOS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ADRIANA CECILIA MOLINA PERTUZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA FERNANDA SUAREZ MUELAS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "XIMENA JOHANNA TREJOS MARTINEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ELEANA CEREZO SINISTERRA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "STEVEN ALEXIS GETIAL MUNOZ",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "MARITZA MARIN MARIN",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "MARTHA LUZ AMARIS HERNANDEZ",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "DIEGO ARMANDO SANTAMARIA LOPEZ",
+      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN SEBASTIAN LOPEZ CAMPO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "PAOLA CATHERINE BURGOS VALLEJO",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "EFRAIN SANCHEZ SANCHEZ",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "INGRID GISELA MINOTTA AGUIRRE",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "SANTIAGO ROMAN WILLIAMS",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "YENNY ANDREA PAREDES INSUASTI",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "VICTORIA ANDREA MANZANO NAVIA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JENNIFER VANESSA TOQUICA GUERRERO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SINDY YOHANA SINISTERRA TORRES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUISA FERNANDA PABON VALENCIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LUISA MARIA SEGURA ARDILA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "IVAN DARIO PERDOMO DIAZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LEIDY MARCELA GARZON CASTILLO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ADRIANA MARIA ECHEVERRY SANABRIA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "STEFANNY RESTREPO RIOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JOHN ALEJANDRO VILLALOBOS PINTOPINTA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LAYLY RUNEYTH VARGAS CAYCEDO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN CAMILO VALENCIA OSORIO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "NILSA IVON RIASCOS CABEZAS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "GERALDINE ARIAS BUITRAGO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DAVID ALEJANDRO ALVAREZ GUINCHIN",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JESSENIA MARTINEZ ARENAS",
+      "specialty": "TERAPIA RESPIRATORIA"
+    },
+    {
+      "id": "",
+      "name": "STEPHANIA MARTINEZ GOMEZ",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "JORGE DAVID MOLINA POSSO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JHOSELIN ANDREA FLOREZ MONTOYA",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "VIVIANA MAYOR BARRERA",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "JUAN CAMILO RODRIGUEZ PAZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "YULIANA JANETH CORTES",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JENNY TATIANA URREA BARRIOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "DANIELA JIMENEZ SANDOVAL",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LAURA ANDREA CASTILLO MURILLO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA CRISTINA MONDRAGON DUQUE",
+      "specialty": "ANESTESIOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "LINDA LIZETH RODRIGUEZ NARVAEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "GABRIELA VICTORIA PALACIOS MEJIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SHIRLYN MELISSA BELALCAZAR CAMPO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA CAMILA QUIÑONES NUÑEZ",
+      "specialty": "TRABAJO SOCIAL"
+    },
+    {
+      "id": "",
+      "name": "MARIA FERNANDA SARRALDE MELO",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "ELVA LUZ CASTRO RIVERA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "KAROL MICHELL DELGADO CASTRO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ANDRES FELIPE OCAMPO ARMERO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ABELINA GIRALDO BEDOYA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "NATALIA LOPEZ MALDONADO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YAMILETH LARA BERMUDEZ",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "MALLERLY ALEJANDRA BERMUDEZ RIAÑO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CESAR ANDRES NUNEZ CASTRO",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "JENNY PAOLA ROMERO SABOGAL",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "VIVIANA PALACIOS TOBAR",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "JORGE HERNAN URREGO GRUESO",
+      "specialty": "GINECOLOGIA Y OBSTETRICIA"
+    },
+    {
+      "id": "",
+      "name": "SEBASTIAN BOHORQUEZ BENITEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JOSE ALEXANDER PEREZ SAAVEDRA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "INGRID KHATERINNE RODRIGUEZ MOLINA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "EVERLIN FLORALBA QUIÑONES CORTES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JONATHAN GONZALEZ VASQUEZ",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "NATHALIA GRISALES GIL",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "LAURA GONZALEZ MONTOYA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "HAROLD ARMANDO AVENDAÑO MORALES",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SANTIAGO STIVEN GONZALEZ PRIMERO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JAIME ALBERTO URBIÑA VILLARRAGA",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "NICOLE YUSNEIDI CAJIAO RAMOS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YULY ANDREA ALEGRIA MONTILLA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "CAROLINA TIQUE RUA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "BLAINDY JOHANA ESCORCIA GARCIA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ISABELA CONCHA BOLAÑOS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DAYSY DARNELY RESTREPO FERNANDEZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JEFERSON DANIEL RIASCOS CARDENAS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ALEXANDER PERDOMO FERRUCHO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DAVID SINISTERRA ZAPATA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIEGO FERNANDO SCARPETTA GONZALEZ",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "MARTHA INES CORDOBA VALENCIA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "SANDRA CECILIA GOMEZ PATINO",
+      "specialty": "OTORRINOLARINGOLOGIA"
+    },
+    {
+      "id": "",
+      "name": "ELIANA ALVAREZ RIAÑOS",
+      "specialty": "ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MARIA XIMENA PINO BURBANO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "WENDY YOHANA HURTADO OROBIO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LEIDY YOLIDMA CHACON MUÑOZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MONICA XIMENA BENAVIDES FUELPAZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "PAULA ANDREA MONTES BETANCOURT",
+      "specialty": "TERAPIA RESPIRATORIA PEDIATRICA"
+    },
+    {
+      "id": "",
+      "name": "JESUS ALBERTO CABRERA CEBALLOS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "VALERIA URREGO MARTINEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA GIL TORO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JUAN PAULO OSPINA ACEVEDO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "BRITTANY VANESSA HURTADO LONDOÑO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "YOLANDA CAICEDO CRUZ",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "SARA MIRANDA ROJAS",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "DIANA KARINA ESTRADA VALENCIA",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "DEISY YULIANA DELGADO CHACUA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "GERMAN ALBERTO MONTANO VARGAS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JACQUELINE REYES GRUESO",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "ANGIE MANUELA ZAPATA  ALARCON",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "NATHALIE PEREIRA OTERO",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "OLGA MILENA VANEGAS ARIAS",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "CARMEN ELISA ZAMBRANO MARTINEZ",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "INDIRA CATALINA NEIRA VARGAS",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "MELITZA MARIA CHAPARRO SUTACHAN",
+      "specialty": "ENFERMERA(O) JEFE"
+    },
+    {
+      "id": "",
+      "name": "CARMEN LIZETH GOMEZ PERDOMO",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "ROBINSON COBO FLOR",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "HERMAN ANTONIO CASTANO GONZALEZ",
+      "specialty": "FISIOTERAPIA"
+    },
+    {
+      "id": "",
+      "name": "CAROLINA SALINAS SUAREZ",
+      "specialty": "PEDIATRIA"
+    },
+    {
+      "id": "",
+      "name": "JOSE LUIS MEDINA PORTILLA",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "JULIO CESAR GUTIERREZ OSPINA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MELIDA LOZANO GARCIA",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "KATHERINE CHARA SANDOVAL",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "MIGUEL ANGEL CAPURRO COLONIA",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "SEBASTIAN CASTAÑO FLOREZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ISABELA BALANTA MORALES",
+      "specialty": "NUTRICIONISTA"
+    },
+    {
+      "id": "",
+      "name": "VALENTINA URCUE GUTIERREZ",
+      "specialty": "AUXILIAR DE ENFERMERIA"
+    },
+    {
+      "id": "",
+      "name": "LINDA JHOSELIN GUZMAN MONTES",
+      "specialty": "ENFERMERA(O)"
+    },
+    {
+      "id": "",
+      "name": "DIANA SOFIA BELTRAN GRIJALBA",
       "specialty": "MEDICINA GENERAL"
     },
     {
@@ -2161,428 +3271,8 @@
     },
     {
       "id": "",
-      "name": "JUAN STIVEN RODRIGUEZ MARROQUIN",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA DEL SOCORRO CORRALES QUINTERO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JOHNY ALBERTO MARIN AGUIRRE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "XIOMARA MILLAN DELGADO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LEIDY XIOMARA ALOMIA VENTE",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LEIDY YOLIDMA CHACON MUÑOZ",
+      "name": "YEISY VIVIANA ORTEGA VASABE",
       "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "LINA ALEJANDRA VELEZ GARCIA",
-      "specialty": "ORTOPEDIA - TRAUMATOLOGIA - ONCOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "NATHALIE PEREIRA OTERO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "PAOLA ANDREA ARDILA MARTINEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "KARENT VIVIANA MARTINEZ TORRES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ROSA  ANGELICA PEREZ BAUZAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YARITZABEL MUESES MOLINA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "INGRID GISELA MINOTTA AGUIRRE",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "MARITZA MARIN MARIN",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "INDIRA CATALINA NEIRA VARGAS",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "SERGIO DE JESUS LOPEZ ZAPATA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JUAN FELIPE OCAMPO SOSA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LINA MARCELA CEBALLOS CARVAJAL",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA VASQUEZ CALDAS",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "MARIA FERNANDA BONILLA JIMENEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ENIS YULIANA CAMPO MARTINEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CESAR DAVID LOPEZ QUINONEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MILADY RODRIGUEZ DAZA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ERICA YULIETH RINCON CALDERON",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ADRIANA MARIA ECHEVERRY SANABRIA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN SEBASTIAN LOPEZ CAMPO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DAVID ALEJANDRO ALVAREZ GUINCHIN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "SANTIAGO STIVEN GONZALEZ PRIMERO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA CATALINA MEDINA ESCOBAR",
-      "specialty": "NEONATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA MARCELA MARTINEZ MOSQUERA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "RUBI ROCIO ORTEGA ORDOÑEZ",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "ELYS SELENA OLAVE PORTOCARRERO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CARLOS ALBERTO SALGADO CIFUENTES",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "JENNIFER PRIMERO RENGIFO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN SEBASTIAN MOYANO GUACANEME",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUZ NATHALIA MARULANDA GARCIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA CABRERA LOPEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "MARTHA INES CORDOBA VALENCIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CESAR ANDRES NUNEZ CASTRO",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "ADRIANA CECILIA MOLINA PERTUZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KELLY JHOANNA VERGARA VALENCIA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA QUINTERO SALGADO",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "LAURA VALENCIA HUERTAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JOSE ALEXANDER PEREZ SAAVEDRA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LUZ ADRIANA GALVIS RAMIREZ",
-      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA LUISA MURILLO QUINTANA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA LIZETH AGUILERA SERRANO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JERLIN TATIANA ZARATE RODRIGUEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ALEXANDRA VANESSA USME ARDILA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA MARCELA CARVAJAL TABORDA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUISA MARIA GULUMA MANJARRES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DANIELA ALEJANDRA HERNANDEZ MUÑOZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CATALINA  ARROYAVE SILVA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ANDRES VELASCO ECHEVERRY",
-      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "KAROL DAYANNA ALZATE LLANOS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ADRIANA DEL PILAR CASTELLANOS GONZALEZ",
-      "specialty": "DERMATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "ANYI MELISA LOPEZ MUNOZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DIEGO LUIS QUEZADA GUERRERO",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "LINA FERNANDA FERNANDEZ RODRIGUEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CLAUDIA INES VALENCIA ARROYO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "SANDRA YULIETH JIMENEZ PALACIO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JHOANA GARCIA UZURIAGA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ILICH FABIAN PLATA CANO",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "PAULA NATHALY OROZCO AGREDA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LILI PAMELA ORTEGA DAZA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "NATALIA LOPEZ MALDONADO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VICTORIA ANDREA MANZANO NAVIA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "RICARDO RAMIREZ VILLADA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ISABELLA SALAMANCA MARTINEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ANGELA VIVIANA VALENCIA ARCOS",
-      "specialty": "HIGIENISTA ORAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA LIZETH RODRIGUEZ DURAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARITZA JANNETH PROANOS TUTISTAR",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANGIE LIZETH PALACIOS AGUILAR",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SANTIAGO ROMAN WILLIAMS",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "AISHA MEDINA ZULEYMAN",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "ANDRES FELIPE RUIZ CASTRO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SINDY YOHANA SINISTERRA TORRES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DILANY GORDILLO JARAMILLO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MIGUEL ANGEL CAPURRO COLONIA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MONICA XIMENA BENAVIDES FUELPAZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "INGRID LOREY IBARGUEN CORDOBA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN DAVID BOLAÑOS PALADINES",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "LIDA SOLEY DURANGO FUENTES",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "KELLY VANESSA DIAGO LOAIZA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DANA MELISA MEZA QUIÑONES",
-      "specialty": "MEDICINA GENERAL"
     },
     {
       "id": "",
@@ -2591,708 +3281,18 @@
     },
     {
       "id": "",
-      "name": "DIEGO FELIPE HUERTAS SAENZ",
-      "specialty": "MEDICO INTERNO"
-    },
-    {
-      "id": "",
-      "name": "JAIRO ANDRES  CERON SOTOMAYOR",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ESTEFANIA CIFUENTES BUITRAGO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA FERNANDA MANZANO ENCARNACION",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NESTOR URIEL ROA MACUASE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ELVA LUZ CASTRO RIVERA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CAREN ALEZANDRA HERNANDEZ TOMBE",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "GABRIELA CIFUENTES MONTES",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA MERA CARDONA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YULIANA NIEVA JURADO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JUDITH CANO RINCON",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JULIE ESTEFANIA RAMIREZ PIRAJAN",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANGIE VANESSA DIZU OLANO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "BRIANNA LIZETH GRISALES SARRIA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DANIEL STEVENS ARCE PEREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN PAULO OSPINA ACEVEDO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "CARMEN ELISA ZAMBRANO MARTINEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "TANIA JACKELINE SOLIS TRUJILLO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "KAREN SIRLEY SILVA SALAZAR",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JUAN PABLO LOPEZ ANDRADE",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "XIMENA JOHANNA TREJOS MARTINEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YAMILETH LARA BERMUDEZ",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "SANTIAGO OSORIO HERNANDEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ELKIN DAVID HOYOS MALDONADO",
-      "specialty": "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE"
-    },
-    {
-      "id": "",
-      "name": "MAIRA ALEJANDRA CALVACHE ALVAREZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "ANGIE LORENA PARRA",
-      "specialty": "NUTRICIONISTA"
-    },
-    {
-      "id": "",
-      "name": "MARIA JIMENA RODRIGUEZ SANCHEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DEISY YULIANA DELGADO CHACUA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "KAROL MARCELA MARULANDA FRANCO",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "LUZ ENETH JARAMILLO GOMEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "GUSTAVO ADOLFO VANEGAS PAREJA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "DANIELA CAGUASANGO FAJARDO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LINA VANESSA GUTIERREZ SINISTERRA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "HERNEY VARELA LENIS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "PAULA ANDREA BETANCOURT CHICANGANA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DARLY MELIZA CONTRERAS SINISTERRA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YESSID CEBALLOS DELGADO",
-      "specialty": "MEDICINA INTERNA"
-    },
-    {
-      "id": "",
-      "name": "KAROL DANIELA GARCIA CARMONA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MATEO OLAVE GUZMAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARISOL CARDONA RAMIREZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DIANA FERNANDA DIAZ ALVARADO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA URCUE GUTIERREZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "YARY HERNAN LEAL ORTIZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "PAOLA CATHERINE BURGOS VALLEJO",
+      "name": "JAIR JADETH QUINTERO SERPA",
       "specialty": "ANESTESIOLOGIA"
     },
     {
       "id": "",
-      "name": "FABIAN ANDRES CRUZ CANO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JENNIFER NUBIETH VALENCIA ESTRELLA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "MARIA FERNANDA SARRALDE MELO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JUAN JOSE SALAZAR CHAVEZ",
+      "name": "INGRID LOREY IBARGUEN CORDOBA",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
       "id": "",
-      "name": "PAOLA ANDREA OVIEDO RESTREPO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LEIDY VEIRA CASTANEDA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "DIANA CAROLINA FRANCO FRANCO",
+      "name": "LENIN ANDRES NIEVES DIAZ",
       "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NARLY NORELY RODRIGUEZ CASTILLO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JAMIL ALFONSO RIQUETT CASTRO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUZ KARINA MORALES GONZALEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANGIE MANUELA ZAPATA  ALARCON",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "SEGUNDO SIGIFREDO ROSERO QUIROZ",
-      "specialty": "MEDICINA DE EMERGENCIAS"
-    },
-    {
-      "id": "",
-      "name": "CARMEN LIZETH GOMEZ PERDOMO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JULIET TATIANA RODRIGUEZ GUERRERO",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "GABRIELA MARTINEZ JIMENEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "CARLOS ANDRES ROJAS LOPEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ANA MILETH CERON SANTANDER",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "ELSY DEL ROSIO PEÑA CARVAJAL",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "ISABELLA  ALZATE PATIÑO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LAURA MARCELA RAMIREZ PAYA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "BRYAN ANDRES GONZALEZ PEREA",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "HERNAN ENRIQUE MORINSSON EBRATH",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA PATRICIA BOLANOS GUZMAN",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "DIEGO ARMANDO SANTAMARIA LOPEZ",
-      "specialty": "ORTOPEDIA Y TRAUMATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "KATHERIN ANDREA BERRIO BOLANOS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "EDWARDO ADRIAM LERMA ALBAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MICHELL AGUDELO GUERRERO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JUAN SEBASTIAN CARMONA SILVA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "KATTY FABIOLA CORTES RENGIFO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NELLY ALEXANDRA DELGADO SAAVEDRA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JENNY TATIANA URREA BARRIOS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "WILLIAM ANDRES ANGOLA ESTUPINAN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LAURA XIMENA TRUJILLO DUSSAN",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NATHALIA GRISALES GIL",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JOSE DAVID PEREIRA TAPIERO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARTIN ALEJANDRO HERRERA RENDON",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DAYSY DARNELY RESTREPO FERNANDEZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "FRANCISCO JAVIER VALENCIA RAMIREZ",
-      "specialty": "AUXILIAR ADMINISTRATIVO"
-    },
-    {
-      "id": "",
-      "name": "STEPHANIA MARTINEZ GOMEZ",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "JAVIER OBANDO RODRIGUEZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA CAROLINA LOPEZ ESPINOSA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ALEXANDER PERDOMO FERRUCHO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN CAMILO VALENCIA OSORIO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "EDUARDO JOSE ACOSTA HOLGUIN",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JORGE DAVID MOLINA POSSO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "KATHERYN HELEIN ROBLEDO COLMENARES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA AMU SIERRA",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "LILI VALENTINA REZA IBARRA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN DAVID TOLEDO  AGUDELO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YESENIA KARINA ESTUPIÑAN CETRE",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JACQUELINE REYES GRUESO",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "JOSE MAURICIO PAGUATIAN ESCUDERO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA XIMENA PINO BURBANO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "NILSA IVON RIASCOS CABEZAS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DIANA MARIA LEAL MILLAN",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "MARIA CONSTANZA BACCA BRAVO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "ANDREA MEDINA AGREDO",
-      "specialty": "ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JESUS EDUARDO SALCEDO UMANA",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "CHARON VONE IBARGUEN RIVAS",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "SARA MIRANDA ROJAS",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YURANI TORRES QUINONES",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DAVID ALBERTO CARDONA",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "MARIA ISABELLA VILLA CARDOZO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JUAN PABLO BOTERO SUAREZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA CAROLINA GONGORA ANGULO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "JAIME ALBERTO URBIÑA VILLARRAGA",
-      "specialty": "PEDIATRIA"
-    },
-    {
-      "id": "",
-      "name": "JESSENIA MARTINEZ ARENAS",
-      "specialty": "TERAPIA RESPIRATORIA"
-    },
-    {
-      "id": "",
-      "name": "STEFANY CASANOVA BEDOYA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "HEDYS ANDRES VIERA ARROYO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "LAURA ANDREA CASTILLO MURILLO",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "DIANA KARINA ESTRADA VALENCIA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "CRISTIAN DAVID HINCAPIE MARTINEZ",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA VELASQUEZ ALVAREZ",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARITZA RODRIGUEZ MONTANO",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "JUAN DAVID GARCIA  BARCO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "STEVEN ALEXIS GETIAL MUNOZ",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "HEIDY YULITZA GARCIA DAZA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "ANGELICA MARIA BAQUERO MICOLTA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "CRISTIAN CAMILO DIAZ BOLANOS",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA CRISTINA MONDRAGON DUQUE",
-      "specialty": "ANESTESIOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "LESLY ALEJANDRA GAMBOA BRAND",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "TATIANA ESMERALDA ORTIZ BANGUERA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "LINA MARCELA RAMIREZ VALENCIA",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "ELDER JOSE BARRANCO CARVAJAL",
-      "specialty": "INTENSIVISTA"
-    },
-    {
-      "id": "",
-      "name": "JENNY PAOLA ROMERO SABOGAL",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "YOLANDA CAICEDO CRUZ",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "DANIELA JIMENEZ SANDOVAL",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "VALENTINA GIL TORO",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "JOSE LUIS MEDINA PORTILLA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "DANIELA CAICEDO MEDINA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "IVAN DARIO PERDOMO DIAZ",
-      "specialty": "MEDICINA GENERAL"
-    },
-    {
-      "id": "",
-      "name": "LUIS CARLOS AGUILAR PLAZA",
-      "specialty": "AUXILIAR DE ENFERMERIA"
-    },
-    {
-      "id": "",
-      "name": "MARIA FERNANDA GOMEZ CERON",
-      "specialty": "NEONATOLOGIA"
-    },
-    {
-      "id": "",
-      "name": "JHON JAMES LOAIZA VARGAS",
-      "specialty": "ENFERMERA(O) JEFE"
-    },
-    {
-      "id": "",
-      "name": "DEISY VIVIANA SARRIA CAMPO",
-      "specialty": "FISIOTERAPIA"
-    },
-    {
-      "id": "",
-      "name": "YENNY ANDREA PAREDES INSUASTI",
-      "specialty": "ENFERMERA(O)"
-    },
-    {
-      "id": "",
-      "name": "DANIELA MARIN MORENO",
-      "specialty": "MEDICINA GENERAL"
     }
   ],
   "specialties": [
@@ -3352,22 +3352,22 @@
     "TRABAJO SOCIAL",
     "UROLOGIA",
     "AUXILIAR DE ENFERMERIA",
-    "TERAPISTA ENTEROSTOMAL",
-    "TERAPIA RESPIRATORIA PEDIATRICA",
-    "TERAPIA RESPIRATORIA",
     "ENFERMERA(O)",
-    "ENFERMERIA",
     "FISIOTERAPIA",
+    "TERAPISTA ENTEROSTOMAL",
+    "MEDICINA DE URGENCIAS Y DOMICILIARIA",
+    "MEDICINA DE EMERGENCIAS",
+    "MEDICO INTERNO",
+    "ENFERMERIA",
+    "NEONATOLOGIA",
+    "AUXILIAR ADMINISTRATIVO",
+    "ORTOPEDIA - TRAUMATOLOGIA - ONCOLOGIA",
+    "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE",
+    "HIGIENISTA ORAL",
+    "TERAPIA RESPIRATORIA",
     "INTENSIVISTA",
     "AUDITOR MEDICO",
-    "MEDICINA DE URGENCIAS Y DOMICILIARIA",
-    "ORTOPEDIA - TRAUMATOLOGIA - ONCOLOGIA",
-    "NEONATOLOGIA",
-    "HIGIENISTA ORAL",
-    "MEDICO INTERNO",
-    "MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE",
-    "MEDICINA DE EMERGENCIAS",
-    "AUXILIAR ADMINISTRATIVO"
+    "TERAPIA RESPIRATORIA PEDIATRICA"
   ],
   "orderingGroups": [
     "Medicamentos",
@@ -3524,19 +3524,19 @@
         }
       },
       "Octubre": {
-        "totalHonorarios": 12131,
-        "totalLaboratorios": 19609,
-        "totalMedicamentos": 27010,
-        "totalConsultasRealizadas": 9991,
-        "totalConsultasPrimeraVez": 4834,
-        "totalConsultasControl": 7246,
+        "totalHonorarios": 12179,
+        "totalLaboratorios": 19677,
+        "totalMedicamentos": 27070,
+        "totalConsultasRealizadas": 10033,
+        "totalConsultasPrimeraVez": 4854,
+        "totalConsultasControl": 7274,
         "orders": {
-          "medicamentos": 27010,
-          "laboratorios": 19609,
-          "honorarios": 10241,
-          "procedimientos": 1772,
-          "ecografias": 1032,
-          "imagenes": 3008
+          "medicamentos": 27070,
+          "laboratorios": 19677,
+          "honorarios": 10298,
+          "procedimientos": 1781,
+          "ecografias": 1035,
+          "imagenes": 3029
         }
       }
     },
@@ -19402,22 +19402,22 @@
       "total": 146
     },
     "2026_10_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 84,
+      "medicamentos": 85,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 1327
+      "total": 1350
     },
     "2026_10_CARDIOLOGIA": {
-      "medicamentos": 1674,
-      "laboratorios": 690,
-      "honorarios": 369,
+      "medicamentos": 1676,
+      "laboratorios": 703,
+      "honorarios": 376,
       "procedimientos": 0,
       "ecografias": 13,
-      "imagenes": 378,
-      "total": 3176
+      "imagenes": 385,
+      "total": 3205
     },
     "2026_10_CARDIOLOGIA PEDIATRICA": {
       "medicamentos": 34,
@@ -19447,22 +19447,22 @@
       "total": 32
     },
     "2026_10_CIRUGIA ENDOSCOPICA GINECOLOGICA": {
-      "medicamentos": 58,
+      "medicamentos": 61,
       "laboratorios": 148,
-      "honorarios": 73,
+      "honorarios": 74,
       "procedimientos": 91,
-      "ecografias": 19,
+      "ecografias": 20,
       "imagenes": 2,
-      "total": 400
+      "total": 405
     },
     "2026_10_CIRUGIA GENERAL": {
       "medicamentos": 104,
-      "laboratorios": 863,
+      "laboratorios": 866,
       "honorarios": 891,
-      "procedimientos": 365,
-      "ecografias": 182,
+      "procedimientos": 368,
+      "ecografias": 183,
       "imagenes": 207,
-      "total": 2654
+      "total": 2661
     },
     "2026_10_CIRUGIA GINECOLOGICA LAPAROSCOPICA": {
       "medicamentos": 25,
@@ -19484,12 +19484,12 @@
     },
     "2026_10_CIRUGIA PEDIATRICA": {
       "medicamentos": 10,
-      "laboratorios": 22,
-      "honorarios": 51,
-      "procedimientos": 39,
+      "laboratorios": 24,
+      "honorarios": 53,
+      "procedimientos": 41,
       "ecografias": 4,
       "imagenes": 1,
-      "total": 128
+      "total": 134
     },
     "2026_10_CIRUGIA PLASTICA": {
       "medicamentos": 0,
@@ -19501,22 +19501,22 @@
       "total": 308
     },
     "2026_10_CIRUGIA VASCULAR": {
-      "medicamentos": 179,
+      "medicamentos": 183,
       "laboratorios": 125,
-      "honorarios": 143,
+      "honorarios": 148,
       "procedimientos": 29,
-      "ecografias": 46,
+      "ecografias": 47,
       "imagenes": 33,
-      "total": 566
+      "total": 576
     },
     "2026_10_DERMATOLOGIA": {
-      "medicamentos": 1237,
+      "medicamentos": 1242,
       "laboratorios": 381,
-      "honorarios": 340,
+      "honorarios": 341,
       "procedimientos": 222,
       "ecografias": 7,
       "imagenes": 10,
-      "total": 2277
+      "total": 2283
     },
     "2026_10_ENDOCRINOLOGIA": {
       "medicamentos": 1806,
@@ -19529,12 +19529,12 @@
     },
     "2026_10_ENDOCRINOLOGIA PEDIATRICA": {
       "medicamentos": 271,
-      "laboratorios": 354,
-      "honorarios": 106,
+      "laboratorios": 359,
+      "honorarios": 107,
       "procedimientos": 0,
       "ecografias": 12,
       "imagenes": 19,
-      "total": 781
+      "total": 787
     },
     "2026_10_ENFERMERA(O) JEFE": {
       "medicamentos": 0,
@@ -19543,7 +19543,7 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 718
+      "total": 734
     },
     "2026_10_ENFERMERIA": {
       "medicamentos": 0,
@@ -19564,22 +19564,22 @@
       "total": 1416
     },
     "2026_10_GASTROENTEROLOGIA": {
-      "medicamentos": 426,
+      "medicamentos": 429,
       "laboratorios": 18,
       "honorarios": 82,
       "procedimientos": 37,
       "ecografias": 1,
       "imagenes": 0,
-      "total": 567
+      "total": 570
     },
     "2026_10_GERIATRIA": {
-      "medicamentos": 533,
-      "laboratorios": 224,
-      "honorarios": 70,
+      "medicamentos": 535,
+      "laboratorios": 229,
+      "honorarios": 71,
       "procedimientos": 0,
       "ecografias": 2,
       "imagenes": 4,
-      "total": 850
+      "total": 858
     },
     "2026_10_GINECOLOGIA ALTA COMPLEJIDAD": {
       "medicamentos": 45,
@@ -19618,13 +19618,13 @@
       "total": 1347
     },
     "2026_10_INFECTOLOGIA": {
-      "medicamentos": 115,
+      "medicamentos": 117,
       "laboratorios": 236,
-      "honorarios": 137,
+      "honorarios": 138,
       "procedimientos": 1,
       "ecografias": 7,
       "imagenes": 26,
-      "total": 522
+      "total": 525
     },
     "2026_10_INFECTOLOGIA PEDIATRICA": {
       "medicamentos": 3,
@@ -19654,31 +19654,31 @@
       "total": 1
     },
     "2026_10_MEDICINA FAMILIAR": {
-      "medicamentos": 1529,
+      "medicamentos": 1530,
       "laboratorios": 401,
-      "honorarios": 427,
-      "procedimientos": 118,
+      "honorarios": 429,
+      "procedimientos": 120,
       "ecografias": 57,
       "imagenes": 51,
-      "total": 2605
+      "total": 2610
     },
     "2026_10_MEDICINA GENERAL": {
-      "medicamentos": 2819,
+      "medicamentos": 2822,
       "laboratorios": 2813,
-      "honorarios": 658,
+      "honorarios": 660,
       "procedimientos": 69,
       "ecografias": 130,
-      "imagenes": 164,
-      "total": 6693
+      "imagenes": 166,
+      "total": 6700
     },
     "2026_10_MEDICINA INTERNA": {
       "medicamentos": 177,
       "laboratorios": 1012,
-      "honorarios": 880,
+      "honorarios": 886,
       "procedimientos": 1,
       "ecografias": 83,
       "imagenes": 4,
-      "total": 2249
+      "total": 2256
     },
     "2026_10_NEFROLOGIA": {
       "medicamentos": 868,
@@ -19709,39 +19709,39 @@
     },
     "2026_10_NEUROCIRUGIA": {
       "medicamentos": 106,
-      "laboratorios": 89,
-      "honorarios": 145,
+      "laboratorios": 90,
+      "honorarios": 149,
       "procedimientos": 12,
       "ecografias": 2,
-      "imagenes": 64,
-      "total": 479
+      "imagenes": 68,
+      "total": 490
     },
     "2026_10_NEUROLOGIA": {
-      "medicamentos": 2667,
-      "laboratorios": 628,
-      "honorarios": 502,
+      "medicamentos": 2683,
+      "laboratorios": 635,
+      "honorarios": 513,
       "procedimientos": 32,
       "ecografias": 9,
-      "imagenes": 165,
-      "total": 4151
+      "imagenes": 168,
+      "total": 4189
     },
     "2026_10_NEUROLOGIA PEDIATRICA": {
       "medicamentos": 96,
       "laboratorios": 56,
-      "honorarios": 156,
+      "honorarios": 158,
       "procedimientos": 0,
       "ecografias": 1,
-      "imagenes": 66,
-      "total": 548
+      "imagenes": 67,
+      "total": 555
     },
     "2026_10_NUTRICIONISTA": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 138,
+      "honorarios": 139,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 138
+      "total": 139
     },
     "2026_10_ORTOPEDIA REEMPLAZOS ARTICULARES": {
       "medicamentos": 19,
@@ -19753,22 +19753,22 @@
       "total": 397
     },
     "2026_10_ORTOPEDIA Y TRAUMATOLOGIA": {
-      "medicamentos": 319,
+      "medicamentos": 322,
       "laboratorios": 212,
-      "honorarios": 1084,
+      "honorarios": 1085,
       "procedimientos": 88,
       "ecografias": 42,
-      "imagenes": 399,
-      "total": 2391
+      "imagenes": 400,
+      "total": 2396
     },
     "2026_10_OTORRINOLARINGOLOGIA": {
-      "medicamentos": 521,
+      "medicamentos": 522,
       "laboratorios": 114,
-      "honorarios": 213,
+      "honorarios": 215,
       "procedimientos": 126,
       "ecografias": 1,
-      "imagenes": 559,
-      "total": 1588
+      "imagenes": 560,
+      "total": 1592
     },
     "2026_10_PEDIATRIA": {
       "medicamentos": 65,
@@ -19782,20 +19782,20 @@
     "2026_10_PSICOLOGIA": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 229,
+      "honorarios": 232,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 229
+      "total": 232
     },
     "2026_10_REUMATOLOGIA": {
-      "medicamentos": 6423,
-      "laboratorios": 5629,
-      "honorarios": 653,
+      "medicamentos": 6435,
+      "laboratorios": 5654,
+      "honorarios": 658,
       "procedimientos": 10,
-      "ecografias": 31,
+      "ecografias": 32,
       "imagenes": 159,
-      "total": 12971
+      "total": 13014
     },
     "2026_10_REUMATOLOGIA PEDIATRICA": {
       "medicamentos": 9,
@@ -19816,13 +19816,13 @@
       "total": 1044
     },
     "2026_10_UROLOGIA": {
-      "medicamentos": 1786,
-      "laboratorios": 568,
-      "honorarios": 379,
-      "procedimientos": 118,
+      "medicamentos": 1788,
+      "laboratorios": 575,
+      "honorarios": 381,
+      "procedimientos": 120,
       "ecografias": 80,
-      "imagenes": 87,
-      "total": 3072
+      "imagenes": 89,
+      "total": 3087
     }
   },
   "ordersBySpecialist": {
@@ -81144,13 +81144,13 @@
       "total": 1544
     },
     "2026_10_ADRIANA LISETTE DAZA HERNANDEZ": {
-      "medicamentos": 128,
+      "medicamentos": 129,
       "laboratorios": 29,
       "honorarios": 25,
       "procedimientos": 24,
       "ecografias": 0,
       "imagenes": 64,
-      "total": 279
+      "total": 280
     },
     "2026_10_ALBA KATHERINE GARCIA PEREZ": {
       "medicamentos": 242,
@@ -81245,11 +81245,11 @@
     "2026_10_BETTY MILENA MATABAJOY YAQUENO": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 226,
+      "honorarios": 229,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 226
+      "total": 229
     },
     "2026_10_CAMILO ALBERTO BERNAL VARGAS": {
       "medicamentos": 72,
@@ -81279,13 +81279,13 @@
       "total": 32
     },
     "2026_10_CARLOS ALBERTO ACEVEDO MEDINA": {
-      "medicamentos": 25,
+      "medicamentos": 27,
       "laboratorios": 105,
-      "honorarios": 45,
+      "honorarios": 46,
       "procedimientos": 1,
       "ecografias": 4,
       "imagenes": 7,
-      "total": 187
+      "total": 190
     },
     "2026_10_CARLOS ALBERTO LEAL BUITRAGO": {
       "medicamentos": 311,
@@ -81325,12 +81325,12 @@
     },
     "2026_10_CARLOS ANDRES VARON GIL": {
       "medicamentos": 5,
-      "laboratorios": 48,
-      "honorarios": 73,
+      "laboratorios": 49,
+      "honorarios": 77,
       "procedimientos": 6,
       "ecografias": 0,
-      "imagenes": 37,
-      "total": 188
+      "imagenes": 41,
+      "total": 199
     },
     "2026_10_CARLOS ARIEL DIAZ CHANDILLO": {
       "medicamentos": 46,
@@ -81414,13 +81414,13 @@
       "total": 28
     },
     "2026_10_DARIO FERNANDO BURBANO LUNA": {
-      "medicamentos": 115,
+      "medicamentos": 118,
       "laboratorios": 18,
       "honorarios": 82,
       "procedimientos": 37,
       "ecografias": 1,
       "imagenes": 0,
-      "total": 256
+      "total": 259
     },
     "2026_10_DAVID ALBERTO CARDONA": {
       "medicamentos": 1,
@@ -81434,11 +81434,11 @@
     "2026_10_DAVID BENSUR ALALUF": {
       "medicamentos": 180,
       "laboratorios": 43,
-      "honorarios": 78,
+      "honorarios": 80,
       "procedimientos": 61,
       "ecografias": 1,
-      "imagenes": 325,
-      "total": 729
+      "imagenes": 326,
+      "total": 732
     },
     "2026_10_DAVID SINISTERRA ZAPATA": {
       "medicamentos": 0,
@@ -81495,13 +81495,13 @@
       "total": 653
     },
     "2026_10_ELIZABETH MILENA ARCINIEGAS BASTIDAS": {
-      "medicamentos": 520,
+      "medicamentos": 525,
       "laboratorios": 160,
-      "honorarios": 94,
+      "honorarios": 95,
       "procedimientos": 85,
       "ecografias": 1,
       "imagenes": 2,
-      "total": 884
+      "total": 890
     },
     "2026_10_ELKIN DAVID HOYOS MALDONADO": {
       "medicamentos": 1,
@@ -81531,13 +81531,13 @@
       "total": 100
     },
     "2026_10_FERNANDO ARCESIO URREA CALDAS": {
-      "medicamentos": 81,
+      "medicamentos": 84,
       "laboratorios": 124,
-      "honorarios": 252,
+      "honorarios": 253,
       "procedimientos": 43,
       "ecografias": 23,
-      "imagenes": 95,
-      "total": 716
+      "imagenes": 96,
+      "total": 721
     },
     "2026_10_FERNANDO TORRES BENITEZ": {
       "medicamentos": 212,
@@ -81585,13 +81585,13 @@
       "total": 27
     },
     "2026_10_HAROLD HEVER CASTILLO DIAZ": {
-      "medicamentos": 1139,
-      "laboratorios": 1499,
-      "honorarios": 158,
+      "medicamentos": 1151,
+      "laboratorios": 1518,
+      "honorarios": 161,
       "procedimientos": 2,
-      "ecografias": 15,
+      "ecografias": 16,
       "imagenes": 53,
-      "total": 2896
+      "total": 2931
     },
     "2026_10_HUGO DARIO JIMENEZ RENDON": {
       "medicamentos": 24,
@@ -81612,13 +81612,13 @@
       "total": 1
     },
     "2026_10_IDARLYS MASSIEL YATE MORALES": {
-      "medicamentos": 954,
+      "medicamentos": 960,
       "laboratorios": 297,
-      "honorarios": 222,
+      "honorarios": 226,
       "procedimientos": 11,
       "ecografias": 3,
-      "imagenes": 98,
-      "total": 1675
+      "imagenes": 100,
+      "total": 1687
     },
     "2026_10_ILBA JUDITH ORTIZ CUAYAL": {
       "medicamentos": 419,
@@ -81666,13 +81666,13 @@
       "total": 5
     },
     "2026_10_JAIRI LLOVELA ANDRADE ROSERO": {
-      "medicamentos": 245,
+      "medicamentos": 246,
       "laboratorios": 329,
       "honorarios": 66,
       "procedimientos": 1,
       "ecografias": 4,
       "imagenes": 19,
-      "total": 670
+      "total": 671
     },
     "2026_10_JAIRO IBARRA IMBACHI": {
       "medicamentos": 6,
@@ -81685,12 +81685,12 @@
     },
     "2026_10_JAIRO MAURICIO HERNANDEZ BARONA": {
       "medicamentos": 0,
-      "laboratorios": 304,
+      "laboratorios": 307,
       "honorarios": 111,
-      "procedimientos": 74,
+      "procedimientos": 76,
       "ecografias": 11,
       "imagenes": 42,
-      "total": 543
+      "total": 548
     },
     "2026_10_JENNIFER ANDREA PATIÑO OCAMPO": {
       "medicamentos": 4,
@@ -81702,13 +81702,13 @@
       "total": 4
     },
     "2026_10_JENNY MARCELA DAZA": {
-      "medicamentos": 934,
+      "medicamentos": 936,
       "laboratorios": 234,
-      "honorarios": 309,
+      "honorarios": 311,
       "procedimientos": 31,
       "ecografias": 43,
-      "imagenes": 45,
-      "total": 1598
+      "imagenes": 47,
+      "total": 1604
     },
     "2026_10_JESSICA ANDREA MUÑOZ GOMEZ": {
       "medicamentos": 0,
@@ -81717,7 +81717,7 @@
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 720
+      "total": 730
     },
     "2026_10_JESUS EDUARDO SALCEDO UMANA": {
       "medicamentos": 0,
@@ -81729,22 +81729,22 @@
       "total": 7
     },
     "2026_10_JHOANA GARCIA UZURIAGA": {
-      "medicamentos": 34,
+      "medicamentos": 35,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 462
+      "total": 485
     },
     "2026_10_JOHANA ANDREA BENAVIDES MARTINEZ": {
-      "medicamentos": 537,
-      "laboratorios": 193,
-      "honorarios": 99,
-      "procedimientos": 26,
+      "medicamentos": 539,
+      "laboratorios": 199,
+      "honorarios": 100,
+      "procedimientos": 27,
       "ecografias": 35,
-      "imagenes": 39,
-      "total": 952
+      "imagenes": 40,
+      "total": 963
     },
     "2026_10_JOHN JAIRO VALENCIA RINCON": {
       "medicamentos": 2,
@@ -81769,9 +81769,9 @@
       "laboratorios": 110,
       "honorarios": 290,
       "procedimientos": 91,
-      "ecografias": 60,
+      "ecografias": 61,
       "imagenes": 64,
-      "total": 622
+      "total": 623
     },
     "2026_10_JORGE LUIS ORJUELA GIL": {
       "medicamentos": 149,
@@ -81828,13 +81828,13 @@
       "total": 923
     },
     "2026_10_JOSE MANUEL GOMEZ SIERRA": {
-      "medicamentos": 958,
-      "laboratorios": 58,
-      "honorarios": 142,
+      "medicamentos": 962,
+      "laboratorios": 60,
+      "honorarios": 147,
       "procedimientos": 17,
       "ecografias": 4,
-      "imagenes": 24,
-      "total": 1226
+      "imagenes": 25,
+      "total": 1239
     },
     "2026_10_JOSE MAURICIO CARDENAS PRIETO": {
       "medicamentos": 299,
@@ -81893,11 +81893,11 @@
     "2026_10_JUAN MANUEL HERNANDEZ TORRES": {
       "medicamentos": 173,
       "laboratorios": 1012,
-      "honorarios": 880,
+      "honorarios": 886,
       "procedimientos": 1,
       "ecografias": 83,
       "imagenes": 4,
-      "total": 2245
+      "total": 2252
     },
     "2026_10_JUAN SEBASTIAN LOPEZ CAMPO": {
       "medicamentos": 5,
@@ -81927,13 +81927,13 @@
       "total": 75
     },
     "2026_10_JULIANA ANDREA HOLGUIN HIDALGO": {
-      "medicamentos": 107,
+      "medicamentos": 111,
       "laboratorios": 30,
-      "honorarios": 74,
+      "honorarios": 79,
       "procedimientos": 7,
-      "ecografias": 31,
+      "ecografias": 32,
       "imagenes": 5,
-      "total": 254
+      "total": 264
     },
     "2026_10_JULIANA CASTELLANOS TORO": {
       "medicamentos": 7,
@@ -82045,12 +82045,12 @@
     },
     "2026_10_LINA MARIA PARDO OROZCO": {
       "medicamentos": 4,
-      "laboratorios": 7,
-      "honorarios": 21,
-      "procedimientos": 10,
+      "laboratorios": 9,
+      "honorarios": 23,
+      "procedimientos": 12,
       "ecografias": 0,
       "imagenes": 1,
-      "total": 43
+      "total": 49
     },
     "2026_10_LINA YULIZA PALACIOS RODRIGUEZ": {
       "medicamentos": 0,
@@ -82107,31 +82107,31 @@
       "total": 739
     },
     "2026_10_LUIS MIGUEL TUTAL MUNOZ": {
-      "medicamentos": 58,
+      "medicamentos": 61,
       "laboratorios": 148,
-      "honorarios": 73,
+      "honorarios": 74,
       "procedimientos": 91,
-      "ecografias": 19,
+      "ecografias": 20,
       "imagenes": 2,
-      "total": 400
+      "total": 405
     },
     "2026_10_LUISA ELENA DEL MORAL NOGUERA": {
-      "medicamentos": 456,
-      "laboratorios": 189,
-      "honorarios": 97,
+      "medicamentos": 462,
+      "laboratorios": 194,
+      "honorarios": 99,
       "procedimientos": 3,
       "ecografias": 2,
       "imagenes": 26,
-      "total": 782
+      "total": 795
     },
     "2026_10_LUZ MARY LOPEZ MONTENEGRO": {
       "medicamentos": 271,
-      "laboratorios": 354,
-      "honorarios": 106,
+      "laboratorios": 359,
+      "honorarios": 107,
       "procedimientos": 0,
       "ecografias": 12,
       "imagenes": 19,
-      "total": 781
+      "total": 787
     },
     "2026_10_MARIA AMU SIERRA": {
       "medicamentos": 3,
@@ -82269,13 +82269,13 @@
       "total": 1
     },
     "2026_10_NICOLE MARIA CORRALES DIAZ": {
-      "medicamentos": 907,
+      "medicamentos": 908,
       "laboratorios": 163,
-      "honorarios": 185,
-      "procedimientos": 59,
+      "honorarios": 187,
+      "procedimientos": 61,
       "ecografias": 13,
       "imagenes": 28,
-      "total": 1363
+      "total": 1368
     },
     "2026_10_NOHORA FERNANDA URQUIZA CABRERA": {
       "medicamentos": 1,
@@ -82323,13 +82323,13 @@
       "total": 127
     },
     "2026_10_RICARDO ANDRES GIRALDO ARBOLEDA": {
-      "medicamentos": 682,
-      "laboratorios": 185,
-      "honorarios": 255,
+      "medicamentos": 683,
+      "laboratorios": 188,
+      "honorarios": 261,
       "procedimientos": 0,
       "ecografias": 12,
-      "imagenes": 242,
-      "total": 1416
+      "imagenes": 248,
+      "total": 1432
     },
     "2026_10_RICARDO MURCILLO SANCHEZ": {
       "medicamentos": 108,
@@ -82343,11 +82343,11 @@
     "2026_10_RICHARD LONDONO CHAVEZ": {
       "medicamentos": 96,
       "laboratorios": 56,
-      "honorarios": 156,
+      "honorarios": 158,
       "procedimientos": 0,
       "ecografias": 1,
-      "imagenes": 66,
-      "total": 548
+      "imagenes": 67,
+      "total": 555
     },
     "2026_10_ROMAN JOSE ZAMARRIEGO PUENTES": {
       "medicamentos": 0,
@@ -82368,13 +82368,13 @@
       "total": 4
     },
     "2026_10_ROSANNY CAROLINA MAYA VASQUEZ": {
-      "medicamentos": 992,
-      "laboratorios": 505,
-      "honorarios": 114,
+      "medicamentos": 993,
+      "laboratorios": 515,
+      "honorarios": 115,
       "procedimientos": 0,
       "ecografias": 1,
-      "imagenes": 136,
-      "total": 1760
+      "imagenes": 137,
+      "total": 1773
     },
     "2026_10_RUBY JHOANA ZAMORA OLAVE": {
       "medicamentos": 0,
@@ -82405,12 +82405,12 @@
     },
     "2026_10_SANTIAGO LOPEZ TORO": {
       "medicamentos": 379,
-      "laboratorios": 56,
-      "honorarios": 53,
-      "procedimientos": 22,
+      "laboratorios": 57,
+      "honorarios": 54,
+      "procedimientos": 23,
       "ecografias": 5,
-      "imagenes": 8,
-      "total": 526
+      "imagenes": 9,
+      "total": 530
     },
     "2026_10_SEBASTIAN CASTAÑO FLOREZ": {
       "medicamentos": 0,
@@ -82460,11 +82460,11 @@
     "2026_10_VALENTINA CARDONA CANO": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 121,
+      "honorarios": 122,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0,
-      "total": 121
+      "total": 122
     },
     "2026_10_VALENTINA MERA CARDONA": {
       "medicamentos": 3,
@@ -82531,21 +82531,21 @@
     },
     "2026_10_VICTORIA EUGENIA GOMEZ ESCOBAR": {
       "medicamentos": 2929,
-      "laboratorios": 2749,
-      "honorarios": 311,
+      "laboratorios": 2755,
+      "honorarios": 313,
       "procedimientos": 5,
       "ecografias": 8,
       "imagenes": 53,
-      "total": 6077
+      "total": 6085
     },
     "2026_10_YULY FERNANDA MOTTA ARTUNDUAGA": {
-      "medicamentos": 533,
-      "laboratorios": 224,
-      "honorarios": 70,
+      "medicamentos": 535,
+      "laboratorios": 229,
+      "honorarios": 71,
       "procedimientos": 0,
       "ecografias": 2,
       "imagenes": 4,
-      "total": 850
+      "total": 858
     }
   },
   "dailyTrend": {
@@ -88408,10 +88408,10 @@
       },
       {
         "date": "2026-10-21",
-        "honorarios": 351,
-        "realizadas": 270,
-        "primeraVez": 114,
-        "control": 236
+        "honorarios": 399,
+        "realizadas": 312,
+        "primeraVez": 134,
+        "control": 264
       }
     ]
   },
@@ -97525,9 +97525,9 @@
       "consultasControl": 79
     },
     "2026_10_ANESTESIOLOGIA": {
-      "totalHonorarios": 473,
-      "consultasRealizadas": 426,
-      "consultasPrimeraVez": 472,
+      "totalHonorarios": 474,
+      "consultasRealizadas": 427,
+      "consultasPrimeraVez": 473,
       "consultasControl": 0
     },
     "2026_10_AUDIOLOGIA": {
@@ -97537,10 +97537,10 @@
       "consultasControl": 73
     },
     "2026_10_CARDIOLOGIA": {
-      "totalHonorarios": 437,
-      "consultasRealizadas": 368,
-      "consultasPrimeraVez": 81,
-      "consultasControl": 356
+      "totalHonorarios": 444,
+      "consultasRealizadas": 373,
+      "consultasPrimeraVez": 84,
+      "consultasControl": 360
     },
     "2026_10_CARDIOLOGIA PEDIATRICA": {
       "totalHonorarios": 28,
@@ -97561,16 +97561,16 @@
       "consultasControl": 4
     },
     "2026_10_CIRUGIA ENDOSCOPICA GINECOLOGICA": {
-      "totalHonorarios": 73,
-      "consultasRealizadas": 67,
-      "consultasPrimeraVez": 29,
+      "totalHonorarios": 74,
+      "consultasRealizadas": 69,
+      "consultasPrimeraVez": 30,
       "consultasControl": 44
     },
     "2026_10_CIRUGIA GENERAL": {
-      "totalHonorarios": 1030,
-      "consultasRealizadas": 887,
+      "totalHonorarios": 1034,
+      "consultasRealizadas": 891,
       "consultasPrimeraVez": 493,
-      "consultasControl": 537
+      "consultasControl": 541
     },
     "2026_10_CIRUGIA GINECOLOGICA LAPAROSCOPICA": {
       "totalHonorarios": 20,
@@ -97585,9 +97585,9 @@
       "consultasControl": 27
     },
     "2026_10_CIRUGIA PEDIATRICA": {
-      "totalHonorarios": 71,
-      "consultasRealizadas": 60,
-      "consultasPrimeraVez": 18,
+      "totalHonorarios": 72,
+      "consultasRealizadas": 61,
+      "consultasPrimeraVez": 19,
       "consultasControl": 53
     },
     "2026_10_CIRUGIA PLASTICA": {
@@ -97597,16 +97597,16 @@
       "consultasControl": 74
     },
     "2026_10_CIRUGIA VASCULAR": {
-      "totalHonorarios": 176,
-      "consultasRealizadas": 150,
-      "consultasPrimeraVez": 59,
-      "consultasControl": 117
+      "totalHonorarios": 181,
+      "consultasRealizadas": 154,
+      "consultasPrimeraVez": 63,
+      "consultasControl": 118
     },
     "2026_10_DERMATOLOGIA": {
-      "totalHonorarios": 636,
+      "totalHonorarios": 637,
       "consultasRealizadas": 519,
       "consultasPrimeraVez": 293,
-      "consultasControl": 343
+      "consultasControl": 344
     },
     "2026_10_ENDOCRINOLOGIA": {
       "totalHonorarios": 364,
@@ -97615,15 +97615,15 @@
       "consultasControl": 281
     },
     "2026_10_ENDOCRINOLOGIA PEDIATRICA": {
-      "totalHonorarios": 115,
-      "consultasRealizadas": 100,
+      "totalHonorarios": 116,
+      "consultasRealizadas": 101,
       "consultasPrimeraVez": 34,
-      "consultasControl": 81
+      "consultasControl": 82
     },
     "2026_10_ENFERMERA(O) JEFE": {
-      "totalHonorarios": 470,
+      "totalHonorarios": 473,
       "consultasRealizadas": 100,
-      "consultasPrimeraVez": 470,
+      "consultasPrimeraVez": 473,
       "consultasControl": 0
     },
     "2026_10_FISIATRIA": {
@@ -97639,16 +97639,16 @@
       "consultasControl": 36
     },
     "2026_10_GERIATRIA CLINICA": {
-      "totalHonorarios": 70,
-      "consultasRealizadas": 60,
+      "totalHonorarios": 71,
+      "consultasRealizadas": 61,
       "consultasPrimeraVez": 25,
-      "consultasControl": 45
+      "consultasControl": 46
     },
     "2026_10_GINECOLOGIA ALTA COMPLEJIDAD": {
-      "totalHonorarios": 169,
-      "consultasRealizadas": 149,
-      "consultasPrimeraVez": 75,
-      "consultasControl": 94
+      "totalHonorarios": 171,
+      "consultasRealizadas": 151,
+      "consultasPrimeraVez": 76,
+      "consultasControl": 95
     },
     "2026_10_GINECOLOGIA Y OBSTETRICIA": {
       "totalHonorarios": 405,
@@ -97663,10 +97663,10 @@
       "consultasControl": 178
     },
     "2026_10_INFECTOLOGIA": {
-      "totalHonorarios": 142,
-      "consultasRealizadas": 130,
+      "totalHonorarios": 143,
+      "consultasRealizadas": 131,
       "consultasPrimeraVez": 40,
-      "consultasControl": 102
+      "consultasControl": 103
     },
     "2026_10_INFECTOLOGIA PEDIATRICA": {
       "totalHonorarios": 6,
@@ -97681,22 +97681,22 @@
       "consultasControl": 70
     },
     "2026_10_MEDICINA FAMILIAR": {
-      "totalHonorarios": 395,
-      "consultasRealizadas": 328,
+      "totalHonorarios": 396,
+      "consultasRealizadas": 329,
       "consultasPrimeraVez": 162,
-      "consultasControl": 233
+      "consultasControl": 234
     },
     "2026_10_MEDICINA GENERAL": {
-      "totalHonorarios": 814,
-      "consultasRealizadas": 726,
-      "consultasPrimeraVez": 443,
+      "totalHonorarios": 816,
+      "consultasRealizadas": 727,
+      "consultasPrimeraVez": 445,
       "consultasControl": 371
     },
     "2026_10_MEDICINA INTERNA": {
-      "totalHonorarios": 362,
-      "consultasRealizadas": 270,
+      "totalHonorarios": 363,
+      "consultasRealizadas": 271,
       "consultasPrimeraVez": 81,
-      "consultasControl": 281
+      "consultasControl": 282
     },
     "2026_10_NEFROLOGIA": {
       "totalHonorarios": 232,
@@ -97717,27 +97717,27 @@
       "consultasControl": 41
     },
     "2026_10_NEUROCIRUGIA": {
-      "totalHonorarios": 203,
-      "consultasRealizadas": 174,
-      "consultasPrimeraVez": 93,
+      "totalHonorarios": 204,
+      "consultasRealizadas": 175,
+      "consultasPrimeraVez": 94,
       "consultasControl": 110
     },
     "2026_10_NEUROLOGIA": {
-      "totalHonorarios": 544,
-      "consultasRealizadas": 440,
-      "consultasPrimeraVez": 106,
-      "consultasControl": 432
+      "totalHonorarios": 547,
+      "consultasRealizadas": 444,
+      "consultasPrimeraVez": 107,
+      "consultasControl": 434
     },
     "2026_10_NEUROLOGIA PEDIATRICA": {
-      "totalHonorarios": 127,
-      "consultasRealizadas": 106,
+      "totalHonorarios": 128,
+      "consultasRealizadas": 107,
       "consultasPrimeraVez": 49,
-      "consultasControl": 77
+      "consultasControl": 78
     },
     "2026_10_NUTRICIONISTA": {
-      "totalHonorarios": 275,
-      "consultasRealizadas": 207,
-      "consultasPrimeraVez": 275,
+      "totalHonorarios": 276,
+      "consultasRealizadas": 208,
+      "consultasPrimeraVez": 276,
       "consultasControl": 0
     },
     "2026_10_ORTOPEDIA REEMPLAZOS ARTICULARES": {
@@ -97747,16 +97747,16 @@
       "consultasControl": 71
     },
     "2026_10_ORTOPEDIA Y TRAUMATOLOGIA": {
-      "totalHonorarios": 1133,
-      "consultasRealizadas": 1005,
+      "totalHonorarios": 1135,
+      "consultasRealizadas": 1007,
       "consultasPrimeraVez": 302,
-      "consultasControl": 831
+      "consultasControl": 833
     },
     "2026_10_OTORRINOLARINGOLOGIA": {
-      "totalHonorarios": 543,
-      "consultasRealizadas": 471,
+      "totalHonorarios": 544,
+      "consultasRealizadas": 472,
       "consultasPrimeraVez": 279,
-      "consultasControl": 264
+      "consultasControl": 265
     },
     "2026_10_PEDIATRIA": {
       "totalHonorarios": 20,
@@ -97765,16 +97765,16 @@
       "consultasControl": 19
     },
     "2026_10_PSICOLOGIA": {
-      "totalHonorarios": 258,
-      "consultasRealizadas": 198,
-      "consultasPrimeraVez": 255,
+      "totalHonorarios": 259,
+      "consultasRealizadas": 199,
+      "consultasPrimeraVez": 256,
       "consultasControl": 3
     },
     "2026_10_REUMATOLOGIA": {
-      "totalHonorarios": 619,
-      "consultasRealizadas": 521,
+      "totalHonorarios": 621,
+      "consultasRealizadas": 523,
       "consultasPrimeraVez": 79,
-      "consultasControl": 524
+      "consultasControl": 526
     },
     "2026_10_REUMATOLOGIA PEDIATRICA": {
       "totalHonorarios": 9,
@@ -97783,17 +97783,17 @@
       "consultasControl": 7
     },
     "2026_10_UROLOGIA": {
-      "totalHonorarios": 473,
-      "consultasRealizadas": 408,
+      "totalHonorarios": 477,
+      "consultasRealizadas": 412,
       "consultasPrimeraVez": 4,
-      "consultasControl": 469
+      "consultasControl": 473
     }
   },
   "bySpecialist": {
     "2026_10_JESSICA ANDREA MUÑOZ GOMEZ": {
-      "totalHonorarios": 470,
+      "totalHonorarios": 473,
       "consultasRealizadas": 100,
-      "consultasPrimeraVez": 470,
+      "consultasPrimeraVez": 473,
       "consultasControl": 0
     },
     "2026_10_FERNANDO TORRES BENITEZ": {
@@ -97803,15 +97803,15 @@
       "consultasControl": 276
     },
     "2026_10_JENNY MARCELA DAZA": {
-      "totalHonorarios": 382,
+      "totalHonorarios": 383,
       "consultasRealizadas": 324,
-      "consultasPrimeraVez": 166,
+      "consultasPrimeraVez": 167,
       "consultasControl": 216
     },
     "2026_10_CARLOS FERNANDO RAMIREZ DARAVINA": {
-      "totalHonorarios": 368,
-      "consultasRealizadas": 327,
-      "consultasPrimeraVez": 367,
+      "totalHonorarios": 369,
+      "consultasRealizadas": 328,
+      "consultasPrimeraVez": 368,
       "consultasControl": 0
     },
     "2026_10_ALIN ABREU LOMBA": {
@@ -97821,52 +97821,52 @@
       "consultasControl": 281
     },
     "2026_10_JUAN MANUEL HERNANDEZ TORRES": {
-      "totalHonorarios": 362,
-      "consultasRealizadas": 270,
+      "totalHonorarios": 363,
+      "consultasRealizadas": 271,
       "consultasPrimeraVez": 81,
-      "consultasControl": 281
+      "consultasControl": 282
     },
     "2026_10_JORGE HERNAN TRUJILLO VIDAL": {
-      "totalHonorarios": 340,
-      "consultasRealizadas": 295,
+      "totalHonorarios": 342,
+      "consultasRealizadas": 297,
       "consultasPrimeraVez": 154,
-      "consultasControl": 186
-    },
-    "2026_10_VICTORIA EUGENIA GOMEZ ESCOBAR": {
-      "totalHonorarios": 316,
-      "consultasRealizadas": 264,
-      "consultasPrimeraVez": 42,
-      "consultasControl": 261
+      "consultasControl": 188
     },
     "2026_10_FERNANDO ARCESIO URREA CALDAS": {
-      "totalHonorarios": 316,
-      "consultasRealizadas": 279,
+      "totalHonorarios": 318,
+      "consultasRealizadas": 281,
       "consultasPrimeraVez": 81,
-      "consultasControl": 235
+      "consultasControl": 237
+    },
+    "2026_10_VICTORIA EUGENIA GOMEZ ESCOBAR": {
+      "totalHonorarios": 317,
+      "consultasRealizadas": 265,
+      "consultasPrimeraVez": 42,
+      "consultasControl": 262
     },
     "2026_10_DAVID BENSUR ALALUF": {
-      "totalHonorarios": 270,
-      "consultasRealizadas": 240,
+      "totalHonorarios": 271,
+      "consultasRealizadas": 241,
       "consultasPrimeraVez": 156,
-      "consultasControl": 114
+      "consultasControl": 115
     },
     "2026_10_IDARLYS MASSIEL YATE MORALES": {
-      "totalHonorarios": 259,
-      "consultasRealizadas": 204,
+      "totalHonorarios": 260,
+      "consultasRealizadas": 205,
       "consultasPrimeraVez": 46,
-      "consultasControl": 211
-    },
-    "2026_10_BETTY MILENA MATABAJOY YAQUENO": {
-      "totalHonorarios": 256,
-      "consultasRealizadas": 196,
-      "consultasPrimeraVez": 255,
-      "consultasControl": 1
+      "consultasControl": 212
     },
     "2026_10_RICARDO ANDRES GIRALDO ARBOLEDA": {
-      "totalHonorarios": 253,
-      "consultasRealizadas": 210,
-      "consultasPrimeraVez": 51,
-      "consultasControl": 202
+      "totalHonorarios": 259,
+      "consultasRealizadas": 215,
+      "consultasPrimeraVez": 54,
+      "consultasControl": 205
+    },
+    "2026_10_BETTY MILENA MATABAJOY YAQUENO": {
+      "totalHonorarios": 257,
+      "consultasRealizadas": 197,
+      "consultasPrimeraVez": 256,
+      "consultasControl": 1
     },
     "2026_10_HUGO DARIO JIMENEZ RENDON": {
       "totalHonorarios": 246,
@@ -97875,16 +97875,16 @@
       "consultasControl": 208
     },
     "2026_10_VALENTINA CARDONA CANO": {
-      "totalHonorarios": 234,
-      "consultasRealizadas": 179,
-      "consultasPrimeraVez": 234,
+      "totalHonorarios": 235,
+      "consultasRealizadas": 180,
+      "consultasPrimeraVez": 235,
       "consultasControl": 0
     },
     "2026_10_ELIZABETH MILENA ARCINIEGAS BASTIDAS": {
-      "totalHonorarios": 217,
+      "totalHonorarios": 218,
       "consultasRealizadas": 171,
       "consultasPrimeraVez": 92,
-      "consultasControl": 125
+      "consultasControl": 126
     },
     "2026_10_SILVIO ANDRES BOLANOS GOMEZ": {
       "totalHonorarios": 211,
@@ -97892,23 +97892,23 @@
       "consultasPrimeraVez": 33,
       "consultasControl": 178
     },
+    "2026_10_JAIRI LLOVELA ANDRADE ROSERO": {
+      "totalHonorarios": 205,
+      "consultasRealizadas": 198,
+      "consultasPrimeraVez": 182,
+      "consultasControl": 23
+    },
     "2026_10_EDGAR RICARDO ALTUZARRA SILVA": {
       "totalHonorarios": 205,
       "consultasRealizadas": 176,
       "consultasPrimeraVez": 116,
       "consultasControl": 89
     },
-    "2026_10_JAIRI LLOVELA ANDRADE ROSERO": {
-      "totalHonorarios": 204,
-      "consultasRealizadas": 197,
-      "consultasPrimeraVez": 181,
-      "consultasControl": 23
-    },
     "2026_10_NICOLE MARIA CORRALES DIAZ": {
-      "totalHonorarios": 199,
-      "consultasRealizadas": 150,
+      "totalHonorarios": 200,
+      "consultasRealizadas": 151,
       "consultasPrimeraVez": 56,
-      "consultasControl": 143
+      "consultasControl": 144
     },
     "2026_10_LUDY FERNANDA PORTILLA DIAZ": {
       "totalHonorarios": 204,
@@ -97917,22 +97917,22 @@
       "consultasControl": 97
     },
     "2026_10_ROSANNY CAROLINA MAYA VASQUEZ": {
-      "totalHonorarios": 184,
+      "totalHonorarios": 185,
       "consultasRealizadas": 158,
       "consultasPrimeraVez": 30,
-      "consultasControl": 154
+      "consultasControl": 155
+    },
+    "2026_10_JAIRO MAURICIO HERNANDEZ BARONA": {
+      "totalHonorarios": 175,
+      "consultasRealizadas": 144,
+      "consultasPrimeraVez": 103,
+      "consultasControl": 72
     },
     "2026_10_SANDRA ROMANO PLAZA": {
       "totalHonorarios": 175,
       "consultasRealizadas": 131,
       "consultasPrimeraVez": 57,
       "consultasControl": 107
-    },
-    "2026_10_JAIRO MAURICIO HERNANDEZ BARONA": {
-      "totalHonorarios": 173,
-      "consultasRealizadas": 142,
-      "consultasPrimeraVez": 103,
-      "consultasControl": 70
     },
     "2026_10_JUAN FERNANDO TEJADA JARAMILLO": {
       "totalHonorarios": 161,
@@ -97941,10 +97941,16 @@
       "consultasControl": 160
     },
     "2026_10_JOHANA ANDREA BENAVIDES MARTINEZ": {
-      "totalHonorarios": 157,
-      "consultasRealizadas": 133,
+      "totalHonorarios": 159,
+      "consultasRealizadas": 135,
       "consultasPrimeraVez": 0,
-      "consultasControl": 157
+      "consultasControl": 159
+    },
+    "2026_10_HAROLD HEVER CASTILLO DIAZ": {
+      "totalHonorarios": 154,
+      "consultasRealizadas": 132,
+      "consultasPrimeraVez": 5,
+      "consultasControl": 149
     },
     "2026_10_MIGUEL ANGEL ZUNIGA GARCIA": {
       "totalHonorarios": 154,
@@ -97952,29 +97958,23 @@
       "consultasPrimeraVez": 76,
       "consultasControl": 78
     },
-    "2026_10_HAROLD HEVER CASTILLO DIAZ": {
-      "totalHonorarios": 153,
-      "consultasRealizadas": 131,
-      "consultasPrimeraVez": 5,
-      "consultasControl": 148
-    },
     "2026_10_VICTOR ALFONSO SANTOS ANDRADE": {
       "totalHonorarios": 150,
       "consultasRealizadas": 126,
       "consultasPrimeraVez": 32,
       "consultasControl": 115
     },
+    "2026_10_JOSE MANUEL GOMEZ SIERRA": {
+      "totalHonorarios": 149,
+      "consultasRealizadas": 128,
+      "consultasPrimeraVez": 34,
+      "consultasControl": 112
+    },
     "2026_10_ILBA JUDITH ORTIZ CUAYAL": {
       "totalHonorarios": 148,
       "consultasRealizadas": 129,
       "consultasPrimeraVez": 16,
       "consultasControl": 132
-    },
-    "2026_10_JOSE MANUEL GOMEZ SIERRA": {
-      "totalHonorarios": 148,
-      "consultasRealizadas": 126,
-      "consultasPrimeraVez": 33,
-      "consultasControl": 112
     },
     "2026_10_VICTOR ANDRES MARTINEZ CORTES": {
       "totalHonorarios": 141,
@@ -97995,10 +97995,10 @@
       "consultasControl": 94
     },
     "2026_10_RICHARD LONDONO CHAVEZ": {
-      "totalHonorarios": 127,
-      "consultasRealizadas": 106,
+      "totalHonorarios": 128,
+      "consultasRealizadas": 107,
       "consultasPrimeraVez": 49,
-      "consultasControl": 77
+      "consultasControl": 78
     },
     "2026_10_JOSE DAVID CABRERA ERASO": {
       "totalHonorarios": 126,
@@ -98007,16 +98007,16 @@
       "consultasControl": 96
     },
     "2026_10_MIGUEL ALBERTO RODRIGUEZ GARZON": {
-      "totalHonorarios": 117,
-      "consultasRealizadas": 106,
-      "consultasPrimeraVez": 51,
+      "totalHonorarios": 118,
+      "consultasRealizadas": 107,
+      "consultasPrimeraVez": 52,
       "consultasControl": 66
     },
     "2026_10_LUZ MARY LOPEZ MONTENEGRO": {
-      "totalHonorarios": 115,
-      "consultasRealizadas": 100,
+      "totalHonorarios": 116,
+      "consultasRealizadas": 101,
       "consultasPrimeraVez": 34,
-      "consultasControl": 81
+      "consultasControl": 82
     },
     "2026_10_CAMILO ANDRES URBANO GUZMAN": {
       "totalHonorarios": 113,
@@ -98066,17 +98066,17 @@
       "consultasPrimeraVez": 23,
       "consultasControl": 79
     },
+    "2026_10_JULIANA ANDREA HOLGUIN HIDALGO": {
+      "totalHonorarios": 99,
+      "consultasRealizadas": 80,
+      "consultasPrimeraVez": 35,
+      "consultasControl": 64
+    },
     "2026_10_PAOLA ANDREA BUITRAGO PERDOMO": {
       "totalHonorarios": 96,
       "consultasRealizadas": 78,
       "consultasPrimeraVez": 41,
       "consultasControl": 55
-    },
-    "2026_10_JULIANA ANDREA HOLGUIN HIDALGO": {
-      "totalHonorarios": 94,
-      "consultasRealizadas": 76,
-      "consultasPrimeraVez": 31,
-      "consultasControl": 63
     },
     "2026_10_GILDARDO MAURICIO LOPEZ OSORIO": {
       "totalHonorarios": 94,
@@ -98090,23 +98090,29 @@
       "consultasPrimeraVez": 20,
       "consultasControl": 70
     },
+    "2026_10_LUISA ELENA DEL MORAL NOGUERA": {
+      "totalHonorarios": 89,
+      "consultasRealizadas": 72,
+      "consultasPrimeraVez": 18,
+      "consultasControl": 71
+    },
     "2026_10_JORGE PRIETO PENUELA": {
       "totalHonorarios": 89,
       "consultasRealizadas": 77,
       "consultasPrimeraVez": 37,
       "consultasControl": 52
     },
-    "2026_10_LUISA ELENA DEL MORAL NOGUERA": {
-      "totalHonorarios": 88,
-      "consultasRealizadas": 71,
-      "consultasPrimeraVez": 18,
-      "consultasControl": 70
-    },
     "2026_10_ANGEL ARTURO ROBERTY GONZALEZ": {
       "totalHonorarios": 88,
       "consultasRealizadas": 74,
       "consultasPrimeraVez": 31,
       "consultasControl": 57
+    },
+    "2026_10_CARLOS ANDRES VARON GIL": {
+      "totalHonorarios": 86,
+      "consultasRealizadas": 76,
+      "consultasPrimeraVez": 34,
+      "consultasControl": 52
     },
     "2026_10_URIEL OVIDIO CARDONA NUNEZ": {
       "totalHonorarios": 86,
@@ -98119,12 +98125,6 @@
       "consultasRealizadas": 75,
       "consultasPrimeraVez": 31,
       "consultasControl": 54
-    },
-    "2026_10_CARLOS ANDRES VARON GIL": {
-      "totalHonorarios": 85,
-      "consultasRealizadas": 75,
-      "consultasPrimeraVez": 33,
-      "consultasControl": 52
     },
     "2026_10_MIGUEL ANGEL CHAVEZ MONDRAGON": {
       "totalHonorarios": 82,
@@ -98168,29 +98168,29 @@
       "consultasPrimeraVez": 34,
       "consultasControl": 40
     },
+    "2026_10_LUIS MIGUEL TUTAL MUNOZ": {
+      "totalHonorarios": 74,
+      "consultasRealizadas": 69,
+      "consultasPrimeraVez": 30,
+      "consultasControl": 44
+    },
     "2026_10_ELMER DIAZ VIDAL": {
       "totalHonorarios": 73,
       "consultasRealizadas": 58,
       "consultasPrimeraVez": 0,
       "consultasControl": 73
     },
-    "2026_10_LUIS MIGUEL TUTAL MUNOZ": {
-      "totalHonorarios": 73,
-      "consultasRealizadas": 67,
-      "consultasPrimeraVez": 29,
-      "consultasControl": 44
-    },
     "2026_10_YULY FERNANDA MOTTA ARTUNDUAGA": {
-      "totalHonorarios": 70,
-      "consultasRealizadas": 60,
+      "totalHonorarios": 71,
+      "consultasRealizadas": 61,
       "consultasPrimeraVez": 25,
-      "consultasControl": 45
+      "consultasControl": 46
     },
     "2026_10_SANTIAGO LOPEZ TORO": {
-      "totalHonorarios": 67,
-      "consultasRealizadas": 55,
+      "totalHonorarios": 69,
+      "consultasRealizadas": 57,
       "consultasPrimeraVez": 1,
-      "consultasControl": 66
+      "consultasControl": 68
     },
     "2026_10_DARIO FERNANDO BURBANO LUNA": {
       "totalHonorarios": 66,
@@ -98217,10 +98217,10 @@
       "consultasControl": 41
     },
     "2026_10_EULER JAVIER BURBANO LUNA": {
-      "totalHonorarios": 52,
-      "consultasRealizadas": 43,
+      "totalHonorarios": 53,
+      "consultasRealizadas": 44,
       "consultasPrimeraVez": 24,
-      "consultasControl": 28
+      "consultasControl": 29
     },
     "2026_10_VALENTINA SANCHEZ FERNANDEZ": {
       "totalHonorarios": 52,
@@ -98229,10 +98229,10 @@
       "consultasControl": 27
     },
     "2026_10_CARLOS ALBERTO ACEVEDO MEDINA": {
-      "totalHonorarios": 50,
-      "consultasRealizadas": 44,
+      "totalHonorarios": 51,
+      "consultasRealizadas": 45,
       "consultasPrimeraVez": 5,
-      "consultasControl": 45
+      "consultasControl": 46
     },
     "2026_10_JOSE MAURICIO CARDENAS PRIETO": {
       "totalHonorarios": 49,
@@ -98265,9 +98265,9 @@
       "consultasControl": 38
     },
     "2026_10_LINA MARIA PARDO OROZCO": {
-      "totalHonorarios": 36,
-      "consultasRealizadas": 27,
-      "consultasPrimeraVez": 9,
+      "totalHonorarios": 37,
+      "consultasRealizadas": 28,
+      "consultasPrimeraVez": 10,
       "consultasControl": 27
     },
     "2026_10_ALBERTO FRANCISCO DOMINGUEZ VELASCO": {
@@ -118809,9 +118809,9 @@
       "mes": "Octubre",
       "especialista": "JESSICA ANDREA MUÑOZ GOMEZ",
       "especialidad": "ENFERMERA(O) JEFE",
-      "totalCitas": 470,
+      "totalCitas": 473,
       "realizadas": 100,
-      "primeraVez": 470,
+      "primeraVez": 473,
       "control": 0
     },
     {
@@ -118829,9 +118829,9 @@
       "mes": "Octubre",
       "especialista": "JENNY MARCELA DAZA",
       "especialidad": "MEDICINA GENERAL",
-      "totalCitas": 382,
+      "totalCitas": 383,
       "realizadas": 324,
-      "primeraVez": 166,
+      "primeraVez": 167,
       "control": 216
     },
     {
@@ -118839,9 +118839,9 @@
       "mes": "Octubre",
       "especialista": "CARLOS FERNANDO RAMIREZ DARAVINA",
       "especialidad": "ANESTESIOLOGIA",
-      "totalCitas": 368,
-      "realizadas": 327,
-      "primeraVez": 367,
+      "totalCitas": 369,
+      "realizadas": 328,
+      "primeraVez": 368,
       "control": 0
     },
     {
@@ -118859,80 +118859,80 @@
       "mes": "Octubre",
       "especialista": "JUAN MANUEL HERNANDEZ TORRES",
       "especialidad": "MEDICINA INTERNA",
-      "totalCitas": 362,
-      "realizadas": 270,
+      "totalCitas": 363,
+      "realizadas": 271,
       "primeraVez": 81,
-      "control": 281
+      "control": 282
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "JORGE HERNAN TRUJILLO VIDAL",
       "especialidad": "CIRUGIA GENERAL",
-      "totalCitas": 340,
-      "realizadas": 295,
+      "totalCitas": 342,
+      "realizadas": 297,
       "primeraVez": 154,
-      "control": 186
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "VICTORIA EUGENIA GOMEZ ESCOBAR",
-      "especialidad": "REUMATOLOGIA",
-      "totalCitas": 316,
-      "realizadas": 264,
-      "primeraVez": 42,
-      "control": 261
+      "control": 188
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "FERNANDO ARCESIO URREA CALDAS",
       "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA",
-      "totalCitas": 316,
-      "realizadas": 279,
+      "totalCitas": 318,
+      "realizadas": 281,
       "primeraVez": 81,
-      "control": 235
+      "control": 237
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "VICTORIA EUGENIA GOMEZ ESCOBAR",
+      "especialidad": "REUMATOLOGIA",
+      "totalCitas": 317,
+      "realizadas": 265,
+      "primeraVez": 42,
+      "control": 262
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "DAVID BENSUR ALALUF",
       "especialidad": "OTORRINOLARINGOLOGIA",
-      "totalCitas": 270,
-      "realizadas": 240,
+      "totalCitas": 271,
+      "realizadas": 241,
       "primeraVez": 156,
-      "control": 114
+      "control": 115
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "IDARLYS MASSIEL YATE MORALES",
       "especialidad": "NEUROLOGIA",
-      "totalCitas": 259,
-      "realizadas": 204,
+      "totalCitas": 260,
+      "realizadas": 205,
       "primeraVez": 46,
-      "control": 211
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "BETTY MILENA MATABAJOY YAQUENO",
-      "especialidad": "PSICOLOGIA",
-      "totalCitas": 256,
-      "realizadas": 196,
-      "primeraVez": 255,
-      "control": 1
+      "control": 212
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "RICARDO ANDRES GIRALDO ARBOLEDA",
       "especialidad": "CARDIOLOGIA",
-      "totalCitas": 253,
-      "realizadas": 210,
-      "primeraVez": 51,
-      "control": 202
+      "totalCitas": 259,
+      "realizadas": 215,
+      "primeraVez": 54,
+      "control": 205
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "BETTY MILENA MATABAJOY YAQUENO",
+      "especialidad": "PSICOLOGIA",
+      "totalCitas": 257,
+      "realizadas": 197,
+      "primeraVez": 256,
+      "control": 1
     },
     {
       "anio": 2026,
@@ -118949,9 +118949,9 @@
       "mes": "Octubre",
       "especialista": "VALENTINA CARDONA CANO",
       "especialidad": "NUTRICIONISTA",
-      "totalCitas": 234,
-      "realizadas": 179,
-      "primeraVez": 234,
+      "totalCitas": 235,
+      "realizadas": 180,
+      "primeraVez": 235,
       "control": 0
     },
     {
@@ -118959,10 +118959,10 @@
       "mes": "Octubre",
       "especialista": "ELIZABETH MILENA ARCINIEGAS BASTIDAS",
       "especialidad": "DERMATOLOGIA",
-      "totalCitas": 217,
+      "totalCitas": 218,
       "realizadas": 171,
       "primeraVez": 92,
-      "control": 125
+      "control": 126
     },
     {
       "anio": 2026,
@@ -118977,6 +118977,16 @@
     {
       "anio": 2026,
       "mes": "Octubre",
+      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 205,
+      "realizadas": 198,
+      "primeraVez": 182,
+      "control": 23
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
       "especialista": "EDGAR RICARDO ALTUZARRA SILVA",
       "especialidad": "DERMATOLOGIA",
       "totalCitas": 205,
@@ -118987,22 +118997,12 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "JAIRI LLOVELA ANDRADE ROSERO",
-      "especialidad": "MEDICINA GENERAL",
-      "totalCitas": 204,
-      "realizadas": 197,
-      "primeraVez": 181,
-      "control": 23
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
       "especialista": "NICOLE MARIA CORRALES DIAZ",
       "especialidad": "MEDICINA FAMILIAR",
-      "totalCitas": 199,
-      "realizadas": 150,
+      "totalCitas": 200,
+      "realizadas": 151,
       "primeraVez": 56,
-      "control": 143
+      "control": 144
     },
     {
       "anio": 2026,
@@ -119019,10 +119019,20 @@
       "mes": "Octubre",
       "especialista": "ROSANNY CAROLINA MAYA VASQUEZ",
       "especialidad": "CARDIOLOGIA",
-      "totalCitas": 184,
+      "totalCitas": 185,
       "realizadas": 158,
       "primeraVez": 30,
-      "control": 154
+      "control": 155
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "JAIRO MAURICIO HERNANDEZ BARONA",
+      "especialidad": "CIRUGIA GENERAL",
+      "totalCitas": 175,
+      "realizadas": 144,
+      "primeraVez": 103,
+      "control": 72
     },
     {
       "anio": 2026,
@@ -119033,16 +119043,6 @@
       "realizadas": 131,
       "primeraVez": 57,
       "control": 107
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "JAIRO MAURICIO HERNANDEZ BARONA",
-      "especialidad": "CIRUGIA GENERAL",
-      "totalCitas": 173,
-      "realizadas": 142,
-      "primeraVez": 103,
-      "control": 70
     },
     {
       "anio": 2026,
@@ -119059,10 +119059,20 @@
       "mes": "Octubre",
       "especialista": "JOHANA ANDREA BENAVIDES MARTINEZ",
       "especialidad": "UROLOGIA",
-      "totalCitas": 157,
-      "realizadas": 133,
+      "totalCitas": 159,
+      "realizadas": 135,
       "primeraVez": 0,
-      "control": 157
+      "control": 159
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "HAROLD HEVER CASTILLO DIAZ",
+      "especialidad": "REUMATOLOGIA",
+      "totalCitas": 154,
+      "realizadas": 132,
+      "primeraVez": 5,
+      "control": 149
     },
     {
       "anio": 2026,
@@ -119077,16 +119087,6 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "HAROLD HEVER CASTILLO DIAZ",
-      "especialidad": "REUMATOLOGIA",
-      "totalCitas": 153,
-      "realizadas": 131,
-      "primeraVez": 5,
-      "control": 148
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
       "especialista": "VICTOR ALFONSO SANTOS ANDRADE",
       "especialidad": "REUMATOLOGIA",
       "totalCitas": 150,
@@ -119097,22 +119097,22 @@
     {
       "anio": 2026,
       "mes": "Octubre",
+      "especialista": "JOSE MANUEL GOMEZ SIERRA",
+      "especialidad": "NEUROLOGIA",
+      "totalCitas": 149,
+      "realizadas": 128,
+      "primeraVez": 34,
+      "control": 112
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
       "especialista": "ILBA JUDITH ORTIZ CUAYAL",
       "especialidad": "NEFROLOGIA",
       "totalCitas": 148,
       "realizadas": 129,
       "primeraVez": 16,
       "control": 132
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "JOSE MANUEL GOMEZ SIERRA",
-      "especialidad": "NEUROLOGIA",
-      "totalCitas": 148,
-      "realizadas": 126,
-      "primeraVez": 33,
-      "control": 112
     },
     {
       "anio": 2026,
@@ -119149,10 +119149,10 @@
       "mes": "Octubre",
       "especialista": "RICHARD LONDONO CHAVEZ",
       "especialidad": "NEUROLOGIA PEDIATRICA",
-      "totalCitas": 127,
-      "realizadas": 106,
+      "totalCitas": 128,
+      "realizadas": 107,
       "primeraVez": 49,
-      "control": 77
+      "control": 78
     },
     {
       "anio": 2026,
@@ -119169,9 +119169,9 @@
       "mes": "Octubre",
       "especialista": "MIGUEL ALBERTO RODRIGUEZ GARZON",
       "especialidad": "GINECOLOGIA ALTA COMPLEJIDAD",
-      "totalCitas": 117,
-      "realizadas": 106,
-      "primeraVez": 51,
+      "totalCitas": 118,
+      "realizadas": 107,
+      "primeraVez": 52,
       "control": 66
     },
     {
@@ -119179,10 +119179,10 @@
       "mes": "Octubre",
       "especialista": "LUZ MARY LOPEZ MONTENEGRO",
       "especialidad": "ENDOCRINOLOGIA PEDIATRICA",
-      "totalCitas": 115,
-      "realizadas": 100,
+      "totalCitas": 116,
+      "realizadas": 101,
       "primeraVez": 34,
-      "control": 81
+      "control": 82
     },
     {
       "anio": 2026,
@@ -119267,22 +119267,22 @@
     {
       "anio": 2026,
       "mes": "Octubre",
+      "especialista": "JULIANA ANDREA HOLGUIN HIDALGO",
+      "especialidad": "CIRUGIA VASCULAR",
+      "totalCitas": 99,
+      "realizadas": 80,
+      "primeraVez": 35,
+      "control": 64
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
       "especialista": "PAOLA ANDREA BUITRAGO PERDOMO",
       "especialidad": "OTORRINOLARINGOLOGIA",
       "totalCitas": 96,
       "realizadas": 78,
       "primeraVez": 41,
       "control": 55
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "JULIANA ANDREA HOLGUIN HIDALGO",
-      "especialidad": "CIRUGIA VASCULAR",
-      "totalCitas": 94,
-      "realizadas": 76,
-      "primeraVez": 31,
-      "control": 63
     },
     {
       "anio": 2026,
@@ -119307,6 +119307,16 @@
     {
       "anio": 2026,
       "mes": "Octubre",
+      "especialista": "LUISA ELENA DEL MORAL NOGUERA",
+      "especialidad": "NEUROLOGIA",
+      "totalCitas": 89,
+      "realizadas": 72,
+      "primeraVez": 18,
+      "control": 71
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
       "especialista": "JORGE PRIETO PENUELA",
       "especialidad": "CIRUGIA GENERAL",
       "totalCitas": 89,
@@ -119317,22 +119327,22 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "LUISA ELENA DEL MORAL NOGUERA",
-      "especialidad": "NEUROLOGIA",
-      "totalCitas": 88,
-      "realizadas": 71,
-      "primeraVez": 18,
-      "control": 70
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
       "especialista": "ANGEL ARTURO ROBERTY GONZALEZ",
       "especialidad": "CIRUGIA GENERAL",
       "totalCitas": 88,
       "realizadas": 74,
       "primeraVez": 31,
       "control": 57
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "CARLOS ANDRES VARON GIL",
+      "especialidad": "NEUROCIRUGIA",
+      "totalCitas": 86,
+      "realizadas": 76,
+      "primeraVez": 34,
+      "control": 52
     },
     {
       "anio": 2026,
@@ -119353,16 +119363,6 @@
       "realizadas": 75,
       "primeraVez": 31,
       "control": 54
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "especialista": "CARLOS ANDRES VARON GIL",
-      "especialidad": "NEUROCIRUGIA",
-      "totalCitas": 85,
-      "realizadas": 75,
-      "primeraVez": 33,
-      "control": 52
     },
     {
       "anio": 2026,
@@ -119437,6 +119437,16 @@
     {
       "anio": 2026,
       "mes": "Octubre",
+      "especialista": "LUIS MIGUEL TUTAL MUNOZ",
+      "especialidad": "CIRUGIA ENDOSCOPICA GINECOLOGICA",
+      "totalCitas": 74,
+      "realizadas": 69,
+      "primeraVez": 30,
+      "control": 44
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
       "especialista": "ELMER DIAZ VIDAL",
       "especialidad": "AUDIOLOGIA",
       "totalCitas": 73,
@@ -119447,32 +119457,22 @@
     {
       "anio": 2026,
       "mes": "Octubre",
-      "especialista": "LUIS MIGUEL TUTAL MUNOZ",
-      "especialidad": "CIRUGIA ENDOSCOPICA GINECOLOGICA",
-      "totalCitas": 73,
-      "realizadas": 67,
-      "primeraVez": 29,
-      "control": 44
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
       "especialista": "YULY FERNANDA MOTTA ARTUNDUAGA",
       "especialidad": "GERIATRIA CLINICA",
-      "totalCitas": 70,
-      "realizadas": 60,
+      "totalCitas": 71,
+      "realizadas": 61,
       "primeraVez": 25,
-      "control": 45
+      "control": 46
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "especialista": "SANTIAGO LOPEZ TORO",
       "especialidad": "UROLOGIA",
-      "totalCitas": 67,
-      "realizadas": 55,
+      "totalCitas": 69,
+      "realizadas": 57,
       "primeraVez": 1,
-      "control": 66
+      "control": 68
     },
     {
       "anio": 2026,
@@ -119519,10 +119519,10 @@
       "mes": "Octubre",
       "especialista": "EULER JAVIER BURBANO LUNA",
       "especialidad": "GINECOLOGIA ALTA COMPLEJIDAD",
-      "totalCitas": 52,
-      "realizadas": 43,
+      "totalCitas": 53,
+      "realizadas": 44,
       "primeraVez": 24,
-      "control": 28
+      "control": 29
     },
     {
       "anio": 2026,
@@ -119539,10 +119539,10 @@
       "mes": "Octubre",
       "especialista": "CARLOS ALBERTO ACEVEDO MEDINA",
       "especialidad": "INFECTOLOGIA",
-      "totalCitas": 50,
-      "realizadas": 44,
+      "totalCitas": 51,
+      "realizadas": 45,
       "primeraVez": 5,
-      "control": 45
+      "control": 46
     },
     {
       "anio": 2026,
@@ -119599,9 +119599,9 @@
       "mes": "Octubre",
       "especialista": "LINA MARIA PARDO OROZCO",
       "especialidad": "CIRUGIA PEDIATRICA",
-      "totalCitas": 36,
-      "realizadas": 27,
-      "primeraVez": 9,
+      "totalCitas": 37,
+      "realizadas": 28,
+      "primeraVez": 10,
       "control": 27
     },
     {
@@ -189275,16 +189275,16 @@
         }
       },
       "Octubre": {
-        "total": 12131,
+        "total": 12179,
         "si": {
-          "total": 9991,
-          "primeraVez": 3792,
-          "control": 6157
+          "total": 10033,
+          "primeraVez": 3808,
+          "control": 6183
         },
         "no": {
-          "total": 2140,
-          "primeraVez": 1042,
-          "control": 1089
+          "total": 2146,
+          "primeraVez": 1046,
+          "control": 1091
         }
       }
     },
@@ -209341,10 +209341,10 @@
       }
     },
     "2026_10_ANESTESIOLOGIA": {
-      "total": 473,
+      "total": 474,
       "si": {
-        "total": 426,
-        "primeraVez": 426,
+        "total": 427,
+        "primeraVez": 427,
         "control": 0
       },
       "no": {
@@ -209367,16 +209367,16 @@
       }
     },
     "2026_10_CARDIOLOGIA": {
-      "total": 437,
+      "total": 444,
       "si": {
-        "total": 368,
-        "primeraVez": 66,
-        "control": 302
+        "total": 373,
+        "primeraVez": 69,
+        "control": 304
       },
       "no": {
-        "total": 69,
+        "total": 71,
         "primeraVez": 15,
-        "control": 54
+        "control": 56
       }
     },
     "2026_10_CARDIOLOGIA PEDIATRICA": {
@@ -209419,24 +209419,24 @@
       }
     },
     "2026_10_CIRUGIA ENDOSCOPICA GINECOLOGICA": {
-      "total": 73,
+      "total": 74,
       "si": {
-        "total": 67,
-        "primeraVez": 26,
-        "control": 41
+        "total": 69,
+        "primeraVez": 27,
+        "control": 42
       },
       "no": {
-        "total": 6,
+        "total": 5,
         "primeraVez": 3,
-        "control": 3
+        "control": 2
       }
     },
     "2026_10_CIRUGIA GENERAL": {
-      "total": 1030,
+      "total": 1034,
       "si": {
-        "total": 887,
+        "total": 891,
         "primeraVez": 417,
-        "control": 470
+        "control": 474
       },
       "no": {
         "total": 143,
@@ -209471,10 +209471,10 @@
       }
     },
     "2026_10_CIRUGIA PEDIATRICA": {
-      "total": 71,
+      "total": 72,
       "si": {
-        "total": 60,
-        "primeraVez": 13,
+        "total": 61,
+        "primeraVez": 14,
         "control": 47
       },
       "no": {
@@ -209497,29 +209497,29 @@
       }
     },
     "2026_10_CIRUGIA VASCULAR": {
-      "total": 176,
+      "total": 181,
       "si": {
-        "total": 150,
-        "primeraVez": 53,
-        "control": 97
+        "total": 154,
+        "primeraVez": 56,
+        "control": 98
       },
       "no": {
-        "total": 26,
-        "primeraVez": 6,
+        "total": 27,
+        "primeraVez": 7,
         "control": 20
       }
     },
     "2026_10_DERMATOLOGIA": {
-      "total": 636,
+      "total": 637,
       "si": {
         "total": 519,
         "primeraVez": 235,
         "control": 284
       },
       "no": {
-        "total": 117,
+        "total": 118,
         "primeraVez": 58,
-        "control": 59
+        "control": 60
       }
     },
     "2026_10_ENDOCRINOLOGIA": {
@@ -209536,11 +209536,11 @@
       }
     },
     "2026_10_ENDOCRINOLOGIA PEDIATRICA": {
-      "total": 115,
+      "total": 116,
       "si": {
-        "total": 100,
+        "total": 101,
         "primeraVez": 32,
-        "control": 68
+        "control": 69
       },
       "no": {
         "total": 15,
@@ -209549,15 +209549,15 @@
       }
     },
     "2026_10_ENFERMERA(O) JEFE": {
-      "total": 470,
+      "total": 473,
       "si": {
         "total": 100,
         "primeraVez": 100,
         "control": 0
       },
       "no": {
-        "total": 370,
-        "primeraVez": 370,
+        "total": 373,
+        "primeraVez": 373,
         "control": 0
       }
     },
@@ -209588,11 +209588,11 @@
       }
     },
     "2026_10_GERIATRIA CLINICA": {
-      "total": 70,
+      "total": 71,
       "si": {
-        "total": 60,
+        "total": 61,
         "primeraVez": 23,
-        "control": 37
+        "control": 38
       },
       "no": {
         "total": 10,
@@ -209601,11 +209601,11 @@
       }
     },
     "2026_10_GINECOLOGIA ALTA COMPLEJIDAD": {
-      "total": 169,
+      "total": 171,
       "si": {
-        "total": 149,
-        "primeraVez": 63,
-        "control": 86
+        "total": 151,
+        "primeraVez": 64,
+        "control": 87
       },
       "no": {
         "total": 20,
@@ -209640,11 +209640,11 @@
       }
     },
     "2026_10_INFECTOLOGIA": {
-      "total": 142,
+      "total": 143,
       "si": {
-        "total": 130,
+        "total": 131,
         "primeraVez": 39,
-        "control": 91
+        "control": 92
       },
       "no": {
         "total": 12,
@@ -209679,11 +209679,11 @@
       }
     },
     "2026_10_MEDICINA FAMILIAR": {
-      "total": 395,
+      "total": 396,
       "si": {
-        "total": 328,
+        "total": 329,
         "primeraVez": 139,
-        "control": 189
+        "control": 190
       },
       "no": {
         "total": 67,
@@ -209692,24 +209692,24 @@
       }
     },
     "2026_10_MEDICINA GENERAL": {
-      "total": 814,
+      "total": 816,
       "si": {
-        "total": 726,
-        "primeraVez": 404,
+        "total": 727,
+        "primeraVez": 405,
         "control": 322
       },
       "no": {
-        "total": 88,
-        "primeraVez": 39,
+        "total": 89,
+        "primeraVez": 40,
         "control": 49
       }
     },
     "2026_10_MEDICINA INTERNA": {
-      "total": 362,
+      "total": 363,
       "si": {
-        "total": 270,
+        "total": 271,
         "primeraVez": 61,
-        "control": 209
+        "control": 210
       },
       "no": {
         "total": 92,
@@ -209757,10 +209757,10 @@
       }
     },
     "2026_10_NEUROCIRUGIA": {
-      "total": 203,
+      "total": 204,
       "si": {
-        "total": 174,
-        "primeraVez": 80,
+        "total": 175,
+        "primeraVez": 81,
         "control": 94
       },
       "no": {
@@ -209770,24 +209770,24 @@
       }
     },
     "2026_10_NEUROLOGIA": {
-      "total": 544,
+      "total": 547,
       "si": {
-        "total": 440,
-        "primeraVez": 79,
-        "control": 355
+        "total": 444,
+        "primeraVez": 81,
+        "control": 357
       },
       "no": {
-        "total": 104,
-        "primeraVez": 27,
+        "total": 103,
+        "primeraVez": 26,
         "control": 77
       }
     },
     "2026_10_NEUROLOGIA PEDIATRICA": {
-      "total": 127,
+      "total": 128,
       "si": {
-        "total": 106,
+        "total": 107,
         "primeraVez": 40,
-        "control": 65
+        "control": 66
       },
       "no": {
         "total": 21,
@@ -209796,10 +209796,10 @@
       }
     },
     "2026_10_NUTRICIONISTA": {
-      "total": 275,
+      "total": 276,
       "si": {
-        "total": 207,
-        "primeraVez": 207,
+        "total": 208,
+        "primeraVez": 208,
         "control": 0
       },
       "no": {
@@ -209822,11 +209822,11 @@
       }
     },
     "2026_10_ORTOPEDIA Y TRAUMATOLOGIA": {
-      "total": 1133,
+      "total": 1135,
       "si": {
-        "total": 1005,
+        "total": 1007,
         "primeraVez": 274,
-        "control": 731
+        "control": 733
       },
       "no": {
         "total": 128,
@@ -209835,11 +209835,11 @@
       }
     },
     "2026_10_OTORRINOLARINGOLOGIA": {
-      "total": 543,
+      "total": 544,
       "si": {
-        "total": 471,
+        "total": 472,
         "primeraVez": 247,
-        "control": 224
+        "control": 225
       },
       "no": {
         "total": 72,
@@ -209861,10 +209861,10 @@
       }
     },
     "2026_10_PSICOLOGIA": {
-      "total": 258,
+      "total": 259,
       "si": {
-        "total": 198,
-        "primeraVez": 195,
+        "total": 199,
+        "primeraVez": 196,
         "control": 3
       },
       "no": {
@@ -209874,11 +209874,11 @@
       }
     },
     "2026_10_REUMATOLOGIA": {
-      "total": 619,
+      "total": 621,
       "si": {
-        "total": 521,
+        "total": 523,
         "primeraVez": 65,
-        "control": 443
+        "control": 445
       },
       "no": {
         "total": 98,
@@ -209900,11 +209900,11 @@
       }
     },
     "2026_10_UROLOGIA": {
-      "total": 473,
+      "total": 477,
       "si": {
-        "total": 408,
+        "total": 412,
         "primeraVez": 3,
-        "control": 405
+        "control": 409
       },
       "no": {
         "total": 65,
@@ -254167,10 +254167,10 @@
       }
     },
     "2026_10_CARLOS FERNANDO RAMIREZ DARAVINA": {
-      "total": 368,
+      "total": 369,
       "si": {
-        "total": 327,
-        "primeraVez": 327,
+        "total": 328,
+        "primeraVez": 328,
         "control": 0
       },
       "no": {
@@ -254206,29 +254206,29 @@
       }
     },
     "2026_10_RICARDO ANDRES GIRALDO ARBOLEDA": {
-      "total": 253,
+      "total": 259,
       "si": {
-        "total": 210,
-        "primeraVez": 42,
-        "control": 168
+        "total": 215,
+        "primeraVez": 45,
+        "control": 170
       },
       "no": {
-        "total": 43,
+        "total": 44,
         "primeraVez": 9,
-        "control": 34
+        "control": 35
       }
     },
     "2026_10_ROSANNY CAROLINA MAYA VASQUEZ": {
-      "total": 184,
+      "total": 185,
       "si": {
         "total": 158,
         "primeraVez": 24,
         "control": 134
       },
       "no": {
-        "total": 26,
+        "total": 27,
         "primeraVez": 6,
-        "control": 20
+        "control": 21
       }
     },
     "2026_10_LILIANA RAMIREZ HERRERA": {
@@ -254271,16 +254271,16 @@
       }
     },
     "2026_10_LUIS MIGUEL TUTAL MUNOZ": {
-      "total": 73,
+      "total": 74,
       "si": {
-        "total": 67,
-        "primeraVez": 26,
-        "control": 41
+        "total": 69,
+        "primeraVez": 27,
+        "control": 42
       },
       "no": {
-        "total": 6,
+        "total": 5,
         "primeraVez": 3,
-        "control": 3
+        "control": 2
       }
     },
     "2026_10_ANGEL ARTURO ROBERTY GONZALEZ": {
@@ -254323,11 +254323,11 @@
       }
     },
     "2026_10_JAIRO MAURICIO HERNANDEZ BARONA": {
-      "total": 173,
+      "total": 175,
       "si": {
-        "total": 142,
+        "total": 144,
         "primeraVez": 85,
-        "control": 57
+        "control": 59
       },
       "no": {
         "total": 31,
@@ -254349,11 +254349,11 @@
       }
     },
     "2026_10_JORGE HERNAN TRUJILLO VIDAL": {
-      "total": 340,
+      "total": 342,
       "si": {
-        "total": 295,
+        "total": 297,
         "primeraVez": 133,
-        "control": 162
+        "control": 164
       },
       "no": {
         "total": 45,
@@ -254440,10 +254440,10 @@
       }
     },
     "2026_10_LINA MARIA PARDO OROZCO": {
-      "total": 36,
+      "total": 37,
       "si": {
-        "total": 27,
-        "primeraVez": 4,
+        "total": 28,
+        "primeraVez": 5,
         "control": 23
       },
       "no": {
@@ -254505,15 +254505,15 @@
       }
     },
     "2026_10_JULIANA ANDREA HOLGUIN HIDALGO": {
-      "total": 94,
+      "total": 99,
       "si": {
-        "total": 76,
-        "primeraVez": 29,
-        "control": 47
+        "total": 80,
+        "primeraVez": 32,
+        "control": 48
       },
       "no": {
-        "total": 18,
-        "primeraVez": 2,
+        "total": 19,
+        "primeraVez": 3,
         "control": 16
       }
     },
@@ -254557,16 +254557,16 @@
       }
     },
     "2026_10_ELIZABETH MILENA ARCINIEGAS BASTIDAS": {
-      "total": 217,
+      "total": 218,
       "si": {
         "total": 171,
         "primeraVez": 71,
         "control": 100
       },
       "no": {
-        "total": 46,
+        "total": 47,
         "primeraVez": 21,
-        "control": 25
+        "control": 26
       }
     },
     "2026_10_ALIN ABREU LOMBA": {
@@ -254583,11 +254583,11 @@
       }
     },
     "2026_10_LUZ MARY LOPEZ MONTENEGRO": {
-      "total": 115,
+      "total": 116,
       "si": {
-        "total": 100,
+        "total": 101,
         "primeraVez": 32,
-        "control": 68
+        "control": 69
       },
       "no": {
         "total": 15,
@@ -254596,15 +254596,15 @@
       }
     },
     "2026_10_JESSICA ANDREA MUÑOZ GOMEZ": {
-      "total": 470,
+      "total": 473,
       "si": {
         "total": 100,
         "primeraVez": 100,
         "control": 0
       },
       "no": {
-        "total": 370,
-        "primeraVez": 370,
+        "total": 373,
+        "primeraVez": 373,
         "control": 0
       }
     },
@@ -254661,11 +254661,11 @@
       }
     },
     "2026_10_YULY FERNANDA MOTTA ARTUNDUAGA": {
-      "total": 70,
+      "total": 71,
       "si": {
-        "total": 60,
+        "total": 61,
         "primeraVez": 23,
-        "control": 37
+        "control": 38
       },
       "no": {
         "total": 10,
@@ -254674,11 +254674,11 @@
       }
     },
     "2026_10_EULER JAVIER BURBANO LUNA": {
-      "total": 52,
+      "total": 53,
       "si": {
-        "total": 43,
+        "total": 44,
         "primeraVez": 19,
-        "control": 24
+        "control": 25
       },
       "no": {
         "total": 9,
@@ -254687,10 +254687,10 @@
       }
     },
     "2026_10_MIGUEL ALBERTO RODRIGUEZ GARZON": {
-      "total": 117,
+      "total": 118,
       "si": {
-        "total": 106,
-        "primeraVez": 44,
+        "total": 107,
+        "primeraVez": 45,
         "control": 62
       },
       "no": {
@@ -254765,11 +254765,11 @@
       }
     },
     "2026_10_CARLOS ALBERTO ACEVEDO MEDINA": {
-      "total": 50,
+      "total": 51,
       "si": {
-        "total": 44,
+        "total": 45,
         "primeraVez": 5,
-        "control": 39
+        "control": 40
       },
       "no": {
         "total": 6,
@@ -254843,11 +254843,11 @@
       }
     },
     "2026_10_NICOLE MARIA CORRALES DIAZ": {
-      "total": 199,
+      "total": 200,
       "si": {
-        "total": 150,
+        "total": 151,
         "primeraVez": 41,
-        "control": 109
+        "control": 110
       },
       "no": {
         "total": 49,
@@ -254856,10 +254856,10 @@
       }
     },
     "2026_10_JAIRI LLOVELA ANDRADE ROSERO": {
-      "total": 204,
+      "total": 205,
       "si": {
-        "total": 197,
-        "primeraVez": 175,
+        "total": 198,
+        "primeraVez": 176,
         "control": 22
       },
       "no": {
@@ -254869,15 +254869,15 @@
       }
     },
     "2026_10_JENNY MARCELA DAZA": {
-      "total": 382,
+      "total": 383,
       "si": {
         "total": 324,
         "primeraVez": 141,
         "control": 183
       },
       "no": {
-        "total": 58,
-        "primeraVez": 25,
+        "total": 59,
+        "primeraVez": 26,
         "control": 33
       }
     },
@@ -254908,11 +254908,11 @@
       }
     },
     "2026_10_JUAN MANUEL HERNANDEZ TORRES": {
-      "total": 362,
+      "total": 363,
       "si": {
-        "total": 270,
+        "total": 271,
         "primeraVez": 61,
-        "control": 209
+        "control": 210
       },
       "no": {
         "total": 92,
@@ -255012,10 +255012,10 @@
       }
     },
     "2026_10_CARLOS ANDRES VARON GIL": {
-      "total": 85,
+      "total": 86,
       "si": {
-        "total": 75,
-        "primeraVez": 30,
+        "total": 76,
+        "primeraVez": 31,
         "control": 45
       },
       "no": {
@@ -255038,11 +255038,11 @@
       }
     },
     "2026_10_IDARLYS MASSIEL YATE MORALES": {
-      "total": 259,
+      "total": 260,
       "si": {
-        "total": 204,
+        "total": 205,
         "primeraVez": 32,
-        "control": 170
+        "control": 171
       },
       "no": {
         "total": 55,
@@ -255051,15 +255051,15 @@
       }
     },
     "2026_10_JOSE MANUEL GOMEZ SIERRA": {
-      "total": 148,
+      "total": 149,
       "si": {
-        "total": 126,
-        "primeraVez": 28,
+        "total": 128,
+        "primeraVez": 30,
         "control": 95
       },
       "no": {
-        "total": 22,
-        "primeraVez": 5,
+        "total": 21,
+        "primeraVez": 4,
         "control": 17
       }
     },
@@ -255077,11 +255077,11 @@
       }
     },
     "2026_10_LUISA ELENA DEL MORAL NOGUERA": {
-      "total": 88,
+      "total": 89,
       "si": {
-        "total": 71,
+        "total": 72,
         "primeraVez": 13,
-        "control": 58
+        "control": 59
       },
       "no": {
         "total": 17,
@@ -255090,11 +255090,11 @@
       }
     },
     "2026_10_RICHARD LONDONO CHAVEZ": {
-      "total": 127,
+      "total": 128,
       "si": {
-        "total": 106,
+        "total": 107,
         "primeraVez": 40,
-        "control": 65
+        "control": 66
       },
       "no": {
         "total": 21,
@@ -255116,10 +255116,10 @@
       }
     },
     "2026_10_VALENTINA CARDONA CANO": {
-      "total": 234,
+      "total": 235,
       "si": {
-        "total": 179,
-        "primeraVez": 179,
+        "total": 180,
+        "primeraVez": 180,
         "control": 0
       },
       "no": {
@@ -255155,11 +255155,11 @@
       }
     },
     "2026_10_FERNANDO ARCESIO URREA CALDAS": {
-      "total": 316,
+      "total": 318,
       "si": {
-        "total": 279,
+        "total": 281,
         "primeraVez": 75,
-        "control": 204
+        "control": 206
       },
       "no": {
         "total": 37,
@@ -255233,11 +255233,11 @@
       }
     },
     "2026_10_DAVID BENSUR ALALUF": {
-      "total": 270,
+      "total": 271,
       "si": {
-        "total": 240,
+        "total": 241,
         "primeraVez": 139,
-        "control": 101
+        "control": 102
       },
       "no": {
         "total": 30,
@@ -255298,10 +255298,10 @@
       }
     },
     "2026_10_BETTY MILENA MATABAJOY YAQUENO": {
-      "total": 256,
+      "total": 257,
       "si": {
-        "total": 196,
-        "primeraVez": 195,
+        "total": 197,
+        "primeraVez": 196,
         "control": 1
       },
       "no": {
@@ -255324,11 +255324,11 @@
       }
     },
     "2026_10_HAROLD HEVER CASTILLO DIAZ": {
-      "total": 153,
+      "total": 154,
       "si": {
-        "total": 131,
+        "total": 132,
         "primeraVez": 4,
-        "control": 127
+        "control": 128
       },
       "no": {
         "total": 22,
@@ -255350,11 +255350,11 @@
       }
     },
     "2026_10_VICTORIA EUGENIA GOMEZ ESCOBAR": {
-      "total": 316,
+      "total": 317,
       "si": {
-        "total": 264,
+        "total": 265,
         "primeraVez": 34,
-        "control": 218
+        "control": 219
       },
       "no": {
         "total": 52,
@@ -255389,11 +255389,11 @@
       }
     },
     "2026_10_JOHANA ANDREA BENAVIDES MARTINEZ": {
-      "total": 157,
+      "total": 159,
       "si": {
-        "total": 133,
+        "total": 135,
         "primeraVez": 0,
-        "control": 133
+        "control": 135
       },
       "no": {
         "total": 24,
@@ -255428,11 +255428,11 @@
       }
     },
     "2026_10_SANTIAGO LOPEZ TORO": {
-      "total": 67,
+      "total": 69,
       "si": {
-        "total": 55,
+        "total": 57,
         "primeraVez": 1,
-        "control": 54
+        "control": 56
       },
       "no": {
         "total": 12,

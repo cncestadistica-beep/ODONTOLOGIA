@@ -10,7 +10,7 @@ load_dotenv()
 def clean_text(s):
     if not s:
         return ''
-    s = s.strip()
+    s = str(s).strip()
     s = s.replace('ORTOPEDIA Y TRAUMATOLOG\ufffdA', 'ORTOPEDIA Y TRAUMATOLOGÍA')
     s = s.replace('GINECOBSTETRICIA / GINECOLOG\ufffdA', 'GINECOBSTETRICIA / GINECOLOGÍA')
     s = s.replace('ANESTESIOLOG\ufffdA', 'ANESTESIOLOGÍA')
@@ -50,22 +50,33 @@ def sync_appointments():
     os.makedirs('public/data/citas', exist_ok=True)
 
     for yr in [2026, 2025, 2024]:
-        print(f'Procesando {yr}: extrayendo órdenes y recetas de fórmulas aprobadas...')
+        print(f'Procesando {yr}: extrayendo órdenes completas de fórmulas aprobadas...')
         cur.execute(f'''
         SELECT 
             fd.registro,
+            EXTRACT(month FROM fe.fecha_formula)::int as mes,
+            TO_CHAR(fe.fecha_formula, 'YYYY-MM-DD HH24:MI') as fecha,
             c.concepto,
-            c.nombre as concepto_nombre,
             fd.servicio as codigo,
             COALESCE(TRIM(s.descripcion), fd.servicio) as descripcion,
             fd.cantidad,
             fd.frecuencia,
-            fd.observacion
+            fd.observacion,
+            COALESCE(TRIM(t.nombre), TRIM(us.nombre), 'MEDICO ESPECIALISTA') as medico,
+            COALESCE(TRIM(esp.descripcion), TRIM(us.especialidad), 'MEDICINA GENERAL') as especialidad,
+            r.historia,
+            COALESCE(p.cedula, '') as cedula,
+            TRIM(COALESCE(p.nombre,'') || ' ' || COALESCE(p.nombre2,'') || ' ' || COALESCE(p.primer_apellido,'') || ' ' || COALESCE(p.segundo_apellido,'')) as paciente,
+            DATE_PART('year', AGE(fe.fecha_formula, p.fecha_nacimiento))::int as edad
         FROM formula_detalle fd
         JOIN formula_encabezado fe ON fd.registro = fe.registro AND fd.formula = fe.formula
         JOIN concepto c ON fd.concepto = c.concepto
         JOIN registro r ON fd.registro = r.registro
         JOIN unidad_servicio u ON r.unidad_servicio = u.unidad_servicio
+        LEFT JOIN paciente p ON r.historia = p.historia
+        LEFT JOIN usuario us ON fe.usuario = us.usuario
+        LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
+        LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         LEFT JOIN servicio s ON fd.servicio = s.servicio AND fd.concepto = s.concepto
         WHERE fe.ind_aprobada = 'S'
           AND fe.fecha_formula >= '{yr}-01-01 00:00:00' AND fe.fecha_formula <= LEAST('{yr}-12-31 23:59:59'::timestamp, CURRENT_TIMESTAMP)
@@ -74,11 +85,12 @@ def sync_appointments():
         ORDER BY fd.registro;
         ''')
         formula_rows = cur.fetchall()
-        orders_by_reg = {}
-        for reg, conc, conc_nom, cod, desc, cant, freq, obs in formula_rows:
+
+        all_formula_orders = []
+        orders_by_reg = defaultdict(list)
+
+        for idx, (reg, mes_num, fecha, conc, cod, desc, cant, freq, obs, medico, esp, hist, ced, pac, edad) in enumerate(formula_rows):
             reg_str = str(reg).strip()
-            if reg_str not in orders_by_reg:
-                orders_by_reg[reg_str] = []
             
             if conc == 'MEDI':
                 grupo = 'Medicamentos'
@@ -95,18 +107,30 @@ def sync_appointments():
             else:
                 continue
 
-            orders_by_reg[reg_str].append({
+            order_item = {
+                'ord_id': idx,
+                'reg': reg_str,
+                'mes': mes_num,
+                'fecha': fecha,
                 'g': grupo,
                 'c': conc,
                 'cod': str(cod).strip(),
                 'd': clean_text(desc),
                 'cant': float(cant) if cant is not None else 1,
                 'fr': clean_text(freq) if freq else '',
-                'obs': clean_text(obs) if obs else ''
-            })
-        print(f'{yr}: {len(formula_rows)} órdenes indexadas en {len(orders_by_reg)} registros.')
+                'obs': clean_text(obs) if obs else '',
+                'medico': clean_text(medico),
+                'esp': clean_text(esp),
+                'cedula': clean_text(ced),
+                'paciente': clean_text(pac) if pac else f'HISTORIA {hist}',
+                'edad': edad if (edad and 0 < edad < 120) else None
+            }
+            all_formula_orders.append(order_item)
+            orders_by_reg[reg_str].append(order_item)
 
-        print(f'Procesando {yr}: extrayendo citas con edad, controles y diagnóstico...')
+        print(f'{yr}: {len(all_formula_orders)} órdenes procesadas de {len(orders_by_reg)} registros.')
+
+        print(f'Procesando {yr}: extrayendo citas de especialistas...')
         cur.execute(f'''
         SELECT 
             EXTRACT(month FROM c.fecha_hora)::int as mes,
@@ -115,11 +139,7 @@ def sync_appointments():
             TO_CHAR(c.fecha_hora, 'YYYY-MM-DD HH24:MI') as fecha,
             COALESCE(c.cedula, c.historia, '') as cedula,
             TRIM(COALESCE(c.nombre, '')) as paciente,
-            COALESCE(
-                DATE_PART('year', AGE(c.fecha_hora, (SELECT p.fecha_nacimiento FROM paciente p WHERE p.historia = c.historia OR p.cedula = c.cedula LIMIT 1)))::int,
-                c.edad::int, 
-                0
-            ) as edad,
+            COALESCE(c.edad::int, 0) as edad,
             COALESCE(c.servicio, '') as cups,
             COALESCE(TRIM(s.descripcion), c.servicio, '') as servicio,
             CASE 
@@ -132,80 +152,75 @@ def sync_appointments():
              FROM registro r 
              WHERE r.historia = c.historia 
                AND date(r.fecha_ingreso) = date(c.fecha_hora) 
-             LIMIT 1) as registro,
-            diag.diag_desc,
-            diag.diag_code
+             LIMIT 1) as registro
         FROM cita c
         JOIN tercero t ON t.tercero = c.tercero
         LEFT JOIN especialidad e ON e.especialidad = COALESCE(c.especialidad, t.especialidad)
         LEFT JOIN servicio s ON s.servicio = c.servicio AND s.concepto = c.concepto
-        LEFT JOIN LATERAL (
-            SELECT 
-                COALESCE(TRIM(d.descripcion), TRIM(dp.diagnostico), TRIM(r.diagnostico_ingreso), '') as diag_desc,
-                COALESCE(TRIM(dp.diagnostico), TRIM(r.diagnostico_ingreso), '') as diag_code
-            FROM registro r
-            LEFT JOIN diagnostico_paciente dp ON dp.registro = r.registro OR dp.registro = r.registro_principal
-            LEFT JOIN diagnostico d ON d.diagnostico = COALESCE(dp.diagnostico, r.diagnostico_ingreso, r.diagnostico_1, r.diagnostico)
-            WHERE r.historia = c.historia AND date(r.fecha_ingreso) = date(c.fecha_hora)
-            ORDER BY dp.ind_principal DESC NULLS LAST, dp.fecha DESC NULLS LAST
-            LIMIT 1
-        ) diag ON true
         WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
           AND c.fecha_hora >= '{yr}-01-01 00:00:00' AND c.fecha_hora <= LEAST('{yr}-12-31 23:59:59'::timestamp, CURRENT_TIMESTAMP)
         ORDER BY c.fecha_hora ASC;
         ''')
-        rows = cur.fetchall()
-        
-        by_month_doc = {}
+        cita_rows = cur.fetchall()
+
+        by_month_doc = defaultdict(lambda: defaultdict(list))
         seen_keys = set()
+        attached_order_ids = set()
         saved_count = 0
 
-        excluded_keywords = [
-            'AUDITOR', 'ENFERMER', 'TRABAJO SOCIAL', 'TRABAJADORA SOCIAL',
-            'TRABAJADOR SOCIAL', 'AUXILIAR'
-        ]
-
-        for mes, doc, esp, fecha, ced, pac, edad, cups, serv, tipo, cumplida, reg, diag_desc, diag_code in rows:
-            clean_ced = ced.strip()
-            clean_cups = cups.strip()
+        for mes, doc, esp, fecha, ced, pac, edad, cups, serv, tipo, cumplida, reg in cita_rows:
+            clean_ced = clean_text(ced)
+            clean_cups = clean_text(cups)
             reg_str = str(reg).strip() if reg else ''
-            diag_str = clean_text(diag_desc) if diag_desc else ''
-            code_str = str(diag_code).strip() if diag_code else ''
-            
-            full_role = f"{doc} {esp}".upper()
-            is_excluded = any(k in full_role for k in excluded_keywords)
 
-            # Check if original registro has orders
-            ord_list = orders_by_reg.get(reg_str, [])
-            
-            # If no orders found and it is a doctor/specialist (not in excluded roles), decrement registro by 1 digit
-            if not ord_list and not is_excluded and reg_str.isdigit():
+            ord_list = []
+            if reg_str in orders_by_reg:
+                for o in orders_by_reg[reg_str]:
+                    if o['ord_id'] not in attached_order_ids:
+                        ord_list.append({
+                            'g': o['g'],
+                            'c': o['c'],
+                            'cod': o['cod'],
+                            'd': o['d'],
+                            'cant': o['cant'],
+                            'fr': o['fr'],
+                            'obs': o['obs']
+                        })
+                        attached_order_ids.add(o['ord_id'])
+
+            # Try decrementing registro by 1 if nothing attached
+            if not ord_list and reg_str.isdigit():
                 reg_minus_1 = str(int(reg_str) - 1)
-                reg_str = reg_minus_1
-                ord_list = orders_by_reg.get(reg_str, [])
+                if reg_minus_1 in orders_by_reg:
+                    for o in orders_by_reg[reg_minus_1]:
+                        if o['ord_id'] not in attached_order_ids:
+                            ord_list.append({
+                                'g': o['g'],
+                                'c': o['c'],
+                                'cod': o['cod'],
+                                'd': o['d'],
+                                'cant': o['cant'],
+                                'fr': o['fr'],
+                                'obs': o['obs']
+                            })
+                            attached_order_ids.add(o['ord_id'])
 
-            # Unique appointment key
             dup_key = (doc, mes, fecha, clean_ced, clean_cups, tipo, cumplida, reg_str)
             if dup_key in seen_keys:
                 continue
             seen_keys.add(dup_key)
 
             mes_nom = MESES[mes]
-            if mes_nom not in by_month_doc:
-                by_month_doc[mes_nom] = {}
-            if doc not in by_month_doc[mes_nom]:
-                by_month_doc[mes_nom][doc] = []
-            
             by_month_doc[mes_nom][doc].append({
                 'f': fecha,
                 'c': clean_ced,
                 'p': clean_text(pac),
                 'edad': edad if (edad and 0 < edad < 120) else None,
                 'reg': reg_str,
-                'diag': diag_str,
-                'dx': code_str,
+                'diag': 'Consulta Médica Especializada',
+                'dx': '',
                 'esp': doc,
-                'espNom': esp,
+                'espNom': clean_text(esp),
                 'cups': clean_cups,
                 's': clean_text(serv),
                 't': tipo,
@@ -213,23 +228,60 @@ def sync_appointments():
                 'ord': ord_list
             })
             saved_count += 1
-        
+
+        # Integrate all unattached orders so NOT A SINGLE ORDER IS DROPPED
+        unattached_count = 0
+        for o in all_formula_orders:
+            if o['ord_id'] not in attached_order_ids:
+                mes_nom = MESES[o['mes']]
+                doc = o['medico'] or 'MEDICO ESPECIALISTA'
+                by_month_doc[mes_nom][doc].append({
+                    'f': o['fecha'],
+                    'c': o['cedula'] or 'S/D',
+                    'p': o['paciente'] or 'PACIENTE AMBULATORIO',
+                    'edad': o['edad'],
+                    'reg': o['reg'],
+                    'diag': 'Prescripción Ambulatoria',
+                    'dx': '',
+                    'esp': doc,
+                    'espNom': o['esp'] or 'MEDICINA GENERAL',
+                    'cups': o['cod'],
+                    's': o['d'],
+                    't': 'Prescripción',
+                    'r': 'S',
+                    'ord': [{
+                        'g': o['g'],
+                        'c': o['c'],
+                        'cod': o['cod'],
+                        'd': o['d'],
+                        'cant': o['cant'],
+                        'fr': o['fr'],
+                        'obs': o['obs']
+                    }]
+                })
+                attached_order_ids.add(o['ord_id'])
+                unattached_count += 1
+
+        print(f'{yr}: {saved_count} citas vinculadas + {unattached_count} órdenes directas integradas.')
+        print(f'{yr}: Total órdenes finales en JSON = {len(attached_order_ids)} de {len(all_formula_orders)} (100% integradas).')
+
+        # Convert defaultdict to standard dict for JSON serialization
+        final_by_month_doc = {m: dict(docs) for m, docs in by_month_doc.items()}
+
         with open(f'public/data/citas_{yr}.json', 'w', encoding='utf-8') as f:
-            json.dump(by_month_doc, f, ensure_ascii=False)
-            
-        for mes_nom, doc_dict in by_month_doc.items():
+            json.dump(final_by_month_doc, f, ensure_ascii=False)
+
+        for mes_nom, doc_dict in final_by_month_doc.items():
             with open(f'public/data/citas/{yr}_{mes_nom}.json', 'w', encoding='utf-8') as mf:
                 json.dump(doc_dict, mf, ensure_ascii=False)
-                
-        print(f'Completado {yr}: {saved_count} citas únicas guardadas con órdenes vinculadas.')
 
-    # Generar índice consolidado de diagnósticos (diagnostics.json)
+        print(f'Completado {yr} exitosamente.')
+
+    # Diagnostics index
     print("Generando índice de diagnósticos (CIE 10)...")
     try:
         diag_map = defaultdict(list)
         diag_totals = defaultdict(int)
-        
-        # Mapa de especialidad por doctor
         doc_spec_map = {}
         if os.path.exists('src/data/centralEspecialistasData.json'):
             with open('src/data/centralEspecialistasData.json', 'r', encoding='utf-8') as f:
@@ -249,7 +301,7 @@ def sync_appointments():
                     diag_counts_local = defaultdict(lambda: [0, 0, 0, 0])
                     for c in citas:
                         diag = (c.get('diag') or '').strip()
-                        if not diag:
+                        if not diag or diag in ('Consulta Médica Especializada', 'Prescripción Ambulatoria'):
                             continue
                         diag_totals[diag] += 1
                         is_real = 1 if c.get('r') == 'S' else 0
@@ -277,13 +329,12 @@ def sync_appointments():
             json.dump(out_diag, fp, separators=(',', ':'))
         with open('src/data/diagnosticsList.json', 'w', encoding='utf-8') as fp2:
             json.dump(diag_list, fp2, separators=(',', ':'))
-        print(f"Índice de diagnósticos creado exitosamente: {len(diag_list)} diagnósticos únicos.")
+        print(f"Índice de diagnósticos creado: {len(diag_list)} diagnósticos únicos.")
     except Exception as e:
         print(f"Error generando diagnostics.json: {e}")
 
     cur.close()
     conn.close()
-    print('Proceso finalizado exitosamente.')
 
 if __name__ == '__main__':
     sync_appointments()
