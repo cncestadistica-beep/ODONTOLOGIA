@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+dist/
+dist-ssr/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Datos confidenciales, CSVs y archivos pesados (>100MB / Datos de pacientes)
+*.csv
+public/data/
+scripts/*.log
+scripts/attendance_excel_audit.json
+scripts/attendance_excel_keys.json
+
+# Builds accidentales en public
+public/assets/
+
+# Archivos del editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env/
