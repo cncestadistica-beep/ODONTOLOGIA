@@ -12,9 +12,7 @@
     "Julio",
     "Agosto",
     "Septiembre",
-    "Octubre",
-    "Noviembre",
-    "Diciembre"
+    "Octubre"
   ],
   "specialists": [
     {
@@ -355,38 +353,6 @@
           "laboratorios": 3428,
           "honorarios": 521,
           "procedimientos": 11,
-          "ecografias": 0,
-          "imagenes": 0
-        }
-      },
-      "Noviembre": {
-        "totalHonorarios": 0,
-        "totalLaboratorios": 0,
-        "totalMedicamentos": 0,
-        "totalConsultasRealizadas": 0,
-        "totalConsultasPrimeraVez": 0,
-        "totalConsultasControl": 0,
-        "orders": {
-          "medicamentos": 0,
-          "laboratorios": 0,
-          "honorarios": 0,
-          "procedimientos": 0,
-          "ecografias": 0,
-          "imagenes": 0
-        }
-      },
-      "Diciembre": {
-        "totalHonorarios": 0,
-        "totalLaboratorios": 0,
-        "totalMedicamentos": 0,
-        "totalConsultasRealizadas": 0,
-        "totalConsultasPrimeraVez": 0,
-        "totalConsultasControl": 0,
-        "orders": {
-          "medicamentos": 0,
-          "laboratorios": 0,
-          "honorarios": 0,
-          "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
         }

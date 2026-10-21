@@ -8,6 +8,7 @@ import os
 import json
 import time
 import psycopg2
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -81,7 +82,7 @@ def sync_data():
           AND c.estado = 'A'
           AND t.tercero NOT IN ('55555')
           AND c.fecha_hora >= '2024-01-01 00:00:00'
-          AND c.fecha_hora <= '2026-12-31 23:59:59'
+          AND c.fecha_hora <= CURRENT_TIMESTAMP
     )
     SELECT 
         anio, 
@@ -122,7 +123,7 @@ def sync_data():
         LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
         LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
-          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
+          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= CURRENT_TIMESTAMP
           AND u.unidad_servicio IN ('11','16','21')
     )
     SELECT 
@@ -168,7 +169,7 @@ def sync_data():
         LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
         LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
-          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
+          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= CURRENT_TIMESTAMP
           AND u.unidad_servicio IN ('11','16','21')
     )
     SELECT 
@@ -217,7 +218,7 @@ def sync_data():
         LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
         LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
-          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
+          AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= CURRENT_TIMESTAMP
           AND u.unidad_servicio IN ('11','16','21')
     )
     SELECT 
@@ -267,7 +268,7 @@ def sync_data():
     JOIN tercero t ON t.tercero = c.tercero
     LEFT JOIN servicio s ON s.servicio = c.servicio AND s.concepto = c.concepto
     WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
-      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= '2026-12-31 23:59:59'
+      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= CURRENT_TIMESTAMP
     GROUP BY anio, dia
     ORDER BY dia;
     ''')
@@ -299,7 +300,7 @@ def sync_data():
     LEFT JOIN especialidad e ON e.especialidad = COALESCE(c.especialidad, t.especialidad)
     LEFT JOIN servicio s ON s.servicio = c.servicio AND s.concepto = c.concepto
     WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
-      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= '2026-12-31 23:59:59'
+      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= CURRENT_TIMESTAMP
     GROUP BY anio, mes, esp;
     ''')
     by_specialty = {}
@@ -328,7 +329,7 @@ def sync_data():
     LEFT JOIN especialidad e ON e.especialidad = COALESCE(c.especialidad, t.especialidad)
     LEFT JOIN servicio s ON s.servicio = c.servicio AND s.concepto = c.concepto
     WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
-      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= '2026-12-31 23:59:59'
+      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= CURRENT_TIMESTAMP
     GROUP BY anio, mes, medico, esp
     ORDER BY anio DESC, mes DESC, total_hono DESC;
     ''')
@@ -379,7 +380,7 @@ def sync_data():
     LEFT JOIN especialidad e ON e.especialidad = COALESCE(c.especialidad, t.especialidad)
     LEFT JOIN servicio s ON s.servicio = c.servicio AND s.concepto = c.concepto
     WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
-      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= '2026-12-31 23:59:59'
+      AND c.fecha_hora >= '2024-01-01 00:00:00' AND c.fecha_hora <= CURRENT_TIMESTAMP
     GROUP BY anio, mes, esp, med, cumplida, tipo;
     ''')
 
@@ -443,11 +444,15 @@ def sync_data():
                 specialties.append(esp)
 
     existing_table_keys = {(r['anio'], r['mes'], r['especialista']) for r in table_data}
+    current_year = datetime.now().year
+    current_month = datetime.now().month
     for key, ovals in orders_by_specialist.items():
         parts = key.split('_')
         anio_int = int(parts[0])
         mes_int = int(parts[1])
-        doc_name = parts[2]
+        doc_name = '_'.join(parts[2:])
+        if anio_int == current_year and mes_int > current_month:
+            continue
         mes_nom = MESES[mes_int]
         if (anio_int, mes_nom, doc_name) not in existing_table_keys:
             doc_spec = next((s['specialty'] for s in specialists if s['name'] == doc_name), 'MEDICINA GENERAL')
@@ -483,9 +488,25 @@ def sync_data():
         'attendanceBySpecialist': attendance_by_doc
     }
 
+    cur_year = datetime.now().year
+    cur_month = datetime.now().month
+
+    # Filter table_data to exclude future months
+    table_data = [
+        r for r in table_data 
+        if not (r['anio'] == cur_year and MESES.index(r['mes']) > cur_month)
+    ]
+
+    for m_idx in range(cur_month + 1, 13):
+        m_name = MESES[m_idx]
+        if str(cur_year) in attendance_by_ym and m_name in attendance_by_ym[str(cur_year)]:
+            del attendance_by_ym[str(cur_year)][m_name]
+
     for anio in [2026, 2025, 2024]:
         result['dataByYearMonth'][str(anio)] = {}
         for mes in range(1, 13):
+            if anio == cur_year and mes > cur_month:
+                continue
             mes_nombre = MESES[mes]
             cdata = citas_monthly.get((anio, mes), {'totalHonorarios': 0, 'consultasRealizadas': 0, 'consultasPrimeraVez': 0, 'consultasControl': 0})
             odata = orders_monthly.get((anio, mes), {'medicamentos': 0, 'laboratorios': 0, 'honorarios': 0, 'procedimientos': 0, 'ecografias': 0, 'imagenes': 0, 'total': 0})

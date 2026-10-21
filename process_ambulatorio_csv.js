@@ -171,6 +171,11 @@ async function processAll() {
       finalEsp = 'HIGIENISTA ORAL';
     }
 
+    const currentMaxMonthNum = new Date().getMonth() + 1;
+    if (year === '2026' && parseInt(monthNum, 10) > currentMaxMonthNum) {
+      continue;
+    }
+
     const patientName = cedulaToName.get(cedula) || cedula;
 
     const citaObj = {
@@ -286,6 +291,10 @@ async function processAll() {
         yr = dateParts[2].trim();
       }
 
+      if (yr === '2026' && monthNum > (new Date().getMonth() + 1)) {
+        continue;
+      }
+
       const orderItem = {
         g: grupo,
         gKey,
@@ -371,7 +380,8 @@ async function processAll() {
     const procMap = {};
     const procCounts = {};
 
-    MONTH_NAMES.forEach(m => {
+    const maxMonthNum = new Date().getMonth() + 1;
+    MONTH_NAMES.slice(0, maxMonthNum).forEach(m => {
       dataByYearMonth['2026'][m] = {
         totalHonorarios: 0,
         totalLaboratorios: 0,
@@ -519,9 +529,10 @@ async function processAll() {
         return { name, code, count };
       });
 
+    const currentMaxMonthNum = new Date().getMonth() + 1;
     return {
       years: [2026],
-      months: MONTH_NAMES,
+      months: MONTH_NAMES.slice(0, currentMaxMonthNum),
       specialists: Array.from(specialistsMap.values()),
       specialties: Array.from(specialtiesSet).sort(),
       orderingGroups: orderingGroupsList,
@@ -553,8 +564,17 @@ async function processAll() {
   console.log('      ✓ src/data/cisenData.json actualizado.');
   console.log('      ✓ src/data/odontologiaData.json actualizado.');
 
-  // Merge into monthly detail JSON files (public/data/citas/2026_*.json)
-  MONTH_NAMES.forEach(m => {
+  // Clean up any future month files for 2026
+  const currentMaxMonthNum = new Date().getMonth() + 1;
+  for (let mIdx = currentMaxMonthNum; mIdx < 12; mIdx++) {
+    const fPath = path.join(citasDir, `2026_${MONTH_NAMES[mIdx]}.json`);
+    if (fs.existsSync(fPath)) {
+      try { fs.unlinkSync(fPath); } catch (e) {}
+    }
+  }
+
+  // Merge into monthly detail JSON files (public/data/citas/2026_*.json) only up to current month
+  MONTH_NAMES.slice(0, currentMaxMonthNum).forEach(m => {
     const fPath = path.join(citasDir, `2026_${m}.json`);
     let monthData = {};
     if (fs.existsSync(fPath)) {

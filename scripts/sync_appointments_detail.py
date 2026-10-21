@@ -68,7 +68,7 @@ def sync_appointments():
         JOIN unidad_servicio u ON r.unidad_servicio = u.unidad_servicio
         LEFT JOIN servicio s ON fd.servicio = s.servicio AND fd.concepto = s.concepto
         WHERE fe.ind_aprobada = 'S'
-          AND fe.fecha_formula >= '{yr}-01-01 00:00:00' AND fe.fecha_formula <= '{yr}-12-31 23:59:59'
+          AND fe.fecha_formula >= '{yr}-01-01 00:00:00' AND fe.fecha_formula <= LEAST('{yr}-12-31 23:59:59'::timestamp, CURRENT_TIMESTAMP)
           AND u.unidad_servicio IN ('11','16','21')
           AND c.concepto IN ('MEDI', 'LABO', 'HONO', 'PRQX', 'ECOG', 'IMAG', 'TOMO', 'RMAG', 'CARD', 'OTDX')
         ORDER BY fd.registro;
@@ -151,7 +151,7 @@ def sync_appointments():
             LIMIT 1
         ) diag ON true
         WHERE c.concepto = 'HONO' AND c.estado = 'A' AND t.tercero NOT IN ('55555')
-          AND c.fecha_hora >= '{yr}-01-01 00:00:00' AND c.fecha_hora <= '{yr}-12-31 23:59:59'
+          AND c.fecha_hora >= '{yr}-01-01 00:00:00' AND c.fecha_hora <= LEAST('{yr}-12-31 23:59:59'::timestamp, CURRENT_TIMESTAMP)
         ORDER BY c.fecha_hora ASC;
         ''')
         rows = cur.fetchall()

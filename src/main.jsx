@@ -1246,7 +1246,8 @@ function DoctorAppointmentsModal({ doctorRow, onClose, allowOrders = false, sele
           dbHono = docO.honorarios || 0;
         }
       } else {
-        for (let m = 1; m <= 12; m++) {
+        const maxM = Number(year) === new Date().getFullYear() ? (new Date().getMonth() + 1) : 12;
+      for (let m = 1; m <= maxM; m++) {
           const key = `${doctorRow.anio}_${m}_${doctorRow.especialista}`;
           const docO = targetDb?.ordersBySpecialist?.[key];
           if (docO) {
@@ -2220,7 +2221,10 @@ function DataTable({
   }, [data, groupKey, dbData]);
 
   const filteredRows = useMemo(() => {
+    const curYear = new Date().getFullYear();
+    const curMonthIdx = new Date().getMonth();
     return rowsWithGroupOrders.filter((row) => {
+      if (Number(row.anio) === curYear && MONTH_NAMES.indexOf(row.mes) > curMonthIdx) return false;
       if (year && row.anio.toString() !== year.toString()) return false;
       if (month && month !== 'Todos los Meses' && row.mes !== month) return false;
       if (specialist && specialist !== 'Todos los Especialistas' && row.especialista !== specialist) return false;
@@ -2538,7 +2542,15 @@ function AttendanceView() {
   }, [selectedDiagnosis, diagData]);
 
   const yearOptions = useMemo(() => (dbData.years || [2026, 2025, 2024]).map(String), []);
-  const monthOptions = useMemo(() => ['Todos los Meses', ...MONTH_NAMES], []);
+  const monthOptions = useMemo(() => {
+    const curYear = new Date().getFullYear();
+    const curMonthIdx = new Date().getMonth();
+    let months = [...MONTH_NAMES];
+    if (Number(year) === curYear) {
+      months = months.filter((_, idx) => idx <= curMonthIdx);
+    }
+    return ['Todos los Meses', ...months];
+  }, [year]);
 
   // Compute specialty options sorted de mayor a menor with appointment counts
   const specialtyOptions = useMemo(() => {
@@ -2631,6 +2643,10 @@ function AttendanceView() {
     let monthSiTotal = 0;
     let monthNoTotal = 0;
 
+    const curYear = new Date().getFullYear();
+    const curMonthIdx = new Date().getMonth();
+    const allowedMonthList = Number(year) === curYear ? MONTH_NAMES.slice(0, curMonthIdx + 1) : MONTH_NAMES;
+
     if (month !== 'Todos los Meses') {
       if (ymData) {
         monthTotalCitas = ymData.total || 0;
@@ -2638,7 +2654,7 @@ function AttendanceView() {
         monthNoTotal = ymData.no?.total || 0;
       }
     } else {
-      MONTH_NAMES.forEach((m) => {
+      allowedMonthList.forEach((m) => {
         const d = dbData.attendanceByYM?.[year]?.[m];
         if (d) {
           monthTotalCitas += d.total || 0;
@@ -2665,7 +2681,7 @@ function AttendanceView() {
       filteredSiControl = 0;
       filteredNoPrimera = 0;
       filteredNoControl = 0;
-      MONTH_NAMES.forEach((m) => {
+      allowedMonthList.forEach((m) => {
         const d = dbData.attendanceByYM?.[year]?.[m];
         if (d) {
           filteredSiPrimera += d.si?.primeraVez || 0;
@@ -2695,7 +2711,8 @@ function AttendanceView() {
       } else {
         filteredTotalCitas = 0; filteredSiTotal = 0; filteredSiPrimera = 0; filteredSiControl = 0;
         filteredNoTotal = 0; filteredNoPrimera = 0; filteredNoControl = 0;
-        for (let m = 1; m <= 12; m++) {
+        const maxM = Number(year) === new Date().getFullYear() ? (new Date().getMonth() + 1) : 12;
+      for (let m = 1; m <= maxM; m++) {
           const specKey = `${year}_${m}_${specialty}`;
           const sData = dbData.attendanceBySpecialty?.[specKey];
           if (sData) {
@@ -2730,7 +2747,8 @@ function AttendanceView() {
       } else {
         filteredTotalCitas = 0; filteredSiTotal = 0; filteredSiPrimera = 0; filteredSiControl = 0;
         filteredNoTotal = 0; filteredNoPrimera = 0; filteredNoControl = 0;
-        for (let m = 1; m <= 12; m++) {
+        const maxM = Number(year) === new Date().getFullYear() ? (new Date().getMonth() + 1) : 12;
+      for (let m = 1; m <= maxM; m++) {
           const docKey = `${year}_${m}_${specialist}`;
           const dData = dbData.attendanceBySpecialist?.[docKey];
           if (dData) {
@@ -4053,11 +4071,17 @@ function Dashboard({ activePage, setActivePage }) {
 
   const monthOptions = useMemo(() => {
     const ym = dbData.dataByYearMonth?.[year] || {};
-    const monthsWithData = MONTH_NAMES.filter((m) => ym[m] && ym[m].totalHonorarios > 0);
-    if (monthsWithData.length > 0 && monthsWithData.length < 12) {
+    const now = new Date();
+    const curYear = now.getFullYear();
+    const curMonthIdx = now.getMonth();
+    const maxMonthIdx = Number(year) === curYear ? curMonthIdx : 11;
+    const allowed = MONTH_NAMES.slice(0, maxMonthIdx + 1);
+
+    const monthsWithData = allowed.filter((m) => ym[m] && (ym[m].totalHonorarios > 0 || (ym[m].orders && Object.values(ym[m].orders).some(v => v > 0))));
+    if (monthsWithData.length > 0 && monthsWithData.length <= allowed.length) {
       return ['Todos los Meses', ...monthsWithData];
     }
-    return ['Todos los Meses', ...MONTH_NAMES];
+    return ['Todos los Meses', ...allowed];
   }, [dbData, year]);
 
   // Compute specialty options sorted de mayor a menor with appointment counts
@@ -4186,7 +4210,13 @@ function Dashboard({ activePage, setActivePage }) {
       }
     }
   } else {
-    MONTH_NAMES.forEach((m) => {
+    const now = new Date();
+    const curYear = now.getFullYear();
+    const curMonthIdx = now.getMonth();
+    const maxMonthIdx = Number(year) === curYear ? curMonthIdx : 11;
+    const allowedMonths = MONTH_NAMES.slice(0, maxMonthIdx + 1);
+
+    allowedMonths.forEach((m) => {
       if (yearData[m]) {
         totalCitasActivas += yearData[m].totalHonorarios || 0;
         totalLaboratorios += yearData[m].totalLaboratorios || 0;
@@ -4235,7 +4265,8 @@ function Dashboard({ activePage, setActivePage }) {
     } else {
       totalCitasActivas = 0; totalLaboratorios = 0; totalConsultasRealizadas = 0; totalConsultasPrimeraVez = 0; totalConsultasControl = 0;
       orders = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
-      for (let m = 1; m <= 12; m++) {
+      const maxM = Number(year) === new Date().getFullYear() ? (new Date().getMonth() + 1) : 12;
+      for (let m = 1; m <= maxM; m++) {
         const specKey = `${year}_${m}_${specialty}`;
         const specData = dbData.bySpecialty?.[specKey];
         if (specData) {
@@ -4288,7 +4319,8 @@ function Dashboard({ activePage, setActivePage }) {
     } else {
       totalCitasActivas = 0; totalLaboratorios = 0; totalConsultasRealizadas = 0; totalConsultasPrimeraVez = 0; totalConsultasControl = 0;
       orders = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
-      for (let m = 1; m <= 12; m++) {
+      const maxM = Number(year) === new Date().getFullYear() ? (new Date().getMonth() + 1) : 12;
+      for (let m = 1; m <= maxM; m++) {
         const docKey = `${year}_${m}_${specialist}`;
         const docData = dbData.bySpecialist?.[docKey];
         if (docData) {
