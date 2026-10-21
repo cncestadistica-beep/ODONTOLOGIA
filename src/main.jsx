@@ -457,13 +457,13 @@ function normalizeOrderGroup(o) {
   const concept = (o.c || '').toUpperCase();
   const rawG = (o.g || '').trim();
 
-  if (concept === 'PRQX' || concept === 'OTDX' || concept === 'CARD') {
+  if (concept === 'PRQX') {
     return 'Procedimientos Quirúrgicos';
   }
   if (concept === 'ECOG') {
     return 'Ecografías';
   }
-  if (concept === 'IMAG' || concept === 'TOMO' || concept === 'RMAG') {
+  if (concept === 'IMAG' || concept === 'TOMO' || concept === 'RMAG' || concept === 'CARD' || concept === 'OTDX') {
     return 'Imágenes Diagnósticas';
   }
   if (concept === 'LABO') {
@@ -600,6 +600,8 @@ function GroupOrdersDetailModal({
     loadData();
   }, [year, selectedM, dbData]);
 
+  const normDoc = (str) => (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toUpperCase();
+
   const allowedDocsSet = useMemo(() => {
     if (!dbData?.specialists || !Array.isArray(dbData.specialists) || dbData.specialists.length === 0) {
       return null;
@@ -609,6 +611,7 @@ function GroupOrdersDetailModal({
       const name = typeof s === 'object' ? s.name : s;
       if (name) {
         set.add(name.trim().toUpperCase());
+        set.add(normDoc(name));
       }
     });
     return set;
@@ -620,6 +623,7 @@ function GroupOrdersDetailModal({
       if (typeof s === 'object') {
         map[s.name] = s.specialty;
         map[s.name.toUpperCase()] = s.specialty;
+        map[normDoc(s.name)] = s.specialty;
       }
     });
     return map;
@@ -634,15 +638,18 @@ function GroupOrdersDetailModal({
 
       Object.entries(monthDocsData).forEach(([docName, citasArr]) => {
         const docUpper = (docName || '').trim().toUpperCase();
-        if (allowedDocsSet && !allowedDocsSet.has(docUpper)) {
+        const docNorm = normDoc(docName);
+        if (allowedDocsSet && !allowedDocsSet.has(docUpper) && !allowedDocsSet.has(docNorm)) {
           return;
         }
 
-        if (selectedDoc && selectedDoc !== 'Todos los Especialistas' && docName !== selectedDoc) {
-          return;
+        if (selectedDoc && selectedDoc !== 'Todos los Especialistas') {
+          if (docName !== selectedDoc && normDoc(docName) !== normDoc(selectedDoc)) {
+            return;
+          }
         }
         if (specialty && specialty !== 'Todas las Especialidades') {
-          const docSpec = specByDoc[docName] || specByDoc[docUpper] || '';
+          const docSpec = specByDoc[docName] || specByDoc[docUpper] || specByDoc[docNorm] || '';
           if (docSpec && docSpec !== specialty) {
             return;
           }
@@ -2189,8 +2196,24 @@ function DataTable({
       let groupOrders = 0;
       if (groupKey && dbData?.ordersBySpecialist) {
         const mIdx = MONTH_NAMES.indexOf(row.mes) + 1;
+        const docSpecKey = `${row.anio}_${mIdx}_${row.especialista}_${row.especialidad}`;
         const docKey = `${row.anio}_${mIdx}_${row.especialista}`;
-        groupOrders = dbData.ordersBySpecialist[docKey]?.[groupKey] || 0;
+        
+        if (dbData.ordersBySpecialist[docSpecKey]?.[groupKey] !== undefined) {
+          groupOrders = dbData.ordersBySpecialist[docSpecKey][groupKey];
+        } else if (dbData.ordersBySpecialist[docKey]?.[groupKey] !== undefined) {
+          groupOrders = dbData.ordersBySpecialist[docKey][groupKey];
+        } else {
+          const normDoc = (s) => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toUpperCase();
+          const targetNorm = normDoc(row.especialista);
+          const matchedKey = Object.keys(dbData.ordersBySpecialist).find(k => {
+            const parts = k.split('_');
+            return parts[0] === String(row.anio) && parts[1] === String(mIdx) && normDoc(parts.slice(2).join('_')) === targetNorm;
+          });
+          if (matchedKey) {
+            groupOrders = dbData.ordersBySpecialist[matchedKey]?.[groupKey] || 0;
+          }
+        }
       }
       return { ...row, groupOrders };
     });

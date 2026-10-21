@@ -23,49 +23,49 @@
       "specialty": "MEDICINA INTERNA"
     },
     {
-      "id": "1143946149",
+      "id": "",
       "name": "LILIA MARIA SANABRIA OTERO",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "14436533",
+      "id": "",
       "name": "CLAUDIA LORENA SALINAS BURBANO",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "1143971707",
+      "id": "",
       "name": "VALENTINA CARDONA CANO",
       "specialty": "NUTRICIONISTA"
     },
     {
-      "id": "38962669",
+      "id": "",
       "name": "VIVIANA MAYOR BARRERA",
       "specialty": "MEDICINA INTERNA"
     },
     {
-      "id": "1143971707",
+      "id": "",
       "name": "BETTY MILENA MATABAJOY YAQUENO",
       "specialty": "PSICOLOGÍA"
     },
     {
-      "id": "31282249",
+      "id": "",
       "name": "GLADYS MONGUI CAÑAS JAIMES",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "1110302864",
+      "id": "",
       "name": "RUBI ROCIO ORTEGA ORDOÑEZ",
       "specialty": "PEDIATRÍA"
     },
     {
-      "id": "1113672194",
+      "id": "",
       "name": "OMAR ALONSO MENDEZ SALAMANDO",
       "specialty": "GINECOLOGÍA Y OBSTETRICIA"
     },
     {
-      "id": "5265845",
+      "id": "",
       "name": "YERLIS ELENA YEPES TORRES",
-      "specialty": "ENFERMERÍA"
+      "specialty": "ENFERMERA(O) JEFE"
     },
     {
       "id": "1003893272",
@@ -73,17 +73,17 @@
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
-      "id": "1105371799",
+      "id": "",
       "name": "MARIA CAMILA MURILLO RODRIGUEZ",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "1106518767",
+      "id": "",
       "name": "MIGUEL ANGEL POLO VASQUEZ",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "1110307648",
+      "id": "",
       "name": "DIEGO ALEJANDRO TORRES GOMEZ",
       "specialty": "PEDIATRÍA"
     },
@@ -98,7 +98,7 @@
       "specialty": "PSICOLOGÍA"
     },
     {
-      "id": "31275953",
+      "id": "",
       "name": "PAOLA MILENA OSORIO ESCORCIA",
       "specialty": "MEDICINA GENERAL"
     },
@@ -108,17 +108,17 @@
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
-      "id": "1111676774",
+      "id": "",
       "name": "LUIS CARLOS BUITRAGO BELTRAN",
       "specialty": "MEDICINA GENERAL"
     },
     {
-      "id": "19329612",
+      "id": "",
       "name": "CAMILA MEJIA LERMA",
       "specialty": "AUXILIAR DE ENFERMERIA"
     },
     {
-      "id": "16703168",
+      "id": "",
       "name": "LLOVELA ANDRADE ROSERO",
       "specialty": "MEDICINA GENERAL"
     },
@@ -151,10 +151,36 @@
       "id": "1063816360",
       "name": "SOFIA PEREZ GARCIA",
       "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "CLARA ISABEL SILVA TOBON",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "specialty": "MEDICINA INTERNA"
+    },
+    {
+      "id": "",
+      "name": "JORGE LUIS ORJUELA GIL",
+      "specialty": "GINECOLOGÍA Y OBSTETRICIA"
+    },
+    {
+      "id": "",
+      "name": "JOHANN DIAZ ROMERO",
+      "specialty": "MEDICINA INTERNA"
     }
   ],
   "specialties": [
     "AUXILIAR DE ENFERMERIA",
+    "ENFERMERA(O) JEFE",
     "ENFERMERÍA",
     "GINECOLOGÍA Y OBSTETRICIA",
     "MEDICINA GENERAL",
@@ -175,63 +201,63 @@
     "2026": {
       "Enero": {
         "totalHonorarios": 2450,
-        "totalLaboratorios": 5321,
-        "totalMedicamentos": 9014,
+        "totalLaboratorios": 5515,
+        "totalMedicamentos": 8828,
         "totalConsultasRealizadas": 2170,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2450,
         "orders": {
-          "medicamentos": 9014,
-          "laboratorios": 5321,
-          "honorarios": 992,
-          "procedimientos": 16,
+          "medicamentos": 8828,
+          "laboratorios": 5515,
+          "honorarios": 947,
+          "procedimientos": 17,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Febrero": {
         "totalHonorarios": 2486,
-        "totalLaboratorios": 5302,
-        "totalMedicamentos": 9657,
+        "totalLaboratorios": 5356,
+        "totalMedicamentos": 8400,
         "totalConsultasRealizadas": 2195,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2486,
         "orders": {
-          "medicamentos": 9657,
-          "laboratorios": 5302,
-          "honorarios": 1195,
-          "procedimientos": 15,
+          "medicamentos": 8400,
+          "laboratorios": 5356,
+          "honorarios": 1157,
+          "procedimientos": 16,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Marzo": {
         "totalHonorarios": 2545,
-        "totalLaboratorios": 5556,
-        "totalMedicamentos": 9175,
+        "totalLaboratorios": 5463,
+        "totalMedicamentos": 9027,
         "totalConsultasRealizadas": 2179,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2545,
         "orders": {
-          "medicamentos": 9175,
-          "laboratorios": 5556,
-          "honorarios": 1203,
-          "procedimientos": 18,
+          "medicamentos": 9027,
+          "laboratorios": 5463,
+          "honorarios": 1178,
+          "procedimientos": 15,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Abril": {
         "totalHonorarios": 2236,
-        "totalLaboratorios": 4524,
-        "totalMedicamentos": 8729,
+        "totalLaboratorios": 4246,
+        "totalMedicamentos": 8897,
         "totalConsultasRealizadas": 1941,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2236,
         "orders": {
-          "medicamentos": 8729,
-          "laboratorios": 4524,
-          "honorarios": 1067,
+          "medicamentos": 8897,
+          "laboratorios": 4246,
+          "honorarios": 1054,
           "procedimientos": 23,
           "ecografias": 0,
           "imagenes": 0
@@ -239,96 +265,96 @@
       },
       "Mayo": {
         "totalHonorarios": 2321,
-        "totalLaboratorios": 4677,
-        "totalMedicamentos": 9172,
+        "totalLaboratorios": 5066,
+        "totalMedicamentos": 8690,
         "totalConsultasRealizadas": 1930,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2321,
         "orders": {
-          "medicamentos": 9172,
-          "laboratorios": 4677,
-          "honorarios": 1050,
-          "procedimientos": 19,
+          "medicamentos": 8690,
+          "laboratorios": 5066,
+          "honorarios": 1021,
+          "procedimientos": 20,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Junio": {
         "totalHonorarios": 2344,
-        "totalLaboratorios": 4874,
-        "totalMedicamentos": 9630,
+        "totalLaboratorios": 4848,
+        "totalMedicamentos": 8961,
         "totalConsultasRealizadas": 2073,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2344,
         "orders": {
-          "medicamentos": 9630,
-          "laboratorios": 4874,
-          "honorarios": 1050,
-          "procedimientos": 27,
+          "medicamentos": 8961,
+          "laboratorios": 4848,
+          "honorarios": 1039,
+          "procedimientos": 24,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Julio": {
         "totalHonorarios": 2287,
-        "totalLaboratorios": 3969,
-        "totalMedicamentos": 6742,
+        "totalLaboratorios": 4401,
+        "totalMedicamentos": 9098,
         "totalConsultasRealizadas": 1997,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2287,
         "orders": {
-          "medicamentos": 6742,
-          "laboratorios": 3969,
-          "honorarios": 1139,
-          "procedimientos": 13,
+          "medicamentos": 9098,
+          "laboratorios": 4401,
+          "honorarios": 1109,
+          "procedimientos": 12,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Agosto": {
         "totalHonorarios": 2009,
-        "totalLaboratorios": 2926,
-        "totalMedicamentos": 6506,
+        "totalLaboratorios": 3924,
+        "totalMedicamentos": 8604,
         "totalConsultasRealizadas": 1564,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2009,
         "orders": {
-          "medicamentos": 6506,
-          "laboratorios": 2926,
-          "honorarios": 811,
-          "procedimientos": 12,
+          "medicamentos": 8604,
+          "laboratorios": 3924,
+          "honorarios": 799,
+          "procedimientos": 11,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Septiembre": {
         "totalHonorarios": 2896,
-        "totalLaboratorios": 4327,
-        "totalMedicamentos": 6449,
+        "totalLaboratorios": 5477,
+        "totalMedicamentos": 8991,
         "totalConsultasRealizadas": 2587,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 2896,
         "orders": {
-          "medicamentos": 6449,
-          "laboratorios": 4327,
-          "honorarios": 1160,
-          "procedimientos": 23,
+          "medicamentos": 8991,
+          "laboratorios": 5477,
+          "honorarios": 1123,
+          "procedimientos": 24,
           "ecografias": 0,
           "imagenes": 0
         }
       },
       "Octubre": {
         "totalHonorarios": 1450,
-        "totalLaboratorios": 2180,
-        "totalMedicamentos": 2206,
+        "totalLaboratorios": 3428,
+        "totalMedicamentos": 5258,
         "totalConsultasRealizadas": 1311,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 1450,
         "orders": {
-          "medicamentos": 2206,
-          "laboratorios": 2180,
-          "honorarios": 523,
-          "procedimientos": 9,
+          "medicamentos": 5258,
+          "laboratorios": 3428,
+          "honorarios": 521,
+          "procedimientos": 11,
           "ecografias": 0,
           "imagenes": 0
         }
@@ -368,607 +394,239 @@
     }
   },
   "ordersBySpecialty": {
-    "2026_1_MEDICINA INTERNA": {
-      "medicamentos": 433,
-      "laboratorios": 480,
-      "honorarios": 224,
-      "procedimientos": 11,
+    "2026_2_MEDICINA GENERAL": {
+      "medicamentos": 7951,
+      "laboratorios": 4735,
+      "honorarios": 668,
+      "procedimientos": 9,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_2_MEDICINA INTERNA": {
-      "medicamentos": 350,
-      "laboratorios": 400,
-      "honorarios": 231,
-      "procedimientos": 6,
+    "2026_1_MEDICINA GENERAL": {
+      "medicamentos": 8354,
+      "laboratorios": 4588,
+      "honorarios": 553,
+      "procedimientos": 2,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_3_MEDICINA GENERAL": {
-      "medicamentos": 8544,
-      "laboratorios": 4819,
-      "honorarios": 643,
-      "procedimientos": 8,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_NUTRICIONISTA": {
-      "medicamentos": 18,
-      "laboratorios": 12,
-      "honorarios": 67,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_NUTRICIONISTA": {
-      "medicamentos": 32,
-      "laboratorios": 18,
-      "honorarios": 58,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_MEDICINA INTERNA": {
-      "medicamentos": 403,
-      "laboratorios": 420,
-      "honorarios": 220,
+      "medicamentos": 8586,
+      "laboratorios": 4798,
+      "honorarios": 630,
       "procedimientos": 6,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_PSICOLOGÍA": {
-      "medicamentos": 6,
-      "laboratorios": 12,
-      "honorarios": 138,
+    "2026_1_MEDICINA INTERNA": {
+      "medicamentos": 382,
+      "laboratorios": 464,
+      "honorarios": 227,
+      "procedimientos": 12,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_MEDICINA INTERNA": {
+      "medicamentos": 372,
+      "laboratorios": 423,
+      "honorarios": 241,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_MEDICINA INTERNA": {
+      "medicamentos": 356,
+      "laboratorios": 406,
+      "honorarios": 223,
+      "procedimientos": 5,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_ENFERMERA(O) JEFE": {
+      "medicamentos": 40,
+      "laboratorios": 402,
+      "honorarios": 4,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_MEDICINA GENERAL": {
+      "medicamentos": 8438,
+      "laboratorios": 3642,
+      "honorarios": 496,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_MEDICINA INTERNA": {
+      "medicamentos": 369,
+      "laboratorios": 358,
+      "honorarios": 273,
+      "procedimientos": 9,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_ENFERMERA(O) JEFE": {
+      "medicamentos": 28,
+      "laboratorios": 149,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 24,
+      "laboratorios": 7,
+      "honorarios": 19,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 19,
+      "laboratorios": 7,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 15,
+      "laboratorios": 51,
+      "honorarios": 42,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_PEDIATRÍA": {
+      "medicamentos": 28,
+      "laboratorios": 54,
+      "honorarios": 32,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_ENFERMERA(O) JEFE": {
+      "medicamentos": 23,
+      "laboratorios": 146,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_ENFERMERA(O) JEFE": {
+      "medicamentos": 27,
+      "laboratorios": 116,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_MEDICINA GENERAL": {
+      "medicamentos": 8275,
+      "laboratorios": 4480,
+      "honorarios": 512,
+      "procedimientos": 5,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_MEDICINA INTERNA": {
+      "medicamentos": 344,
+      "laboratorios": 417,
+      "honorarios": 229,
+      "procedimientos": 6,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MEDICINA INTERNA": {
+      "medicamentos": 355,
+      "laboratorios": 298,
+      "honorarios": 238,
+      "procedimientos": 18,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_MEDICINA INTERNA": {
+      "medicamentos": 192,
+      "laboratorios": 271,
+      "honorarios": 155,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_MEDICINA INTERNA": {
+      "medicamentos": 334,
+      "laboratorios": 259,
+      "honorarios": 203,
+      "procedimientos": 9,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 62,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_6_MEDICINA GENERAL": {
-      "medicamentos": 9134,
-      "laboratorios": 4248,
-      "honorarios": 604,
-      "procedimientos": 9,
+      "medicamentos": 8538,
+      "laboratorios": 4245,
+      "honorarios": 596,
+      "procedimientos": 8,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_PEDIATRÍA": {
-      "medicamentos": 33,
-      "laboratorios": 65,
-      "honorarios": 53,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_PSICOLOGÍA": {
-      "medicamentos": 23,
-      "laboratorios": 33,
-      "honorarios": 99,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 34,
-      "laboratorios": 60,
-      "honorarios": 40,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_PSICOLOGÍA": {
-      "medicamentos": 84,
-      "laboratorios": 62,
-      "honorarios": 103,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_NUTRICIONISTA": {
-      "medicamentos": 24,
-      "laboratorios": 53,
-      "honorarios": 55,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_ENFERMERÍA": {
-      "medicamentos": 158,
-      "laboratorios": 38,
-      "honorarios": 12,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_ENFERMERÍA": {
-      "medicamentos": 85,
-      "laboratorios": 119,
-      "honorarios": 15,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_MEDICINA INTERNA": {
-      "medicamentos": 248,
-      "laboratorios": 320,
-      "honorarios": 232,
-      "procedimientos": 17,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_MEDICINA GENERAL": {
-      "medicamentos": 5998,
-      "laboratorios": 3751,
-      "honorarios": 631,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MEDICINA INTERNA": {
-      "medicamentos": 94,
-      "laboratorios": 253,
-      "honorarios": 142,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_ENFERMERÍA": {
-      "medicamentos": 128,
-      "laboratorios": 188,
-      "honorarios": 18,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 1,
-      "laboratorios": 0,
-      "honorarios": 1,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_PEDIATRÍA": {
-      "medicamentos": 7,
-      "laboratorios": 4,
-      "honorarios": 19,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_MEDICINA GENERAL": {
-      "medicamentos": 8069,
-      "laboratorios": 4187,
-      "honorarios": 568,
+    "2026_7_MEDICINA GENERAL": {
+      "medicamentos": 8604,
+      "laboratorios": 3817,
+      "honorarios": 609,
       "procedimientos": 3,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_ENFERMERÍA": {
-      "medicamentos": 180,
-      "laboratorios": 364,
-      "honorarios": 33,
-      "procedimientos": 1,
+    "2026_4_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 16,
+      "laboratorios": 39,
+      "honorarios": 38,
+      "procedimientos": 7,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 30,
-      "laboratorios": 7,
-      "honorarios": 20,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_PEDIATRÍA": {
-      "medicamentos": 31,
-      "laboratorios": 54,
-      "honorarios": 31,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_NUTRICIONISTA": {
-      "medicamentos": 196,
-      "laboratorios": 198,
-      "honorarios": 69,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_PSICOLOGÍA": {
-      "medicamentos": 75,
-      "laboratorios": 31,
-      "honorarios": 47,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_MEDICINA GENERAL": {
-      "medicamentos": 8915,
-      "laboratorios": 4554,
-      "honorarios": 694,
+    "2026_5_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 20,
+      "laboratorios": 36,
+      "honorarios": 45,
       "procedimientos": 9,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_2_ENFERMERÍA": {
-      "medicamentos": 155,
-      "laboratorios": 176,
-      "honorarios": 21,
-      "procedimientos": 0,
+    "2026_6_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 24,
+      "laboratorios": 35,
+      "honorarios": 40,
+      "procedimientos": 7,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_2_PEDIATRÍA": {
       "medicamentos": 30,
       "laboratorios": 42,
-      "honorarios": 52,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_PSICOLOGÍA": {
-      "medicamentos": 79,
-      "laboratorios": 53,
-      "honorarios": 117,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_NUTRICIONISTA": {
-      "medicamentos": 124,
-      "laboratorios": 70,
-      "honorarios": 71,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 4,
-      "laboratorios": 7,
-      "honorarios": 9,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_MEDICINA INTERNA": {
-      "medicamentos": 402,
-      "laboratorios": 442,
-      "honorarios": 224,
-      "procedimientos": 5,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_ENFERMERÍA": {
-      "medicamentos": 57,
-      "laboratorios": 113,
-      "honorarios": 8,
+      "honorarios": 50,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_3_PEDIATRÍA": {
-      "medicamentos": 57,
-      "laboratorios": 60,
-      "honorarios": 63,
+      "medicamentos": 47,
+      "laboratorios": 62,
+      "honorarios": 53,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_NUTRICIONISTA": {
-      "medicamentos": 17,
-      "laboratorios": 24,
-      "honorarios": 84,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_PSICOLOGÍA": {
-      "medicamentos": 69,
-      "laboratorios": 41,
-      "honorarios": 138,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 5,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 24,
-      "laboratorios": 57,
-      "honorarios": 43,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_MEDICINA GENERAL": {
-      "medicamentos": 7946,
-      "laboratorios": 3819,
-      "honorarios": 487,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_ENFERMERÍA": {
-      "medicamentos": 123,
-      "laboratorios": 120,
-      "honorarios": 15,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_MEDICINA INTERNA": {
-      "medicamentos": 395,
-      "laboratorios": 366,
-      "honorarios": 272,
-      "procedimientos": 9,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 1,
-      "laboratorios": 10,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_PEDIATRÍA": {
-      "medicamentos": 45,
-      "laboratorios": 90,
-      "honorarios": 102,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_PSICOLOGÍA": {
-      "medicamentos": 176,
-      "laboratorios": 69,
-      "honorarios": 87,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 25,
-      "laboratorios": 38,
-      "honorarios": 37,
-      "procedimientos": 7,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_MEDICINA GENERAL": {
-      "medicamentos": 8574,
-      "laboratorios": 4076,
-      "honorarios": 533,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_ENFERMERÍA": {
-      "medicamentos": 92,
-      "laboratorios": 74,
-      "honorarios": 2,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 28,
-      "laboratorios": 7,
-      "honorarios": 2,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_PEDIATRÍA": {
-      "medicamentos": 25,
-      "laboratorios": 34,
-      "honorarios": 54,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 12,
-      "laboratorios": 36,
-      "honorarios": 43,
-      "procedimientos": 9,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_MEDICINA INTERNA": {
-      "medicamentos": 324,
-      "laboratorios": 242,
-      "honorarios": 193,
-      "procedimientos": 9,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_ENFERMERÍA": {
-      "medicamentos": 72,
-      "laboratorios": 220,
-      "honorarios": 15,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_NUTRICIONISTA": {
-      "medicamentos": 28,
-      "laboratorios": 31,
-      "honorarios": 47,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 16,
-      "laboratorios": 35,
-      "honorarios": 39,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_MEDICINA GENERAL": {
-      "medicamentos": 6073,
-      "laboratorios": 3262,
-      "honorarios": 618,
-      "procedimientos": 3,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_ENFERMERÍA": {
-      "medicamentos": 134,
-      "laboratorios": 144,
-      "honorarios": 23,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_MEDICINA INTERNA": {
-      "medicamentos": 366,
-      "laboratorios": 317,
-      "honorarios": 252,
-      "procedimientos": 5,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_PEDIATRÍA": {
-      "medicamentos": 27,
-      "laboratorios": 71,
-      "honorarios": 48,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_MEDICINA GENERAL": {
-      "medicamentos": 6063,
-      "laboratorios": 2648,
-      "honorarios": 491,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_MEDICINA INTERNA": {
-      "medicamentos": 220,
-      "laboratorios": 209,
-      "honorarios": 166,
-      "procedimientos": 7,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_PEDIATRÍA": {
-      "medicamentos": 15,
-      "laboratorios": 12,
-      "honorarios": 30,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_NUTRICIONISTA": {
-      "medicamentos": 6,
-      "laboratorios": 6,
-      "honorarios": 26,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_PSICOLOGÍA": {
-      "medicamentos": 2,
-      "laboratorios": 0,
-      "honorarios": 59,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 34,
-      "laboratorios": 13,
-      "honorarios": 27,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 8,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_PSICOLOGÍA": {
-      "medicamentos": 23,
-      "laboratorios": 50,
-      "honorarios": 121,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_NUTRICIONISTA": {
-      "medicamentos": 7,
-      "laboratorios": 0,
-      "honorarios": 65,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_AUXILIAR DE ENFERMERIA": {
-      "medicamentos": 32,
-      "laboratorios": 4,
-      "honorarios": 9,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_PEDIATRÍA": {
-      "medicamentos": 41,
-      "laboratorios": 51,
-      "honorarios": 58,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_GINECOLOGÍA Y OBSTETRICIA": {
-      "medicamentos": 15,
-      "laboratorios": 32,
-      "honorarios": 29,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MEDICINA GENERAL": {
-      "medicamentos": 1965,
-      "laboratorios": 1735,
-      "honorarios": 252,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_PSICOLOGÍA": {
+    "2026_1_PSICOLOGÍA": {
       "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 50,
@@ -976,497 +634,231 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_10_NUTRICIONISTA": {
-      "medicamentos": 11,
-      "laboratorios": 0,
-      "honorarios": 41,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    }
-  },
-  "ordersBySpecialist": {
-    "2026_1_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 345,
-      "laboratorios": 412,
-      "honorarios": 185,
-      "procedimientos": 10,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 278,
-      "laboratorios": 347,
-      "honorarios": 195,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 263,
-      "laboratorios": 394,
-      "honorarios": 88,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 3685,
-      "laboratorios": 1864,
-      "honorarios": 105,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_VALENTINA CARDONA CANO": {
-      "medicamentos": 18,
-      "laboratorios": 12,
-      "honorarios": 67,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_VALENTINA CARDONA CANO": {
-      "medicamentos": 32,
-      "laboratorios": 18,
-      "honorarios": 58,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 101,
-      "laboratorios": 73,
-      "honorarios": 46,
-      "procedimientos": 3,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 3,
-      "laboratorios": 10,
-      "honorarios": 136,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3277,
-      "laboratorios": 1285,
-      "honorarios": 42,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 33,
-      "laboratorios": 65,
-      "honorarios": 53,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 23,
-      "laboratorios": 25,
-      "honorarios": 99,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 34,
-      "laboratorios": 60,
-      "honorarios": 40,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 84,
-      "laboratorios": 62,
-      "honorarios": 101,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_VALENTINA CARDONA CANO": {
-      "medicamentos": 24,
-      "laboratorios": 53,
-      "honorarios": 55,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 158,
-      "laboratorios": 38,
-      "honorarios": 12,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 85,
-      "laboratorios": 119,
-      "honorarios": 15,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 58,
-      "laboratorios": 65,
-      "honorarios": 45,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 190,
-      "laboratorios": 255,
-      "honorarios": 187,
-      "procedimientos": 15,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 683,
-      "laboratorios": 842,
-      "honorarios": 206,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 77,
-      "laboratorios": 221,
-      "honorarios": 120,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 128,
-      "laboratorios": 188,
-      "honorarios": 18,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_VALENTINA VALDERRAMA QUINTERO": {
+    "2026_2_PSICOLOGÍA": {
       "medicamentos": 0,
       "laboratorios": 0,
+      "honorarios": 114,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_ENFERMERA(O) JEFE": {
+      "medicamentos": 42,
+      "laboratorios": 128,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_MEDICINA INTERNA": {
+      "medicamentos": 401,
+      "laboratorios": 323,
+      "honorarios": 255,
+      "procedimientos": 5,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_ENFERMERA(O) JEFE": {
+      "medicamentos": 25,
+      "laboratorios": 90,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_10_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 7,
-      "laboratorios": 4,
-      "honorarios": 19,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3446,
-      "laboratorios": 1713,
-      "honorarios": 100,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 3727,
-      "laboratorios": 1323,
+    "2026_3_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
       "honorarios": 89,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 134,
-      "laboratorios": 226,
-      "honorarios": 44,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 525,
-      "laboratorios": 616,
-      "honorarios": 256,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 180,
-      "laboratorios": 364,
-      "honorarios": 33,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 30,
-      "laboratorios": 7,
-      "honorarios": 20,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_DIEGO ALEJANDRO TORRES GOMEZ": {
-      "medicamentos": 4,
-      "laboratorios": 7,
-      "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_1_VALENTINA CARDONA CANO": {
-      "medicamentos": 196,
-      "laboratorios": 198,
-      "honorarios": 69,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 184,
-      "laboratorios": 235,
-      "honorarios": 57,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 88,
-      "laboratorios": 68,
-      "honorarios": 39,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 39,
-      "laboratorios": 55,
-      "honorarios": 16,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 27,
-      "laboratorios": 47,
-      "honorarios": 29,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_MARIA CAMILA QUIÑONES NUÑEZ": {
+    "2026_3_PSICOLOGÍA": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 75,
-      "laboratorios": 31,
-      "honorarios": 47,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 14,
-      "laboratorios": 19,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3666,
-      "laboratorios": 1598,
-      "honorarios": 95,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 4073,
-      "laboratorios": 1650,
-      "honorarios": 136,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 603,
-      "laboratorios": 688,
-      "honorarios": 271,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 155,
-      "laboratorios": 176,
-      "honorarios": 21,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 30,
-      "laboratorios": 42,
-      "honorarios": 52,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 79,
-      "laboratorios": 53,
-      "honorarios": 117,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_VALENTINA CARDONA CANO": {
-      "medicamentos": 124,
-      "laboratorios": 70,
-      "honorarios": 71,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 209,
-      "laboratorios": 229,
-      "honorarios": 60,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 58,
-      "laboratorios": 102,
-      "honorarios": 37,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 109,
-      "laboratorios": 132,
-      "honorarios": 41,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 72,
-      "laboratorios": 53,
-      "honorarios": 36,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 197,
-      "laboratorios": 155,
-      "honorarios": 54,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 4,
-      "laboratorios": 7,
-      "honorarios": 9,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3771,
-      "laboratorios": 1629,
-      "honorarios": 93,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 356,
-      "laboratorios": 401,
-      "honorarios": 193,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 560,
-      "laboratorios": 584,
-      "honorarios": 263,
-      "procedimientos": 3,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 57,
-      "laboratorios": 113,
-      "honorarios": 8,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 57,
-      "laboratorios": 60,
-      "honorarios": 63,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_VALENTINA CARDONA CANO": {
-      "medicamentos": 17,
-      "laboratorios": 24,
-      "honorarios": 84,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 69,
-      "laboratorios": 41,
       "honorarios": 138,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 46,
-      "laboratorios": 41,
-      "honorarios": 31,
+    "2026_8_MEDICINA GENERAL": {
+      "medicamentos": 8211,
+      "laboratorios": 3637,
+      "honorarios": 479,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_MEDICINA INTERNA": {
+      "medicamentos": 315,
+      "laboratorios": 232,
+      "honorarios": 174,
+      "procedimientos": 8,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MEDICINA GENERAL": {
+      "medicamentos": 8533,
+      "laboratorios": 5003,
+      "honorarios": 605,
+      "procedimientos": 6,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_PEDIATRÍA": {
+      "medicamentos": 47,
+      "laboratorios": 91,
+      "honorarios": 83,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_PEDIATRÍA": {
+      "medicamentos": 26,
+      "laboratorios": 43,
+      "honorarios": 43,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_ENFERMERA(O) JEFE": {
+      "medicamentos": 29,
+      "laboratorios": 237,
+      "honorarios": 7,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 27,
+      "laboratorios": 62,
+      "honorarios": 42,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 24,
+      "laboratorios": 14,
+      "honorarios": 29,
       "procedimientos": 1,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_ANGIE LIZETH PALACIOS AGUILAR": {
+    "2026_8_ENFERMERA(O) JEFE": {
+      "medicamentos": 31,
+      "laboratorios": 29,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 91,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_MEDICINA GENERAL": {
+      "medicamentos": 5031,
+      "laboratorios": 3082,
+      "honorarios": 259,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_GINECOLOGÍA Y OBSTETRICIA": {
+      "medicamentos": 26,
+      "laboratorios": 38,
+      "honorarios": 31,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_PEDIATRÍA": {
+      "medicamentos": 36,
+      "laboratorios": 72,
+      "honorarios": 49,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_PEDIATRÍA": {
+      "medicamentos": 24,
+      "laboratorios": 71,
+      "honorarios": 42,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 137,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 55,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 104,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 40,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_PEDIATRÍA": {
+      "medicamentos": 23,
+      "laboratorios": 12,
+      "honorarios": 28,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_ENFERMERA(O) JEFE": {
+      "medicamentos": 32,
+      "laboratorios": 87,
+      "honorarios": 1,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_GINECOLOGÍA Y OBSTETRICIA": {
       "medicamentos": 5,
       "laboratorios": 0,
       "honorarios": 0,
@@ -1474,251 +866,469 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_MARIA CAMILA QUIÑONES NUÑEZ": {
+    "2026_9_PEDIATRÍA": {
+      "medicamentos": 43,
+      "laboratorios": 51,
+      "honorarios": 60,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_PSICOLOGÍA": {
       "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 106,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 51,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_ENFERMERA(O) JEFE": {
+      "medicamentos": 19,
+      "laboratorios": 71,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 26,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 60,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 128,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 60,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_PEDIATRÍA": {
+      "medicamentos": 11,
+      "laboratorios": 4,
+      "honorarios": 17,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_AUXILIAR DE ENFERMERIA": {
+      "medicamentos": 2,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 154,
-      "laboratorios": 189,
-      "honorarios": 51,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 24,
-      "laboratorios": 57,
-      "honorarios": 43,
-      "procedimientos": 4,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 77,
-      "laboratorios": 95,
-      "honorarios": 35,
+    "2026_10_NUTRICIONISTA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 31,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_LUIS CARLOS BUITRAGO BELTRAN": {
-      "medicamentos": 34,
-      "laboratorios": 64,
-      "honorarios": 8,
+    "2026_10_PSICOLOGÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 55,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    }
+  },
+  "ordersBySpecialist": {
+    "2026_2_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3577,
+      "laboratorios": 1868,
+      "honorarios": 126,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 3177,
-      "laboratorios": 1378,
-      "honorarios": 112,
+    "2026_1_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3816,
+      "laboratorios": 1688,
+      "honorarios": 78,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3768,
-      "laboratorios": 1491,
-      "honorarios": 95,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 123,
-      "laboratorios": 120,
-      "honorarios": 15,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 98,
-      "laboratorios": 79,
-      "honorarios": 56,
-      "procedimientos": 7,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 553,
-      "laboratorios": 530,
-      "honorarios": 148,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 152,
-      "laboratorios": 173,
-      "honorarios": 59,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 297,
-      "laboratorios": 287,
-      "honorarios": 216,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_ANGIE LIZETH PALACIOS AGUILAR": {
-      "medicamentos": 1,
-      "laboratorios": 10,
+    "2026_1_CLARA ISABEL SILVA TOBON": {
+      "medicamentos": 29,
+      "laboratorios": 9,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 45,
-      "laboratorios": 90,
-      "honorarios": 102,
+    "2026_2_CLARA ISABEL SILVA TOBON": {
+      "medicamentos": 24,
+      "laboratorios": 0,
+      "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 176,
-      "laboratorios": 69,
+    "2026_3_CLARA ISABEL SILVA TOBON": {
+      "medicamentos": 9,
+      "laboratorios": 4,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3575,
+      "laboratorios": 1766,
       "honorarios": 87,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 137,
-      "laboratorios": 117,
-      "honorarios": 24,
+    "2026_1_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 83,
+      "laboratorios": 60,
+      "honorarios": 39,
       "procedimientos": 1,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 0,
+    "2026_2_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 81,
+      "laboratorios": 32,
+      "honorarios": 35,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 63,
+      "laboratorios": 41,
+      "honorarios": 31,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3879,
+      "laboratorios": 1867,
+      "honorarios": 100,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 519,
+      "laboratorios": 593,
+      "honorarios": 264,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 481,
+      "laboratorios": 650,
+      "honorarios": 278,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 537,
+      "laboratorios": 573,
+      "honorarios": 254,
+      "procedimientos": 3,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 60,
+      "laboratorios": 52,
+      "honorarios": 19,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 58,
+      "laboratorios": 102,
+      "honorarios": 34,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 119,
+      "laboratorios": 187,
+      "honorarios": 49,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 298,
+      "laboratorios": 404,
+      "honorarios": 188,
+      "procedimientos": 11,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 291,
+      "laboratorios": 391,
+      "honorarios": 206,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 293,
+      "laboratorios": 365,
+      "honorarios": 192,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 40,
+      "laboratorios": 402,
+      "honorarios": 4,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 40,
+      "laboratorios": 19,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 175,
+      "laboratorios": 232,
+      "honorarios": 58,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3395,
+      "laboratorios": 1605,
+      "honorarios": 76,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 294,
+      "laboratorios": 120,
+      "honorarios": 56,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3853,
+      "laboratorios": 1220,
+      "honorarios": 102,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 319,
+      "laboratorios": 292,
+      "honorarios": 215,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 28,
+      "laboratorios": 149,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 127,
+      "laboratorios": 167,
+      "honorarios": 60,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_JORGE LUIS ORJUELA GIL": {
+      "medicamentos": 13,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 25,
-      "laboratorios": 38,
-      "honorarios": 37,
-      "procedimientos": 7,
+    "2026_2_JORGE LUIS ORJUELA GIL": {
+      "medicamentos": 7,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 159,
-      "laboratorios": 130,
-      "honorarios": 49,
+    "2026_3_JORGE LUIS ORJUELA GIL": {
+      "medicamentos": 3,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 167,
+      "laboratorios": 219,
+      "honorarios": 60,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 211,
+      "laboratorios": 389,
+      "honorarios": 88,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 366,
+      "laboratorios": 535,
+      "honorarios": 153,
       "procedimientos": 2,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 207,
-      "laboratorios": 209,
-      "honorarios": 72,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3852,
-      "laboratorios": 1481,
-      "honorarios": 70,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 521,
-      "laboratorios": 597,
-      "honorarios": 175,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 3693,
-      "laboratorios": 1464,
-      "honorarios": 118,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 302,
-      "laboratorios": 347,
-      "honorarios": 174,
-      "procedimientos": 3,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 92,
-      "laboratorios": 74,
-      "honorarios": 2,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_ANGIE LIZETH PALACIOS AGUILAR": {
-      "medicamentos": 28,
+    "2026_1_DIEGO ALEJANDRO TORRES GOMEZ": {
+      "medicamentos": 5,
       "laboratorios": 7,
       "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_RUBI ROCIO ORTEGA ORDOÑEZ": {
+    "2026_1_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 140,
+      "laboratorios": 229,
+      "honorarios": 41,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 166,
+      "laboratorios": 150,
+      "honorarios": 53,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 79,
+      "laboratorios": 82,
+      "honorarios": 36,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 23,
+      "laboratorios": 146,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 27,
+      "laboratorios": 116,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3701,
+      "laboratorios": 1632,
+      "honorarios": 95,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 171,
+      "laboratorios": 211,
+      "honorarios": 71,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 507,
+      "laboratorios": 591,
+      "honorarios": 176,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 83,
+      "laboratorios": 141,
+      "honorarios": 41,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_PAOLA MILENA OSORIO ESCORCIA": {
       "medicamentos": 25,
-      "laboratorios": 34,
-      "honorarios": 54,
+      "laboratorios": 0,
+      "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_5_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 80,
-      "laboratorios": 63,
-      "honorarios": 45,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 207,
-      "laboratorios": 253,
-      "honorarios": 47,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 3,
-      "laboratorios": 2,
-      "honorarios": 2,
+    "2026_4_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 21,
+      "laboratorios": 0,
+      "honorarios": 0,
       "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 12,
-      "laboratorios": 36,
-      "honorarios": 43,
-      "procedimientos": 9,
       "ecografias": 0,
       "imagenes": 0
     },
@@ -1730,322 +1340,842 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 272,
-      "laboratorios": 193,
-      "honorarios": 149,
+    "2026_5_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 228,
+      "laboratorios": 80,
+      "honorarios": 45,
+      "procedimientos": 3,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 273,
+      "laboratorios": 344,
+      "honorarios": 183,
+      "procedimientos": 3,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 110,
+      "laboratorios": 93,
+      "honorarios": 26,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 178,
+      "laboratorios": 261,
+      "honorarios": 47,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 50,
+      "laboratorios": 66,
+      "honorarios": 58,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 71,
+      "laboratorios": 73,
+      "honorarios": 46,
+      "procedimientos": 3,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_JOHANN DIAZ ROMERO": {
+      "medicamentos": 4,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_JOHANN DIAZ ROMERO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3663,
+      "laboratorios": 1503,
+      "honorarios": 99,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 11,
+      "laboratorios": 7,
+      "honorarios": 19,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3668,
+      "laboratorios": 1822,
+      "honorarios": 99,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 271,
+      "laboratorios": 210,
+      "honorarios": 159,
       "procedimientos": 4,
       "ecografias": 0,
       "imagenes": 0
     },
+    "2026_1_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 62,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 157,
+      "laboratorios": 107,
+      "honorarios": 60,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3461,
+      "laboratorios": 1218,
+      "honorarios": 52,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
     "2026_6_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 4557,
-      "laboratorios": 1548,
-      "honorarios": 98,
+      "medicamentos": 3626,
+      "laboratorios": 1508,
+      "honorarios": 93,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_6_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 582,
-      "laboratorios": 568,
-      "honorarios": 251,
+      "medicamentos": 603,
+      "laboratorios": 587,
+      "honorarios": 242,
       "procedimientos": 2,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 72,
-      "laboratorios": 220,
-      "honorarios": 15,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 151,
-      "laboratorios": 95,
-      "honorarios": 58,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_VALENTINA CARDONA CANO": {
-      "medicamentos": 28,
-      "laboratorios": 31,
-      "honorarios": 47,
+    "2026_2_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 12,
+      "laboratorios": 7,
+      "honorarios": 10,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 355,
-      "laboratorios": 427,
-      "honorarios": 101,
-      "procedimientos": 1,
+    "2026_3_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 12,
+      "laboratorios": 51,
+      "honorarios": 42,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 16,
+      "laboratorios": 39,
+      "honorarios": 38,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 20,
+      "laboratorios": 36,
+      "honorarios": 45,
+      "procedimientos": 9,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 24,
+      "laboratorios": 35,
+      "honorarios": 40,
+      "procedimientos": 7,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_6_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 87,
-      "laboratorios": 165,
+      "medicamentos": 112,
+      "laboratorios": 158,
       "honorarios": 25,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
+    "2026_6_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 289,
+      "laboratorios": 404,
+      "honorarios": 105,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 23,
+      "laboratorios": 47,
+      "honorarios": 30,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 30,
+      "laboratorios": 42,
+      "honorarios": 50,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 47,
+      "laboratorios": 62,
+      "honorarios": 53,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 50,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3505,
+      "laboratorios": 1506,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 226,
+      "laboratorios": 274,
+      "honorarios": 90,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 114,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 282,
+      "laboratorios": 276,
+      "honorarios": 119,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 734,
+      "laboratorios": 570,
+      "honorarios": 203,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 218,
+      "laboratorios": 318,
+      "honorarios": 71,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 42,
+      "laboratorios": 128,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
     "2026_6_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 52,
+      "medicamentos": 63,
       "laboratorios": 49,
       "honorarios": 44,
       "procedimientos": 5,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_6_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 125,
-      "laboratorios": 160,
-      "honorarios": 29,
-      "procedimientos": 3,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 0,
-      "laboratorios": 8,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 16,
-      "laboratorios": 35,
-      "honorarios": 39,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_ANGIE LIZETH PALACIOS AGUILAR": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 2416,
-      "laboratorios": 727,
-      "honorarios": 56,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 821,
-      "laboratorios": 564,
-      "honorarios": 211,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 215,
-      "laboratorios": 307,
-      "honorarios": 70,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_LUIS CARLOS BUITRAGO BELTRAN": {
-      "medicamentos": 54,
-      "laboratorios": 54,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_YERLIS ELENA YEPES TORRES": {
-      "medicamentos": 134,
-      "laboratorios": 144,
-      "honorarios": 23,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
     "2026_7_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 111,
+      "medicamentos": 101,
       "laboratorios": 45,
-      "honorarios": 59,
+      "honorarios": 60,
       "procedimientos": 2,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 226,
-      "laboratorios": 250,
-      "honorarios": 114,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 188,
-      "laboratorios": 284,
-      "honorarios": 92,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 61,
-      "laboratorios": 52,
-      "honorarios": 21,
+    "2026_5_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 25,
+      "laboratorios": 90,
+      "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 255,
-      "laboratorios": 272,
-      "honorarios": 193,
+    "2026_7_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 300,
+      "laboratorios": 278,
+      "honorarios": 195,
       "procedimientos": 3,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_MARIA CAMILA QUIÑONES NUÑEZ": {
+    "2026_3_VALENTINA CARDONA CANO": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 2,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 27,
-      "laboratorios": 71,
-      "honorarios": 48,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 2089,
-      "laboratorios": 1024,
-      "honorarios": 49,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_CAMILA MEJIA LERMA": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_LLOVELA ANDRADE ROSERO": {
-      "medicamentos": 3,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 515,
-      "laboratorios": 322,
-      "honorarios": 147,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_JENNIFER ANDREA PATINO OCAMPO": {
-      "medicamentos": 191,
-      "laboratorios": 179,
-      "honorarios": 132,
-      "procedimientos": 6,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 3080,
-      "laboratorios": 1356,
       "honorarios": 89,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 15,
-      "laboratorios": 12,
-      "honorarios": 24,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 200,
-      "laboratorios": 298,
-      "honorarios": 68,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 111,
-      "laboratorios": 187,
-      "honorarios": 45,
+    "2026_3_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 138,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_8_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 167,
-      "laboratorios": 145,
-      "honorarios": 62,
+      "medicamentos": 168,
+      "laboratorios": 166,
+      "honorarios": 61,
       "procedimientos": 1,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_VALENTINA CARDONA CANO": {
-      "medicamentos": 6,
-      "laboratorios": 6,
-      "honorarios": 26,
+    "2026_8_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 557,
+      "laboratorios": 267,
+      "honorarios": 141,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 2,
+    "2026_8_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 239,
+      "laboratorios": 195,
+      "honorarios": 139,
+      "procedimientos": 7,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3640,
+      "laboratorios": 1852,
+      "honorarios": 95,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 3633,
+      "laboratorios": 1253,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 47,
+      "laboratorios": 91,
+      "honorarios": 83,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 26,
+      "laboratorios": 43,
+      "honorarios": 43,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 269,
+      "laboratorios": 319,
+      "honorarios": 71,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 135,
+      "laboratorios": 182,
+      "honorarios": 41,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3661,
+      "laboratorios": 1326,
+      "honorarios": 42,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_LUIS CARLOS BUITRAGO BELTRAN": {
+      "medicamentos": 26,
+      "laboratorios": 64,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_LUIS CARLOS BUITRAGO BELTRAN": {
+      "medicamentos": 4,
       "laboratorios": 0,
-      "honorarios": 59,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_LUIS CARLOS BUITRAGO BELTRAN": {
+      "medicamentos": 4,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 166,
+      "laboratorios": 210,
+      "honorarios": 60,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 29,
+      "laboratorios": 237,
+      "honorarios": 7,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 27,
+      "laboratorios": 62,
+      "honorarios": 42,
+      "procedimientos": 4,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 24,
+      "laboratorios": 14,
+      "honorarios": 29,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3581,
+      "laboratorios": 1061,
+      "honorarios": 49,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3388,
+      "laboratorios": 1406,
+      "honorarios": 86,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_8_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 29,
-      "laboratorios": 30,
-      "honorarios": 34,
+      "medicamentos": 73,
+      "laboratorios": 37,
+      "honorarios": 35,
       "procedimientos": 1,
       "ecografias": 0,
       "imagenes": 0
     },
+    "2026_9_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 268,
+      "laboratorios": 245,
+      "honorarios": 193,
+      "procedimientos": 16,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 31,
+      "laboratorios": 29,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 790,
+      "laboratorios": 841,
+      "honorarios": 199,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 68,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 91,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 216,
+      "laboratorios": 246,
+      "honorarios": 79,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_CLAUDIA LORENA SALINAS BURBANO": {
+      "medicamentos": 2247,
+      "laboratorios": 1748,
+      "honorarios": 44,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 158,
+      "laboratorios": 137,
+      "honorarios": 64,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 30,
+      "laboratorios": 36,
+      "honorarios": 24,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_VIVIANA MAYOR BARRERA": {
+      "medicamentos": 83,
+      "laboratorios": 53,
+      "honorarios": 45,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 26,
+      "laboratorios": 38,
+      "honorarios": 31,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_JENNIFER ANDREA PATIÑO OCAMPO": {
+      "medicamentos": 161,
+      "laboratorios": 235,
+      "honorarios": 131,
+      "procedimientos": 5,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 36,
+      "laboratorios": 72,
+      "honorarios": 49,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 24,
+      "laboratorios": 71,
+      "honorarios": 42,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 137,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 55,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_ROSA ANGELICA MONTOYA QUIÑONEZ": {
+      "medicamentos": 95,
+      "laboratorios": 62,
+      "honorarios": 22,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 73,
+      "laboratorios": 77,
+      "honorarios": 20,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 374,
+      "laboratorios": 356,
+      "honorarios": 122,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 80,
+      "laboratorios": 62,
+      "honorarios": 19,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 3499,
+      "laboratorios": 1641,
+      "honorarios": 84,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 90,
+      "laboratorios": 155,
+      "honorarios": 29,
+      "procedimientos": 3,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 59,
+      "laboratorios": 46,
+      "honorarios": 21,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 104,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 40,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 23,
+      "laboratorios": 12,
+      "honorarios": 22,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
     "2026_8_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 41,
+      "medicamentos": 50,
       "laboratorios": 44,
       "honorarios": 11,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 1949,
-      "laboratorios": 296,
-      "honorarios": 69,
+    "2026_10_GLADYS MONGUI CAÑAS JAIMES": {
+      "medicamentos": 2128,
+      "laboratorios": 726,
+      "honorarios": 26,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 32,
+      "laboratorios": 87,
+      "honorarios": 1,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_LUIS CARLOS BUITRAGO BELTRAN": {
+      "medicamentos": 42,
+      "laboratorios": 54,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_LUIS CARLOS BUITRAGO BELTRAN": {
+      "medicamentos": 10,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_OMAR ALONSO MENDEZ SALAMANDO": {
+      "medicamentos": 5,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 63,
+      "laboratorios": 76,
+      "honorarios": 24,
+      "procedimientos": 2,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_PAOLA MILENA OSORIO ESCORCIA": {
+      "medicamentos": 34,
+      "laboratorios": 51,
+      "honorarios": 6,
+      "procedimientos": 1,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 43,
+      "laboratorios": 51,
+      "honorarios": 60,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 106,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 51,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_YERLIS ELENA YEPES TORRES": {
+      "medicamentos": 19,
+      "laboratorios": 71,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_LLOVELA ANDRADE ROSERO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_LLOVELA ANDRADE ROSERO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_LLOVELA ANDRADE ROSERO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 0,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_VALENTINA CARDONA CANO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 26,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_BETTY MILENA MATABAJOY YAQUENO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 60,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -2058,24 +2188,16 @@
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 34,
-      "laboratorios": 13,
-      "honorarios": 27,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_CAMILA MEJIA LERMA": {
-      "medicamentos": 8,
+    "2026_1_JOHANN DIAZ ROMERO": {
+      "medicamentos": 1,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_8_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 0,
+    "2026_8_JOHANN DIAZ ROMERO": {
+      "medicamentos": 3,
       "laboratorios": 0,
       "honorarios": 0,
       "procedimientos": 0,
@@ -2083,185 +2205,41 @@
       "imagenes": 0
     },
     "2026_9_BETTY MILENA MATABAJOY YAQUENO": {
-      "medicamentos": 22,
-      "laboratorios": 38,
-      "honorarios": 121,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 2483,
-      "laboratorios": 1617,
-      "honorarios": 96,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 2285,
-      "laboratorios": 616,
-      "honorarios": 104,
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 128,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_9_VALENTINA CARDONA CANO": {
-      "medicamentos": 7,
+      "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 65,
+      "honorarios": 60,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_9_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 158,
-      "laboratorios": 201,
-      "honorarios": 57,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 72,
-      "laboratorios": 73,
-      "honorarios": 25,
-      "procedimientos": 2,
+    "2026_10_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 11,
+      "laboratorios": 4,
+      "honorarios": 17,
+      "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_9_CAMILA MEJIA LERMA": {
-      "medicamentos": 29,
-      "laboratorios": 1,
-      "honorarios": 4,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 138,
-      "laboratorios": 151,
-      "honorarios": 64,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_RUBI ROCIO ORTEGA ORDOÑEZ": {
-      "medicamentos": 41,
-      "laboratorios": 51,
-      "honorarios": 58,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_OMAR ALONSO MENDEZ SALAMANDO": {
-      "medicamentos": 15,
-      "laboratorios": 32,
-      "honorarios": 29,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 179,
-      "laboratorios": 251,
-      "honorarios": 79,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 1,
-      "laboratorios": 12,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_VALENTINA VALDERRAMA QUINTERO": {
-      "medicamentos": 3,
-      "laboratorios": 3,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_CLAUDIA LORENA SALINAS BURBANO": {
-      "medicamentos": 888,
-      "laboratorios": 457,
-      "honorarios": 46,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_GLADYS MONGUI CAÑAS JAIMES": {
-      "medicamentos": 686,
-      "laboratorios": 668,
-      "honorarios": 27,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_LILIA MARIA SANABRIA OTERO": {
-      "medicamentos": 228,
-      "laboratorios": 350,
-      "honorarios": 113,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_ROSA ANGELICA MONTOYA QUINONEZ": {
-      "medicamentos": 48,
-      "laboratorios": 62,
-      "honorarios": 22,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MARIA CAMILA QUIÑONES NUÑEZ": {
-      "medicamentos": 0,
+      "medicamentos": 2,
       "laboratorios": 0,
       "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MIGUEL ANGEL POLO VASQUEZ": {
-      "medicamentos": 44,
-      "laboratorios": 76,
-      "honorarios": 18,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_PAOLA MILENA OSORIO ESCORCIA": {
-      "medicamentos": 22,
-      "laboratorios": 51,
-      "honorarios": 6,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MARIA CAMILA MURILLO RODRIGUEZ": {
-      "medicamentos": 49,
-      "laboratorios": 71,
-      "honorarios": 20,
-      "procedimientos": 1,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_CAMILA MEJIA LERMA": {
-      "medicamentos": 1,
-      "laboratorios": 0,
-      "honorarios": 1,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
     "2026_10_VALENTINA CARDONA CANO": {
-      "medicamentos": 11,
+      "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 41,
+      "honorarios": 31,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -2269,62 +2247,14 @@
     "2026_10_BETTY MILENA MATABAJOY YAQUENO": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 50,
+      "honorarios": 55,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_10_VIVIANA MAYOR BARRERA": {
-      "medicamentos": 17,
-      "laboratorios": 32,
-      "honorarios": 22,
-      "procedimientos": 2,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_MARIA ANDREA BACCA AGUILAR": {
+    "2026_4_CLARA ISABEL SILVA TOBON": {
       "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_ANDREA ESTEFANIA OLIVEROS SALAZAR": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_JASON MORENO RODRIGUEZ": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_DAVID ARMANDO ANGULO PORTOCARRERO": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_ANDRES MAURICIO PEREZ VIVAS": {
-      "medicamentos": 0,
-      "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_SOFIA PEREZ GARCIA": {
-      "medicamentos": 0,
-      "laboratorios": 0,
+      "laboratorios": 4,
       "honorarios": 0,
       "procedimientos": 0,
       "ecografias": 0,
@@ -5485,6 +5415,496 @@
       "realizadas": 0,
       "primeraVez": 0,
       "control": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "CLARA ISABEL SILVA TOBON",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "CLARA ISABEL SILVA TOBON",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "CLARA ISABEL SILVA TOBON",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "JORGE LUIS ORJUELA GIL",
+      "especialidad": "GINECOLOGÍA Y OBSTETRICIA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "JORGE LUIS ORJUELA GIL",
+      "especialidad": "GINECOLOGÍA Y OBSTETRICIA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "JORGE LUIS ORJUELA GIL",
+      "especialidad": "GINECOLOGÍA Y OBSTETRICIA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "PAOLA MILENA OSORIO ESCORCIA",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "PAOLA MILENA OSORIO ESCORCIA",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "JOHANN DIAZ ROMERO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "JOHANN DIAZ ROMERO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Junio",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Junio",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Julio",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Julio",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Julio",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "LUIS CARLOS BUITRAGO BELTRAN",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "LUIS CARLOS BUITRAGO BELTRAN",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Junio",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "JENNIFER ANDREA PATIÑO OCAMPO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "LUIS CARLOS BUITRAGO BELTRAN",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "OMAR ALONSO MENDEZ SALAMANDO",
+      "especialidad": "GINECOLOGÍA Y OBSTETRICIA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "YERLIS ELENA YEPES TORRES",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "LLOVELA ANDRADE ROSERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "JOHANN DIAZ ROMERO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "JOHANN DIAZ ROMERO",
+      "especialidad": "MEDICINA INTERNA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "CLARA ISABEL SILVA TOBON",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
     }
   ],
   "diagnosticsList": [

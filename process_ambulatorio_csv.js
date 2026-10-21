@@ -225,6 +225,9 @@ async function processAll() {
 
   // 3. Ingest Ordenamientos
   let totalOrdersCount = 0;
+  const cisenOrders = [];
+  const odontoOrders = [];
+
   if (fs.existsSync(ordenamientosFile)) {
     console.log(`[3/4] Leyendo ${ordenamientosFile}...`);
     const oStream = fs.createReadStream(ordenamientosFile, { encoding: 'utf8' });
@@ -241,18 +244,51 @@ async function processAll() {
 
       const reg = cols[0]?.trim();
       const concepto = cols[2]?.trim();
+      const fecha = cols[3]?.trim();
       const servicio = cols[6]?.trim();
       const descripcion = cols[7]?.trim();
       const observacion = cols[8]?.trim();
       const cantidad = parseFloat(cols[9]?.replace(',', '.')) || 1;
       const frecuencia = cols[10]?.trim();
-      const medico = cols[11]?.trim().toUpperCase();
-      const especialidad = cols[12]?.trim();
+      const medico = (cols[11]?.trim() || 'MEDICO AMBULATORIO').toUpperCase();
+      const especialidad = (cols[12]?.trim() || 'MEDICINA GENERAL').toUpperCase();
 
       const grupo = normalizeOrderGroup(concepto, descripcion);
+      let gKey = null;
+      if (grupo === 'Medicamentos') gKey = 'medicamentos';
+      else if (grupo === 'Laboratorio Clínico') gKey = 'laboratorios';
+      else if (grupo === 'Honorarios Médicos') gKey = 'honorarios';
+      else if (grupo === 'Procedimientos Quirúrgicos') gKey = 'procedimientos';
+      else if (grupo === 'Ecografías') gKey = 'ecografias';
+      else if (grupo === 'Imágenes Diagnósticas') gKey = 'imagenes';
+
+      if (!gKey) continue;
+
+      const espLower = especialidad.toLowerCase();
+      const servDesLower = (descripcion || '').toLowerCase();
+      const sClean = servicio.replace(/[^a-zA-Z0-9]/g, '');
+
+      const isOdonto = espLower.includes('odonto') || 
+                       espLower.includes('higien') ||
+                       espLower.includes('maxilo') ||
+                       espLower.includes('oral') ||
+                       servDesLower.includes('salud oral') ||
+                       servDesLower.includes('odontolog') ||
+                       sClean.startsWith('23') || sClean.startsWith('24') || sClean.startsWith('997');
+
+      const dateParts = fecha.split('/');
+      let monthName = 'Enero';
+      let monthNum = 1;
+      let yr = '2026';
+      if (dateParts.length >= 3) {
+        monthNum = parseInt(dateParts[1], 10) || 1;
+        monthName = MONTH_NAMES[monthNum - 1] || 'Enero';
+        yr = dateParts[2].trim();
+      }
 
       const orderItem = {
         g: grupo,
+        gKey,
         c: concepto,
         cod: servicio,
         d: descripcion,
@@ -260,17 +296,60 @@ async function processAll() {
         fr: frecuencia,
         obs: observacion,
         medico,
-        especialidad: especialidad?.toUpperCase()
+        especialidad,
+        reg,
+        fecha,
+        monthName,
+        monthNum,
+        year: yr,
+        isOdonto
       };
 
       totalOrdersCount++;
 
+      if (isOdonto) {
+        odontoOrders.push(orderItem);
+      } else {
+        cisenOrders.push(orderItem);
+      }
+
+      // Link to cita for detail modals without duplicating
       if (reg && regToCitaMap.has(reg)) {
         const citas = regToCitaMap.get(reg);
-        citas.forEach(c => c.ord.push(orderItem));
+        const targetCita = citas.find(c => c.medico === medico) || citas[0];
+        targetCita.ord.push(orderItem);
+      } else if (yr === '2026') {
+        // Prescribe in doctor's monthly bucket for detail modals so it is not dropped
+        if (!citasByMonthAndDoc[monthName]) citasByMonthAndDoc[monthName] = {};
+        if (!citasByMonthAndDoc[monthName][medico]) citasByMonthAndDoc[monthName][medico] = [];
+        citasByMonthAndDoc[monthName][medico].push({
+          f: fecha,
+          c: 'S/D',
+          p: 'PACIENTE AMBULATORIO',
+          edad: null,
+          reg: reg || 'S/D',
+          diag: 'Prescripción Ambulatoria',
+          dx: '',
+          esp: medico,
+          espNom: especialidad,
+          cups: servicio,
+          s: descripcion,
+          t: 'Consulta',
+          r: 'S',
+          ord: [orderItem],
+          year: yr,
+          monthName,
+          monthNum,
+          medico,
+          especialidad,
+          cumplida: true,
+          cancelada: false,
+          primeraVez: false,
+          isOdonto
+        });
       }
     }
-    console.log(`      ✓ Total órdenes vinculadas: ${totalOrdersCount}`);
+    console.log(`      ✓ Total órdenes vinculadas: ${totalOrdersCount} (CIS EMCALI: ${cisenOrders.length}, Odonto: ${odontoOrders.length})`);
   } else {
     console.log(`      [AVISO] No se encontró ${ordenamientosFile}. Se procesarán solo consultas.`);
   }
@@ -278,7 +357,7 @@ async function processAll() {
   // 4. Build Dashboard Data Models
   console.log('[4/4] Generando modelos de tableros y actualizando JSONs...');
 
-  function buildDashboardData(consultas, orderingGroupsList) {
+  function buildDashboardData(consultas, ordenesList, orderingGroupsList) {
     const specialistsMap = new Map();
     const specialtiesSet = new Set();
     const dataByYearMonth = { '2026': {} };
@@ -312,7 +391,7 @@ async function processAll() {
     });
 
     consultas.forEach(c => {
-      const { year, monthName, monthNum, medico, especialidad, cumplida, primeraVez, ord, diag } = c;
+      const { year, monthName, monthNum, medico, especialidad, cumplida, primeraVez, diag } = c;
       if (year !== '2026') return;
 
       specialistsMap.set(medico, { id: c.c || '', name: medico, specialty: especialidad });
@@ -371,32 +450,6 @@ async function processAll() {
       if (primeraVez) tRow.primeraVez++;
       else tRow.control++;
 
-      if (!ordersBySpecialty[specKey]) {
-        ordersBySpecialty[specKey] = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
-      }
-      if (!ordersBySpecialist[docKey]) {
-        ordersBySpecialist[docKey] = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
-      }
-
-      ord.forEach(o => {
-        const g = o.g;
-        let gKey = null;
-        if (g === 'Medicamentos') gKey = 'medicamentos';
-        else if (g === 'Laboratorio Clínico') gKey = 'laboratorios';
-        else if (g === 'Honorarios Médicos') gKey = 'honorarios';
-        else if (g === 'Procedimientos Quirúrgicos') gKey = 'procedimientos';
-        else if (g === 'Ecografías') gKey = 'ecografias';
-        else if (g === 'Imágenes Diagnósticas') gKey = 'imagenes';
-
-        if (gKey) {
-          mData.orders[gKey]++;
-          ordersBySpecialty[specKey][gKey]++;
-          ordersBySpecialist[docKey][gKey]++;
-          if (gKey === 'laboratorios') mData.totalLaboratorios++;
-          if (gKey === 'medicamentos') mData.totalMedicamentos++;
-        }
-      });
-
       if (diag) {
         diagCounts[diag] = (diagCounts[diag] || 0) + 1;
         if (!diagMap[diag]) diagMap[diag] = [];
@@ -410,6 +463,48 @@ async function processAll() {
       procCounts[procLabel] = (procCounts[procLabel] || 0) + 1;
       if (!procMap[procLabel]) procMap[procLabel] = [];
       procMap[procLabel].push([2026, monthName, medico, especialidad, 1, cumplida ? 1 : 0, primeraVez ? 1 : 0, primeraVez ? 0 : 1, procCode, procDesc]);
+    });
+
+    // Process exact orders without dropping or duplicating
+    ordenesList.forEach(o => {
+      const { year, monthName, monthNum, medico, especialidad, gKey } = o;
+      if (year !== '2026' || !gKey) return;
+
+      const mData = dataByYearMonth['2026'][monthName];
+      if (mData && mData.orders) {
+        mData.orders[gKey] = (mData.orders[gKey] || 0) + 1;
+        if (gKey === 'laboratorios') mData.totalLaboratorios++;
+        if (gKey === 'medicamentos') mData.totalMedicamentos++;
+      }
+
+      const specKey = `2026_${monthNum}_${especialidad}`;
+      if (!ordersBySpecialty[specKey]) {
+        ordersBySpecialty[specKey] = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
+      }
+      ordersBySpecialty[specKey][gKey]++;
+
+      const docKey = `2026_${monthNum}_${medico}`;
+      if (!ordersBySpecialist[docKey]) {
+        ordersBySpecialist[docKey] = { medicamentos: 0, laboratorios: 0, honorarios: 0, procedimientos: 0, ecografias: 0, imagenes: 0 };
+      }
+      ordersBySpecialist[docKey][gKey]++;
+
+      specialistsMap.set(medico, { id: '', name: medico, specialty: especialidad });
+      specialtiesSet.add(especialidad);
+
+      const tableKey = `2026_${monthName}_${medico}_${especialidad}`;
+      if (!tableDataMap.has(tableKey)) {
+        tableDataMap.set(tableKey, {
+          anio: 2026,
+          mes: monthName,
+          especialista: medico,
+          especialidad: especialidad,
+          totalCitas: 0,
+          realizadas: 0,
+          primeraVez: 0,
+          control: 0
+        });
+      }
     });
 
     const diagnosticsList = Object.entries(diagCounts)
@@ -443,12 +538,12 @@ async function processAll() {
     };
   }
 
-  const cisenData = buildDashboardData(cisenConsultas, [
+  const cisenData = buildDashboardData(cisenConsultas, cisenOrders, [
     'Medicamentos', 'Laboratorio Clínico', 'Honorarios Médicos',
     'Procedimientos Quirúrgicos', 'Ecografías', 'Imágenes Diagnósticas'
   ]);
 
-  const odontoData = buildDashboardData(odontoConsultas, [
+  const odontoData = buildDashboardData(odontoConsultas, odontoOrders, [
     'Medicamentos', 'Laboratorio Clínico', 'Honorarios Médicos',
     'Procedimientos Quirúrgicos', 'Imágenes Diagnósticas'
   ]);

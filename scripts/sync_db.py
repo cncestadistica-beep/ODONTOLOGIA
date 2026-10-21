@@ -111,15 +111,16 @@ def sync_data():
             EXTRACT(year FROM fe.fecha_formula)::int as anio,
             EXTRACT(month FROM fe.fecha_formula)::int as mes,
             COALESCE(TRIM(esp.descripcion), 'MEDICINA GENERAL') as especialidad_nombre,
-            TRIM(us.nombre) as medico_nombre,
+            COALESCE(TRIM(t.nombre), TRIM(us.nombre)) as medico_nombre,
             c.concepto
         FROM formula_detalle fd
         JOIN formula_encabezado fe ON fd.registro = fe.registro AND fd.formula = fe.formula
         JOIN concepto c ON fd.concepto = c.concepto
         JOIN registro r ON fd.registro = r.registro
         JOIN unidad_servicio u ON r.unidad_servicio = u.unidad_servicio
-        JOIN usuario us ON fe.usuario = us.usuario
-        LEFT JOIN especialidad esp ON us.especialidad = esp.especialidad
+        LEFT JOIN usuario us ON fe.usuario = us.usuario
+        LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
+        LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
           AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
           AND u.unidad_servicio IN ('11','16','21')
@@ -163,8 +164,9 @@ def sync_data():
         JOIN concepto c ON fd.concepto = c.concepto
         JOIN registro r ON fd.registro = r.registro
         JOIN unidad_servicio u ON r.unidad_servicio = u.unidad_servicio
-        JOIN usuario us ON fe.usuario = us.usuario
-        LEFT JOIN especialidad esp ON us.especialidad = esp.especialidad
+        LEFT JOIN usuario us ON fe.usuario = us.usuario
+        LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
+        LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
           AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
           AND u.unidad_servicio IN ('11','16','21')
@@ -203,14 +205,17 @@ def sync_data():
         SELECT 
             EXTRACT(year FROM fe.fecha_formula)::int as anio,
             EXTRACT(month FROM fe.fecha_formula)::int as mes,
-            TRIM(us.nombre) as medico_nombre,
+            COALESCE(TRIM(t.nombre), TRIM(us.nombre)) as medico_nombre,
+            COALESCE(TRIM(esp.descripcion), 'MEDICINA GENERAL') as especialidad_nombre,
             c.concepto
         FROM formula_detalle fd
         JOIN formula_encabezado fe ON fd.registro = fe.registro AND fd.formula = fe.formula
         JOIN concepto c ON fd.concepto = c.concepto
         JOIN registro r ON fd.registro = r.registro
         JOIN unidad_servicio u ON r.unidad_servicio = u.unidad_servicio
-        JOIN usuario us ON fe.usuario = us.usuario
+        LEFT JOIN usuario us ON fe.usuario = us.usuario
+        LEFT JOIN tercero t ON t.tercero = COALESCE(fe.medico, us.tercero_citas, us.medico, us.documento, fe.usuario)
+        LEFT JOIN especialidad esp ON COALESCE(t.especialidad, us.especialidad) = esp.especialidad
         WHERE fe.ind_aprobada = 'S'
           AND fe.fecha_formula >= '2024-01-01 00:00:00' AND fe.fecha_formula <= '2026-12-31 23:59:59'
           AND u.unidad_servicio IN ('11','16','21')
@@ -219,6 +224,7 @@ def sync_data():
         anio,
         mes,
         medico_nombre,
+        especialidad_nombre,
         COUNT(CASE WHEN concepto = 'MEDI' THEN 1 END) as medi,
         COUNT(CASE WHEN concepto = 'LABO' THEN 1 END) as labo,
         COUNT(CASE WHEN concepto = 'HONO' THEN 1 END) as hono,
@@ -227,11 +233,14 @@ def sync_data():
         COUNT(CASE WHEN concepto IN ('IMAG', 'TOMO', 'RMAG', 'CARD', 'OTDX') THEN 1 END) as imag,
         COUNT(*) as total
     FROM clean_orders
-    GROUP BY anio, mes, medico_nombre
+    GROUP BY anio, mes, medico_nombre, especialidad_nombre
     ORDER BY anio, mes, medico_nombre;
     ''')
     orders_by_specialist = {}
-    for anio, mes, med, medi, labo, hono, prqx, ecog, imag, total in cur.fetchall():
+    doctors_with_orders = set()
+    for anio, mes, med, esp, medi, labo, hono, prqx, ecog, imag, total in cur.fetchall():
+        if not med:
+            continue
         key = f'{anio}_{mes}_{med}'
         orders_by_specialist[key] = {
             'medicamentos': medi,
@@ -242,6 +251,7 @@ def sync_data():
             'imagenes': imag,
             'total': total
         }
+        doctors_with_orders.add((med, esp))
 
     # 5. Daily trend data
     print("5/7. Extrayendo tendencia diaria...")
@@ -423,6 +433,36 @@ def sync_data():
         elif tipo == 'Control':
             attendance_by_doc[doc_key][side]['control'] += count
 
+    # Ensure specialists and tableData include doctors who have orders
+    existing_spec_names = {s['name'] for s in specialists}
+    for med, esp in doctors_with_orders:
+        if med and med not in existing_spec_names:
+            specialists.append({'id': '', 'name': med, 'specialty': esp})
+            existing_spec_names.add(med)
+            if esp and esp not in specialties:
+                specialties.append(esp)
+
+    existing_table_keys = {(r['anio'], r['mes'], r['especialista']) for r in table_data}
+    for key, ovals in orders_by_specialist.items():
+        parts = key.split('_')
+        anio_int = int(parts[0])
+        mes_int = int(parts[1])
+        doc_name = parts[2]
+        mes_nom = MESES[mes_int]
+        if (anio_int, mes_nom, doc_name) not in existing_table_keys:
+            doc_spec = next((s['specialty'] for s in specialists if s['name'] == doc_name), 'MEDICINA GENERAL')
+            table_data.append({
+                'anio': anio_int,
+                'mes': mes_nom,
+                'especialista': doc_name,
+                'especialidad': doc_spec,
+                'totalCitas': 0,
+                'realizadas': 0,
+                'primeraVez': 0,
+                'control': 0
+            })
+            existing_table_keys.add((anio_int, mes_nom, doc_name))
+
     # Build final result JSON structure
     print("Consolidando dataset central...")
     result = {
@@ -460,7 +500,7 @@ def sync_data():
                 'orders': {
                     'medicamentos': odata['medicamentos'],
                     'laboratorios': odata['laboratorios'],
-                    'honorarios': odata['honorarios'] if odata['honorarios'] > 0 else cdata['totalHonorarios'],
+                    'honorarios': odata['honorarios'],
                     'procedimientos': odata['procedimientos'],
                     'ecografias': odata['ecografias'],
                     'imagenes': odata['imagenes']

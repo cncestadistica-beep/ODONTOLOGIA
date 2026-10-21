@@ -70,7 +70,7 @@ def sync_appointments():
         WHERE fe.ind_aprobada = 'S'
           AND fe.fecha_formula >= '{yr}-01-01 00:00:00' AND fe.fecha_formula <= '{yr}-12-31 23:59:59'
           AND u.unidad_servicio IN ('11','16','21')
-          AND (c.concepto IN ('MEDI', 'LABO', 'HONO') OR c.concepto IN ('IMAG', 'ECOG', 'TOMO', 'RMAG', 'CARD', 'OTDX'))
+          AND c.concepto IN ('MEDI', 'LABO', 'HONO', 'PRQX', 'ECOG', 'IMAG', 'TOMO', 'RMAG', 'CARD', 'OTDX')
         ORDER BY fd.registro;
         ''')
         formula_rows = cur.fetchall()
@@ -86,7 +86,11 @@ def sync_appointments():
                 grupo = 'Laboratorio Clínico'
             elif conc == 'HONO':
                 grupo = 'Honorarios Médicos'
-            elif conc in ('IMAG', 'ECOG', 'TOMO', 'RMAG', 'CARD', 'OTDX'):
+            elif conc == 'PRQX':
+                grupo = 'Procedimientos Quirúrgicos'
+            elif conc == 'ECOG':
+                grupo = 'Ecografías'
+            elif conc in ('IMAG', 'TOMO', 'RMAG', 'CARD', 'OTDX'):
                 grupo = 'Imágenes Diagnósticas'
             else:
                 continue

@@ -18,17 +18,17 @@
   ],
   "specialists": [
     {
-      "id": "91426539",
+      "id": "",
       "name": "ORIANA PORTOCARRERO DIAZ DEL CASTILLO",
       "specialty": "ODONTOLOGÍA"
     },
     {
-      "id": "1007844411",
+      "id": "",
       "name": "LAURA VALENTINA CAMACHO CASTAÑO",
       "specialty": "ODONTOLOGÍA"
     },
     {
-      "id": "31309057",
+      "id": "",
       "name": "PAOLA ANDREA RAYO MARTINEZ",
       "specialty": "ODONTOLOGÍA"
     },
@@ -38,7 +38,7 @@
       "specialty": "HIGIENISTA ORAL"
     },
     {
-      "id": "1105367635",
+      "id": "",
       "name": "LUZ ADRIANA GOMEZ NIETO",
       "specialty": "ODONTOLOGÍA"
     },
@@ -51,11 +51,38 @@
       "id": "1232813756",
       "name": "ANA MARIA WILCHES",
       "specialty": "ODONTOLOGÍA"
+    },
+    {
+      "id": "",
+      "name": "MARIA CAMILA MURILLO RODRIGUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "MIGUEL ANGEL POLO VASQUEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "specialty": "PEDIATRÍA"
+    },
+    {
+      "id": "",
+      "name": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "specialty": "MEDICINA GENERAL"
+    },
+    {
+      "id": "",
+      "name": "LILIA MARIA SANABRIA OTERO",
+      "specialty": "MEDICINA GENERAL"
     }
   ],
   "specialties": [
     "HIGIENISTA ORAL",
-    "ODONTOLOGÍA"
+    "MEDICINA GENERAL",
+    "ODONTOLOGÍA",
+    "PEDIATRÍA"
   ],
   "orderingGroups": [
     "Medicamentos",
@@ -68,15 +95,15 @@
     "2026": {
       "Enero": {
         "totalHonorarios": 416,
-        "totalLaboratorios": 61,
-        "totalMedicamentos": 136,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 40,
         "totalConsultasRealizadas": 363,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 416,
         "orders": {
-          "medicamentos": 136,
-          "laboratorios": 61,
-          "honorarios": 24,
+          "medicamentos": 40,
+          "laboratorios": 0,
+          "honorarios": 12,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -84,15 +111,15 @@
       },
       "Febrero": {
         "totalHonorarios": 427,
-        "totalLaboratorios": 72,
-        "totalMedicamentos": 128,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 49,
         "totalConsultasRealizadas": 272,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 427,
         "orders": {
-          "medicamentos": 128,
-          "laboratorios": 72,
-          "honorarios": 18,
+          "medicamentos": 49,
+          "laboratorios": 0,
+          "honorarios": 13,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -100,15 +127,15 @@
       },
       "Marzo": {
         "totalHonorarios": 228,
-        "totalLaboratorios": 24,
-        "totalMedicamentos": 69,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 1,
         "totalConsultasRealizadas": 184,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 228,
         "orders": {
-          "medicamentos": 69,
-          "laboratorios": 24,
-          "honorarios": 9,
+          "medicamentos": 1,
+          "laboratorios": 0,
+          "honorarios": 18,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -116,15 +143,15 @@
       },
       "Abril": {
         "totalHonorarios": 636,
-        "totalLaboratorios": 57,
-        "totalMedicamentos": 147,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 42,
         "totalConsultasRealizadas": 529,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 636,
         "orders": {
-          "medicamentos": 147,
-          "laboratorios": 57,
-          "honorarios": 23,
+          "medicamentos": 42,
+          "laboratorios": 0,
+          "honorarios": 25,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -132,15 +159,15 @@
       },
       "Mayo": {
         "totalHonorarios": 596,
-        "totalLaboratorios": 51,
-        "totalMedicamentos": 44,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 32,
         "totalConsultasRealizadas": 491,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 596,
         "orders": {
-          "medicamentos": 44,
-          "laboratorios": 51,
-          "honorarios": 23,
+          "medicamentos": 32,
+          "laboratorios": 0,
+          "honorarios": 28,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -148,15 +175,15 @@
       },
       "Junio": {
         "totalHonorarios": 537,
-        "totalLaboratorios": 33,
-        "totalMedicamentos": 150,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 44,
         "totalConsultasRealizadas": 434,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 537,
         "orders": {
-          "medicamentos": 150,
-          "laboratorios": 33,
-          "honorarios": 26,
+          "medicamentos": 44,
+          "laboratorios": 0,
+          "honorarios": 38,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -164,14 +191,14 @@
       },
       "Julio": {
         "totalHonorarios": 718,
-        "totalLaboratorios": 68,
-        "totalMedicamentos": 67,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 26,
         "totalConsultasRealizadas": 603,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 718,
         "orders": {
-          "medicamentos": 67,
-          "laboratorios": 68,
+          "medicamentos": 26,
+          "laboratorios": 0,
           "honorarios": 35,
           "procedimientos": 0,
           "ecografias": 0,
@@ -180,15 +207,15 @@
       },
       "Agosto": {
         "totalHonorarios": 550,
-        "totalLaboratorios": 37,
-        "totalMedicamentos": 87,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 36,
         "totalConsultasRealizadas": 435,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 550,
         "orders": {
-          "medicamentos": 87,
-          "laboratorios": 37,
-          "honorarios": 19,
+          "medicamentos": 36,
+          "laboratorios": 0,
+          "honorarios": 22,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -196,15 +223,15 @@
       },
       "Septiembre": {
         "totalHonorarios": 618,
-        "totalLaboratorios": 64,
-        "totalMedicamentos": 91,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 36,
         "totalConsultasRealizadas": 530,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 618,
         "orders": {
-          "medicamentos": 91,
-          "laboratorios": 64,
-          "honorarios": 38,
+          "medicamentos": 36,
+          "laboratorios": 0,
+          "honorarios": 20,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -212,15 +239,15 @@
       },
       "Octubre": {
         "totalHonorarios": 378,
-        "totalLaboratorios": 10,
-        "totalMedicamentos": 60,
+        "totalLaboratorios": 0,
+        "totalMedicamentos": 35,
         "totalConsultasRealizadas": 330,
         "totalConsultasPrimeraVez": 0,
         "totalConsultasControl": 378,
         "orders": {
-          "medicamentos": 60,
-          "laboratorios": 10,
-          "honorarios": 9,
+          "medicamentos": 35,
+          "laboratorios": 0,
+          "honorarios": 10,
           "procedimientos": 0,
           "ecografias": 0,
           "imagenes": 0
@@ -262,161 +289,217 @@
   },
   "ordersBySpecialty": {
     "2026_1_ODONTOLOGÍA": {
-      "medicamentos": 131,
-      "laboratorios": 41,
-      "honorarios": 15,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_ODONTOLOGÍA": {
-      "medicamentos": 105,
-      "laboratorios": 43,
-      "honorarios": 17,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_ODONTOLOGÍA": {
-      "medicamentos": 36,
-      "laboratorios": 26,
-      "honorarios": 18,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_HIGIENISTA ORAL": {
-      "medicamentos": 60,
-      "laboratorios": 16,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_ODONTOLOGÍA": {
-      "medicamentos": 90,
-      "laboratorios": 17,
-      "honorarios": 20,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_ODONTOLOGÍA": {
-      "medicamentos": 76,
-      "laboratorios": 24,
-      "honorarios": 18,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_HIGIENISTA ORAL": {
-      "medicamentos": 5,
-      "laboratorios": 20,
-      "honorarios": 9,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_ODONTOLOGÍA": {
-      "medicamentos": 106,
-      "laboratorios": 58,
-      "honorarios": 17,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_HIGIENISTA ORAL": {
-      "medicamentos": 22,
-      "laboratorios": 14,
-      "honorarios": 1,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_ODONTOLOGÍA": {
-      "medicamentos": 48,
-      "laboratorios": 17,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_HIGIENISTA ORAL": {
-      "medicamentos": 21,
-      "laboratorios": 7,
+      "medicamentos": 40,
+      "laboratorios": 0,
       "honorarios": 4,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_HIGIENISTA ORAL": {
+    "2026_1_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_ODONTOLOGÍA": {
+      "medicamentos": 49,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 7,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_ODONTOLOGÍA": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_ODONTOLOGÍA": {
       "medicamentos": 42,
-      "laboratorios": 14,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_HIGIENISTA ORAL": {
-      "medicamentos": 8,
-      "laboratorios": 25,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_ODONTOLOGÍA": {
-      "medicamentos": 55,
-      "laboratorios": 46,
-      "honorarios": 30,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_HIGIENISTA ORAL": {
-      "medicamentos": 12,
-      "laboratorios": 22,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_HIGIENISTA ORAL": {
-      "medicamentos": 11,
-      "laboratorios": 13,
-      "honorarios": 1,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_ODONTOLOGÍA": {
-      "medicamentos": 74,
-      "laboratorios": 51,
-      "honorarios": 25,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_HIGIENISTA ORAL": {
-      "medicamentos": 17,
-      "laboratorios": 13,
-      "honorarios": 13,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_ODONTOLOGÍA": {
-      "medicamentos": 51,
-      "laboratorios": 6,
+      "laboratorios": 0,
       "honorarios": 9,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_10_HIGIENISTA ORAL": {
-      "medicamentos": 9,
-      "laboratorios": 4,
-      "honorarios": 0,
+    "2026_4_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 16,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_ODONTOLOGÍA": {
+      "medicamentos": 32,
+      "laboratorios": 0,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 9,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 9,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_ODONTOLOGÍA": {
+      "medicamentos": 44,
+      "laboratorios": 0,
+      "honorarios": 12,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 18,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_ODONTOLOGÍA": {
+      "medicamentos": 26,
+      "laboratorios": 0,
+      "honorarios": 19,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_ODONTOLOGÍA": {
+      "medicamentos": 36,
+      "laboratorios": 0,
+      "honorarios": 14,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_ODONTOLOGÍA": {
+      "medicamentos": 36,
+      "laboratorios": 0,
+      "honorarios": 13,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MEDICINA GENERAL": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_ODONTOLOGÍA": {
+      "medicamentos": 35,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_PEDIATRÍA": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -424,249 +507,305 @@
   },
   "ordersBySpecialist": {
     "2026_1_ORIANA PORTOCARRERO DIAZ DEL CASTILLO": {
-      "medicamentos": 131,
-      "laboratorios": 41,
-      "honorarios": 15,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_LAURA VALENTINA CAMACHO CASTAÑO": {
-      "medicamentos": 30,
-      "laboratorios": 14,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_4_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 75,
-      "laboratorios": 29,
-      "honorarios": 11,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 21,
-      "laboratorios": 17,
-      "honorarios": 10,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_LAURA VALENTINA CAMACHO CASTAÑO": {
-      "medicamentos": 15,
-      "laboratorios": 9,
-      "honorarios": 8,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_MELISSA CABAL PIZARRO": {
-      "medicamentos": 60,
-      "laboratorios": 16,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_LAURA VALENTINA CAMACHO CASTAÑO": {
-      "medicamentos": 24,
-      "laboratorios": 9,
-      "honorarios": 8,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_LUZ ADRIANA GOMEZ NIETO": {
-      "medicamentos": 28,
-      "laboratorios": 22,
-      "honorarios": 10,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_1_VICTORIA MARCELA NIETO RODRIGUEZ": {
-      "medicamentos": 5,
-      "laboratorios": 20,
-      "honorarios": 9,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_ORIANA PORTOCARRERO DIAZ DEL CASTILLO": {
-      "medicamentos": 106,
-      "laboratorios": 58,
-      "honorarios": 17,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_2_VICTORIA MARCELA NIETO RODRIGUEZ": {
-      "medicamentos": 22,
-      "laboratorios": 14,
-      "honorarios": 1,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_ORIANA PORTOCARRERO DIAZ DEL CASTILLO": {
-      "medicamentos": 0,
+      "medicamentos": 40,
       "laboratorios": 0,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_LAURA VALENTINA CAMACHO CASTAÑO": {
-      "medicamentos": 46,
-      "laboratorios": 17,
-      "honorarios": 3,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_3_MELISSA CABAL PIZARRO": {
-      "medicamentos": 21,
-      "laboratorios": 7,
       "honorarios": 4,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 2,
+    "2026_1_MARIA CAMILA MURILLO RODRIGUEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_1_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_ORIANA PORTOCARRERO DIAZ DEL CASTILLO": {
+      "medicamentos": 49,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_2_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_4_MELISSA CABAL PIZARRO": {
-      "medicamentos": 42,
-      "laboratorios": 14,
-      "honorarios": 6,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_5_MELISSA CABAL PIZARRO": {
-      "medicamentos": 8,
-      "laboratorios": 25,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 60,
-      "laboratorios": 8,
-      "honorarios": 10,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_6_LUZ ADRIANA GOMEZ NIETO": {
-      "medicamentos": 6,
+    "2026_2_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 2,
+      "honorarios": 7,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_7_LUZ ADRIANA GOMEZ NIETO": {
-      "medicamentos": 26,
-      "laboratorios": 29,
-      "honorarios": 19,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_MELISSA CABAL PIZARRO": {
-      "medicamentos": 12,
-      "laboratorios": 22,
-      "honorarios": 5,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_7_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 29,
-      "laboratorios": 17,
-      "honorarios": 11,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_MELISSA CABAL PIZARRO": {
-      "medicamentos": 11,
-      "laboratorios": 13,
-      "honorarios": 1,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_8_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 48,
-      "laboratorios": 2,
+    "2026_3_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
       "honorarios": 8,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_9_LUZ ADRIANA GOMEZ NIETO": {
-      "medicamentos": 23,
-      "laboratorios": 25,
-      "honorarios": 13,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_MELISSA CABAL PIZARRO": {
-      "medicamentos": 17,
-      "laboratorios": 13,
-      "honorarios": 13,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_9_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 51,
-      "laboratorios": 26,
-      "honorarios": 12,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_LUZ ADRIANA GOMEZ NIETO": {
-      "medicamentos": 22,
-      "laboratorios": 6,
-      "honorarios": 3,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_MELISSA CABAL PIZARRO": {
-      "medicamentos": 9,
-      "laboratorios": 4,
-      "honorarios": 0,
-      "procedimientos": 0,
-      "ecografias": 0,
-      "imagenes": 0
-    },
-    "2026_10_PAOLA ANDREA RAYO MARTINEZ": {
-      "medicamentos": 29,
+    "2026_3_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
       "laboratorios": 0,
       "honorarios": 6,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
     },
-    "2026_3_ANA MARIA WILCHES": {
+    "2026_3_LAURA VALENTINA CAMACHO CASTAÑO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_3_ROSA ANGELICA MONTOYA QUIÑONEZ": {
       "medicamentos": 0,
       "laboratorios": 0,
-      "honorarios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 30,
+      "laboratorios": 0,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_LAURA VALENTINA CAMACHO CASTAÑO": {
+      "medicamentos": 12,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_4_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 16,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_LAURA VALENTINA CAMACHO CASTAÑO": {
+      "medicamentos": 16,
+      "laboratorios": 0,
+      "honorarios": 7,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 9,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 16,
+      "laboratorios": 0,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_5_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_LAURA VALENTINA CAMACHO CASTAÑO": {
+      "medicamentos": 1,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 39,
+      "laboratorios": 0,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 18,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_6_LUZ ADRIANA GOMEZ NIETO": {
+      "medicamentos": 4,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 16,
+      "laboratorios": 0,
+      "honorarios": 8,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_LUZ ADRIANA GOMEZ NIETO": {
+      "medicamentos": 10,
+      "laboratorios": 0,
+      "honorarios": 11,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_LILIA MARIA SANABRIA OTERO": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_7_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_LUZ ADRIANA GOMEZ NIETO": {
+      "medicamentos": 19,
+      "laboratorios": 0,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 17,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 6,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_8_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 21,
+      "laboratorios": 0,
+      "honorarios": 3,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_LUZ ADRIANA GOMEZ NIETO": {
+      "medicamentos": 15,
+      "laboratorios": 0,
+      "honorarios": 10,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_MIGUEL ANGEL POLO VASQUEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_9_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 5,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_LUZ ADRIANA GOMEZ NIETO": {
+      "medicamentos": 11,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_PAOLA ANDREA RAYO MARTINEZ": {
+      "medicamentos": 24,
+      "laboratorios": 0,
+      "honorarios": 4,
+      "procedimientos": 0,
+      "ecografias": 0,
+      "imagenes": 0
+    },
+    "2026_10_RUBI ROCIO ORTEGA ORDOÑEZ": {
+      "medicamentos": 0,
+      "laboratorios": 0,
+      "honorarios": 2,
       "procedimientos": 0,
       "ecografias": 0,
       "imagenes": 0
@@ -1292,6 +1431,206 @@
       "realizadas": 0,
       "primeraVez": 0,
       "control": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "MARIA CAMILA MURILLO RODRIGUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Enero",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Febrero",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Marzo",
+      "especialista": "ROSA ANGELICA MONTOYA QUIÑONEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Abril",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Mayo",
+      "especialista": "LILIA MARIA SANABRIA OTERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Junio",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Junio",
+      "especialista": "LILIA MARIA SANABRIA OTERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Julio",
+      "especialista": "LILIA MARIA SANABRIA OTERO",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Julio",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "MIGUEL ANGEL POLO VASQUEZ",
+      "especialidad": "MEDICINA GENERAL",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "especialista": "RUBI ROCIO ORTEGA ORDOÑEZ",
+      "especialidad": "PEDIATRÍA",
+      "totalCitas": 0,
+      "realizadas": 0,
+      "primeraVez": 0,
+      "control": 0
     }
   ],
   "diagnosticsList": [
