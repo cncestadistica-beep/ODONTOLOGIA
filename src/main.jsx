@@ -3218,7 +3218,9 @@ function ProcedimientoDetailModal({ item, onClose }) {
 }
 
 function ProcedimientosView() {
-  const dbData = procedimientosMenoresData;
+  const [dbData, setDbData] = useState(procedimientosMenoresData);
+  const [syncing, setSyncing] = useState(false);
+  const [lastSync, setLastSync] = useState(null);
   const [year, setYear] = useState('2026');
   const [month, setMonth] = useState('Todos los Meses');
   const [procedure, setProcedure] = useState('Todos los Procedimientos');
@@ -3228,6 +3230,26 @@ function ProcedimientosView() {
   const [currentPage, setCurrentPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(15);
   const [selectedItemModal, setSelectedItemModal] = useState(null);
+
+  const handleSyncFromSQL = async () => {
+    setSyncing(true);
+    try {
+      const res = await fetch('/api/sync/procedimientos', { method: 'POST' });
+      if (res.ok) {
+        const fresh = await res.json();
+        if (fresh && fresh.tableData) {
+          setDbData(fresh);
+          setLastSync(new Date().toLocaleTimeString());
+        }
+      } else {
+        alert('Hubo un error al ejecutar Quirofanos-V3-juan.sql en el servidor.');
+      }
+    } catch (err) {
+      console.error('Error sincronizando desde SQL:', err);
+    } finally {
+      setSyncing(false);
+    }
+  };
 
   const reset = () => {
     setYear('2026');
@@ -3579,8 +3601,29 @@ function ProcedimientosView() {
           specialtyOptions={specialtyOptions}
           placeholder="Buscar procedimiento, CUPS, médico, especialidad..."
         />
-        <div className="filter-actions">
+        <div className="filter-actions" style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+          <button
+            type="button"
+            className="apply-button"
+            style={{
+              background: syncing ? '#64748b' : 'linear-gradient(135deg, #0284c7, #0369a1)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 6
+            }}
+            onClick={handleSyncFromSQL}
+            disabled={syncing}
+            title="Ejecutar Quirofanos-V3-juan.sql directamente contra PostgreSQL para actualizar los datos en vivo"
+          >
+            <Icon name={syncing ? 'refresh-cw' : 'database'} size={15} className={syncing ? 'spin-icon' : ''} />
+            {syncing ? 'Ejecutando SQL...' : 'Actualizar desde SQL'}
+          </button>
           <button className="reset-button" onClick={reset}>Restablecer</button>
+          {lastSync && (
+            <span style={{ color: '#0284c7', fontWeight: 600, fontSize: 11, marginLeft: 4 }}>
+              ✓ Actualizado {lastSync}
+            </span>
+          )}
         </div>
       </section>
 

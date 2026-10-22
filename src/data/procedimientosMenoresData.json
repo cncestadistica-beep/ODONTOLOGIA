@@ -118,6 +118,11 @@
       "specialty": "CIRUGIA GENERAL"
     },
     {
+      "id": "16712293",
+      "name": "JORGE HERNAN URREGO GRUESO",
+      "specialty": "GINECOLOGIA Y OBSTETRICIA"
+    },
+    {
       "id": "14232247",
       "name": "JORGE LUIS ORJUELA GIL",
       "specialty": "GINECOLOGIA Y OBSTETRICIA"
@@ -263,93 +268,93 @@
     {
       "codigo": "992990",
       "name": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
-      "count": 5862,
+      "count": 6073,
       "especialidadesCount": 5,
       "medicosCount": 9
     },
     {
       "codigo": "869501",
       "name": "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL",
-      "count": 3553,
+      "count": 3705,
       "especialidadesCount": 2,
       "medicosCount": 5
     },
     {
       "codigo": "991202",
       "name": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.",
-      "count": 1763,
+      "count": 1856,
       "especialidadesCount": 2,
       "medicosCount": 3
     },
     {
       "codigo": "860101",
       "name": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
-      "count": 824,
+      "count": 831,
       "especialidadesCount": 2,
       "medicosCount": 4
     },
     {
       "codigo": "863104",
       "name": "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION  FULGURACION O CRIOTERAPIA EN AREA ESPECIAL  ENTRE",
-      "count": 670,
+      "count": 686,
       "especialidadesCount": 1,
       "medicosCount": 3
     },
     {
       "codigo": "892400",
       "name": "UROFLUJOMETRÍA",
-      "count": 547,
+      "count": 559,
       "especialidadesCount": 2,
       "medicosCount": 5
     },
     {
       "codigo": "860203",
       "name": "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I",
-      "count": 542,
+      "count": 555,
       "especialidadesCount": 1,
       "medicosCount": 1
     },
     {
-      "codigo": "573201",
-      "name": "CISTOSCOPIA TRANSURETRAL    (40)",
-      "count": 452,
-      "especialidadesCount": 1,
-      "medicosCount": 5
-    },
-    {
       "codigo": "964901",
       "name": "INSTILACIÓN GENITOURINARIA",
-      "count": 434,
+      "count": 465,
       "especialidadesCount": 2,
       "medicosCount": 6
     },
     {
+      "codigo": "573201",
+      "name": "CISTOSCOPIA TRANSURETRAL    (40)",
+      "count": 463,
+      "especialidadesCount": 1,
+      "medicosCount": 5
+    },
+    {
       "codigo": "053105",
       "name": "BLOQUEO DE UNION MIONEURAL",
-      "count": 297,
+      "count": 303,
       "especialidadesCount": 1,
       "medicosCount": 3
     },
     {
       "codigo": "202401",
       "name": "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA",
-      "count": 275,
+      "count": 295,
       "especialidadesCount": 1,
       "medicosCount": 2
     },
     {
-      "codigo": "861411",
-      "name": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
-      "count": 275,
-      "especialidadesCount": 2,
-      "medicosCount": 3
-    },
-    {
       "codigo": "861401",
       "name": "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES",
-      "count": 275,
+      "count": 279,
       "especialidadesCount": 3,
       "medicosCount": 5
+    },
+    {
+      "codigo": "861411",
+      "name": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
+      "count": 277,
+      "especialidadesCount": 2,
+      "medicosCount": 3
     },
     {
       "codigo": "892003",
@@ -361,7 +366,7 @@
     {
       "codigo": "637300",
       "name": "VASECTOMÍA",
-      "count": 189,
+      "count": 199,
       "especialidadesCount": 1,
       "medicosCount": 2
     },
@@ -382,7 +387,7 @@
     {
       "codigo": "261002",
       "name": "BIOPSIA ABIERTA DE GLÁNDULA SALIVAL MENOR (CON CONDUCTO SALIVAL)",
-      "count": 133,
+      "count": 141,
       "especialidadesCount": 1,
       "medicosCount": 2
     },
@@ -396,28 +401,28 @@
     {
       "codigo": "991203",
       "name": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.",
-      "count": 81,
+      "count": 88,
       "especialidadesCount": 1,
       "medicosCount": 1
     },
     {
       "codigo": "210901",
       "name": "CONTROL DE EPISTAXIS POR DERMOPLASTIA VÍA TRANSNASAL",
-      "count": 69,
+      "count": 75,
       "especialidadesCount": 1,
       "medicosCount": 2
+    },
+    {
+      "codigo": "413101",
+      "name": "BIOPSIA POR ASPIRACION DE MEDULA OSEA",
+      "count": 43,
+      "especialidadesCount": 1,
+      "medicosCount": 1
     },
     {
       "codigo": "893910",
       "name": "PRUEBA DE SENSIBILIZACION CON ALERGENO VIA ORAL [PROVOCACION]",
       "count": 41,
-      "especialidadesCount": 1,
-      "medicosCount": 1
-    },
-    {
-      "codigo": "413101",
-      "name": "BIOPSIA POR ASPIRACION DE MEDULA OSEA",
-      "count": 40,
       "especialidadesCount": 1,
       "medicosCount": 1
     },
@@ -452,7 +457,7 @@
     {
       "codigo": "033101",
       "name": "PUNCION LUMBAR (DIAGNOSTICA O TERAPEUTICA)",
-      "count": 11,
+      "count": 12,
       "especialidadesCount": 1,
       "medicosCount": 2
     },
@@ -485,6 +490,13 @@
       "medicosCount": 1
     },
     {
+      "codigo": "768702",
+      "name": "RETIRO DE CERCLAJE INTER O INTRA MAXILAR    (164)",
+      "count": 4,
+      "especialidadesCount": 1,
+      "medicosCount": 1
+    },
+    {
       "codigo": "863101",
       "name": "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION. FULGURACION O CRIOTERAPIA EN AREA GENERAL. HASTA S",
       "count": 4,
@@ -506,16 +518,9 @@
       "medicosCount": 1
     },
     {
-      "codigo": "768702",
-      "name": "RETIRO DE CERCLAJE INTER O INTRA MAXILAR    (164)",
-      "count": 3,
-      "especialidadesCount": 1,
-      "medicosCount": 1
-    },
-    {
       "codigo": "768701",
       "name": "RETIRO DE MATERIAL DE FIJACION INTERNA (DISPOSITIVOS DE FIJACION  U OSTEOSINTESIS) DE HUESO FACIAL N",
-      "count": 3,
+      "count": 4,
       "especialidadesCount": 1,
       "medicosCount": 1
     },
@@ -730,6 +735,13 @@
       "medicosCount": 1
     },
     {
+      "codigo": "740001",
+      "name": "CESAREA SEGMENTARIA TRANSPERITONEAL",
+      "count": 1,
+      "especialidadesCount": 1,
+      "medicosCount": 1
+    },
+    {
       "codigo": "499600",
       "name": "RETIRO DE MATERIAL DE CERCLAJE",
       "count": 1,
@@ -737,8 +749,22 @@
       "medicosCount": 1
     },
     {
+      "codigo": "834920",
+      "name": "LIMPIEZA Y DESBRIDAMIENTO QUIRURGICOS  DE MUSCULOS   TENDONES Y FASCIA EN ANTEBRAZO",
+      "count": 1,
+      "especialidadesCount": 1,
+      "medicosCount": 1
+    },
+    {
       "codigo": "690103",
       "name": "LEGRADO UTERINO GINECOLOGICO",
+      "count": 1,
+      "especialidadesCount": 1,
+      "medicosCount": 1
+    },
+    {
+      "codigo": "642100",
+      "name": "FULGURACIÓN O RESECCIÓN DE LESIÓN EN PENE",
       "count": 1,
       "especialidadesCount": 1,
       "medicosCount": 1
@@ -1083,10 +1109,10 @@
         ]
       },
       "Agosto": {
-        "total": 1399,
-        "totalPacientes": 1068,
-        "totalEspecialistas": 19,
-        "totalEspecialidades": 12,
+        "total": 1400,
+        "totalPacientes": 1069,
+        "totalEspecialistas": 20,
+        "totalEspecialidades": 13,
         "topProcedimientos": [
           {
             "name": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
@@ -1131,9 +1157,9 @@
         ]
       },
       "Septiembre": {
-        "total": 1884,
-        "totalPacientes": 1460,
-        "totalEspecialistas": 18,
+        "total": 1885,
+        "totalPacientes": 1461,
+        "totalEspecialistas": 19,
         "totalEspecialidades": 11,
         "topProcedimientos": [
           {
@@ -1179,50 +1205,50 @@
         ]
       },
       "Octubre": {
-        "total": 641,
-        "totalPacientes": 532,
-        "totalEspecialistas": 13,
-        "totalEspecialidades": 11,
+        "total": 1257,
+        "totalPacientes": 924,
+        "totalEspecialistas": 16,
+        "totalEspecialidades": 12,
         "topProcedimientos": [
           {
             "name": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
-            "count": 246
+            "count": 457
           },
           {
             "name": "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL",
-            "count": 146
+            "count": 298
           },
           {
             "name": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.",
-            "count": 54
+            "count": 147
           },
           {
             "name": "INSTILACIÓN GENITOURINARIA",
-            "count": 33
+            "count": 64
           },
           {
             "name": "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I",
-            "count": 28
-          },
-          {
-            "name": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
-            "count": 22
-          },
-          {
-            "name": "BLOQUEO DE UNION MIONEURAL",
-            "count": 16
-          },
-          {
-            "name": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
-            "count": 16
-          },
-          {
-            "name": "CISTOSCOPIA TRANSURETRAL    (40)",
-            "count": 15
+            "count": 41
           },
           {
             "name": "UROFLUJOMETRÍA",
-            "count": 15
+            "count": 27
+          },
+          {
+            "name": "CISTOSCOPIA TRANSURETRAL    (40)",
+            "count": 26
+          },
+          {
+            "name": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
+            "count": 24
+          },
+          {
+            "name": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
+            "count": 23
+          },
+          {
+            "name": "BLOQUEO DE UNION MIONEURAL",
+            "count": 22
           }
         ]
       },
@@ -2140,14 +2166,6 @@
       },
       "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA"
     },
-    "2026_5_SANTIAGO LOPEZ TORO": {
-      "total": 9,
-      "procedimientos": {
-        "VASECTOMÍA": 8,
-        "CISTOSCOPIA TRANSURETRAL    (40)": 1
-      },
-      "especialidad": "UROLOGIA"
-    },
     "2026_5_ELIZABETH MILENA ARCINIEGAS BASTIDAS": {
       "total": 58,
       "procedimientos": {
@@ -2159,6 +2177,14 @@
         "RESECCION DE TUMOR BENIGNO O MALIGNO DE PIEL Y/O TEJIDO CELULAR SUBCUTANEO AREA GENERAL HASTA TRES C": 1
       },
       "especialidad": "DERMATOLOGIA"
+    },
+    "2026_5_SANTIAGO LOPEZ TORO": {
+      "total": 9,
+      "procedimientos": {
+        "VASECTOMÍA": 8,
+        "CISTOSCOPIA TRANSURETRAL    (40)": 1
+      },
+      "especialidad": "UROLOGIA"
     },
     "2026_5_JOSE FERNANDO HUERTAS GAMBOA": {
       "total": 4,
@@ -2188,13 +2214,6 @@
         "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)": 4
       },
       "especialidad": "NEUROLOGIA"
-    },
-    "2026_5_VANESSA CRUZ OSORIO": {
-      "total": 1,
-      "procedimientos": {
-        "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]": 1
-      },
-      "especialidad": "GINECOLOGIA Y OBSTETRICIA"
     },
     "2026_6_JOSE MANUEL GOMEZ SIERRA": {
       "total": 17,
@@ -2249,6 +2268,13 @@
         "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 358
       },
       "especialidad": "TERAPISTA ENTEROSTOMAL"
+    },
+    "2026_5_VANESSA CRUZ OSORIO": {
+      "total": 1,
+      "procedimientos": {
+        "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]": 1
+      },
+      "especialidad": "GINECOLOGIA Y OBSTETRICIA"
     },
     "2026_6_ISABEL CRISTINA MORIBE QUINTERO": {
       "total": 268,
@@ -2672,6 +2698,13 @@
       },
       "especialidad": "DERMATOLOGIA"
     },
+    "2026_8_JORGE HERNAN URREGO GRUESO": {
+      "total": 1,
+      "procedimientos": {
+        "CESAREA SEGMENTARIA TRANSPERITONEAL": 1
+      },
+      "especialidad": "GINECOLOGIA Y OBSTETRICIA"
+    },
     "2026_8_JOSE FERNANDO HUERTAS GAMBOA": {
       "total": 2,
       "procedimientos": {
@@ -2854,6 +2887,13 @@
       },
       "especialidad": "AUXILIAR DE ENFERMERIA"
     },
+    "2026_9_JESUS ANTONIO VELEZ MARIN": {
+      "total": 1,
+      "procedimientos": {
+        "LIMPIEZA Y DESBRIDAMIENTO QUIRURGICOS  DE MUSCULOS   TENDONES Y FASCIA EN ANTEBRAZO": 1
+      },
+      "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA"
+    },
     "2026_9_JORGE LUIS ORJUELA GIL": {
       "total": 1,
       "procedimientos": {
@@ -2862,33 +2902,33 @@
       "especialidad": "GINECOLOGIA Y OBSTETRICIA"
     },
     "2026_10_CARLOS ARIEL DIAZ CHANDILLO": {
-      "total": 146,
+      "total": 298,
       "procedimientos": {
-        "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 146
+        "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 298
       },
       "especialidad": "TERAPISTA ENTEROSTOMAL"
     },
     "2026_10_NARLY NORELY RODRIGUEZ CASTILLO": {
-      "total": 57,
+      "total": 98,
       "procedimientos": {
         "INSERCION DE DISPOSITIVO URINARIO (VESICAL)": 8,
-        "INSTILACIÓN GENITOURINARIA": 33,
+        "INSTILACIÓN GENITOURINARIA": 63,
         "INSERCION DE DISPOSITIVO EN URETRA": 1,
-        "UROFLUJOMETRÍA": 15
+        "UROFLUJOMETRÍA": 26
       },
       "especialidad": "AUXILIAR DE ENFERMERIA"
     },
     "2026_10_JESSICA ANDREA MUÑOZ GOMEZ": {
-      "total": 230,
+      "total": 424,
       "procedimientos": {
-        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 230
+        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 424
       },
       "especialidad": "ENFERMERA(O) JEFE"
     },
     "2026_10_FERNANDO ARCESIO URREA CALDAS": {
-      "total": 16,
+      "total": 33,
       "procedimientos": {
-        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 16
+        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 33
       },
       "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA"
     },
@@ -2919,50 +2959,79 @@
       "especialidad": "DERMATOLOGIA"
     },
     "2026_10_ADRIANA LISETTE DAZA HERNANDEZ": {
-      "total": 1,
+      "total": 35,
       "procedimientos": {
-        "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA": 1
+        "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA": 21,
+        "BIOPSIA ABIERTA DE GLÁNDULA SALIVAL MENOR (CON CONDUCTO SALIVAL)": 8,
+        "CONTROL DE EPISTAXIS POR DERMOPLASTIA VÍA TRANSNASAL": 6
       },
       "especialidad": "OTORRINOLARINGOLOGIA"
     },
     "2026_10_JOHANA ANDREA BENAVIDES MARTINEZ": {
-      "total": 15,
+      "total": 26,
       "procedimientos": {
-        "CISTOSCOPIA TRANSURETRAL    (40)": 15
+        "CISTOSCOPIA TRANSURETRAL    (40)": 26
       },
       "especialidad": "UROLOGIA"
     },
     "2026_10_JOSE MANUEL GOMEZ SIERRA": {
-      "total": 27,
+      "total": 36,
       "procedimientos": {
-        "BLOQUEO DE UNION MIONEURAL": 6,
-        "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)": 21
+        "BLOQUEO DE UNION MIONEURAL": 12,
+        "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)": 23,
+        "PUNCION LUMBAR (DIAGNOSTICA O TERAPEUTICA)": 1
       },
       "especialidad": "NEUROLOGIA"
     },
     "2026_10_ISABEL CRISTINA MORIBE QUINTERO": {
-      "total": 95,
+      "total": 208,
       "procedimientos": {
-        "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I": 28,
+        "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I": 41,
         "PRUEBA DE SENSIBILIZACION CON ALERGENO VIA ORAL [PROVOCACION]": 3,
-        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.": 10,
-        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.": 54
+        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.": 17,
+        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.": 147
       },
       "especialidad": "ALERGOLOGIA"
     },
     "2026_10_ANTONIO JOSE URIBE BAYONA": {
-      "total": 7,
+      "total": 18,
       "procedimientos": {
-        "VASECTOMÍA": 7
+        "VASECTOMÍA": 17,
+        "FULGURACIÓN O RESECCIÓN DE LESIÓN EN PENE": 1
       },
       "especialidad": "UROLOGIA"
     },
     "2026_10_JOSE FERNANDO HUERTAS GAMBOA": {
-      "total": 1,
+      "total": 4,
       "procedimientos": {
-        "BIOPSIA POR ASPIRACION DE MEDULA OSEA": 1
+        "BIOPSIA POR ASPIRACION DE MEDULA OSEA": 4
       },
       "especialidad": "HEMATOLOGIA Y ONCOLOGIA CLINICA"
+    },
+    "2026_10_VALENTINA SANCHEZ FERNANDEZ": {
+      "total": 2,
+      "procedimientos": {
+        "RETIRO DE CERCLAJE INTER O INTRA MAXILAR    (164)": 1,
+        "RETIRO DE MATERIAL DE FIJACION INTERNA (DISPOSITIVOS DE FIJACION  U OSTEOSINTESIS) DE HUESO FACIAL N": 1
+      },
+      "especialidad": "CIRUGIA MAXILOFACIAL"
+    },
+    "2026_10_RUBY JHOANA ZAMORA OLAVE": {
+      "total": 2,
+      "procedimientos": {
+        "INSTILACIÓN GENITOURINARIA": 1,
+        "UROFLUJOMETRÍA": 1
+      },
+      "especialidad": "AUXILIAR DE ENFERMERIA"
+    },
+    "2026_10_MONICA ANDREA VELASCO RIVERA": {
+      "total": 27,
+      "procedimientos": {
+        "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION  FULGURACION O CRIOTERAPIA EN AREA ESPECIAL  ENTRE": 16,
+        "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 4,
+        "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE": 7
+      },
+      "especialidad": "DERMATOLOGIA"
     }
   },
   "bySpecialty": {
@@ -3472,12 +3541,6 @@
         "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 1
       }
     },
-    "2026_5_GINECOLOGIA Y OBSTETRICIA": {
-      "total": 1,
-      "procedimientos": {
-        "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]": 1
-      }
-    },
     "2026_6_NEUROLOGIA": {
       "total": 41,
       "procedimientos": {
@@ -3517,6 +3580,12 @@
       "total": 362,
       "procedimientos": {
         "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 362
+      }
+    },
+    "2026_5_GINECOLOGIA Y OBSTETRICIA": {
+      "total": 1,
+      "procedimientos": {
+        "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]": 1
       }
     },
     "2026_6_ALERGOLOGIA": {
@@ -3733,6 +3802,12 @@
         "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 34
       }
     },
+    "2026_8_GINECOLOGIA Y OBSTETRICIA": {
+      "total": 1,
+      "procedimientos": {
+        "CESAREA SEGMENTARIA TRANSPERITONEAL": 1
+      }
+    },
     "2026_8_HEMATOLOGIA Y ONCOLOGIA CLINICA": {
       "total": 2,
       "procedimientos": {
@@ -3795,9 +3870,10 @@
       }
     },
     "2026_9_ORTOPEDIA Y TRAUMATOLOGIA": {
-      "total": 59,
+      "total": 60,
       "procedimientos": {
-        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 59
+        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 59,
+        "LIMPIEZA Y DESBRIDAMIENTO QUIRURGICOS  DE MUSCULOS   TENDONES Y FASCIA EN ANTEBRAZO": 1
       }
     },
     "2026_9_ENFERMERA(O) JEFE": {
@@ -3849,30 +3925,30 @@
       }
     },
     "2026_10_TERAPISTA ENTEROSTOMAL": {
-      "total": 146,
+      "total": 298,
       "procedimientos": {
-        "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 146
+        "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL": 298
       }
     },
     "2026_10_AUXILIAR DE ENFERMERIA": {
-      "total": 57,
+      "total": 100,
       "procedimientos": {
         "INSERCION DE DISPOSITIVO URINARIO (VESICAL)": 8,
-        "INSTILACIÓN GENITOURINARIA": 33,
+        "INSTILACIÓN GENITOURINARIA": 64,
         "INSERCION DE DISPOSITIVO EN URETRA": 1,
-        "UROFLUJOMETRÍA": 15
+        "UROFLUJOMETRÍA": 27
       }
     },
     "2026_10_ENFERMERA(O) JEFE": {
-      "total": 230,
+      "total": 424,
       "procedimientos": {
-        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 230
+        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 424
       }
     },
     "2026_10_ORTOPEDIA Y TRAUMATOLOGIA": {
-      "total": 16,
+      "total": 33,
       "procedimientos": {
-        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 16
+        "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA": 33
       }
     },
     "2026_10_ENDOCRINOLOGIA": {
@@ -3882,48 +3958,60 @@
       }
     },
     "2026_10_NEUROLOGIA": {
-      "total": 39,
+      "total": 48,
       "procedimientos": {
-        "BLOQUEO DE UNION MIONEURAL": 16,
-        "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)": 22,
-        "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 1
+        "BLOQUEO DE UNION MIONEURAL": 22,
+        "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)": 24,
+        "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 1,
+        "PUNCION LUMBAR (DIAGNOSTICA O TERAPEUTICA)": 1
       }
     },
     "2026_10_DERMATOLOGIA": {
-      "total": 32,
+      "total": 59,
       "procedimientos": {
         "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION  FULGURACION O CRIOTERAPIA EN AREA ESPECIAL  HASTA": 9,
-        "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE": 16,
+        "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE": 23,
         "BIOPSIA INCISIONAL O ESCISIONAL DE PIEL  TEJIDO CELULAR SUBCUTANEO O MUCOSA (CON SUTURA)": 2,
-        "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 5
+        "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES": 9,
+        "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION  FULGURACION O CRIOTERAPIA EN AREA ESPECIAL  ENTRE": 16
       }
     },
     "2026_10_OTORRINOLARINGOLOGIA": {
-      "total": 1,
+      "total": 35,
       "procedimientos": {
-        "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA": 1
+        "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA": 21,
+        "BIOPSIA ABIERTA DE GLÁNDULA SALIVAL MENOR (CON CONDUCTO SALIVAL)": 8,
+        "CONTROL DE EPISTAXIS POR DERMOPLASTIA VÍA TRANSNASAL": 6
       }
     },
     "2026_10_UROLOGIA": {
-      "total": 22,
+      "total": 44,
       "procedimientos": {
-        "CISTOSCOPIA TRANSURETRAL    (40)": 15,
-        "VASECTOMÍA": 7
+        "CISTOSCOPIA TRANSURETRAL    (40)": 26,
+        "VASECTOMÍA": 17,
+        "FULGURACIÓN O RESECCIÓN DE LESIÓN EN PENE": 1
       }
     },
     "2026_10_ALERGOLOGIA": {
-      "total": 95,
+      "total": 208,
       "procedimientos": {
-        "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I": 28,
+        "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I": 41,
         "PRUEBA DE SENSIBILIZACION CON ALERGENO VIA ORAL [PROVOCACION]": 3,
-        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.": 10,
-        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.": 54
+        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.": 17,
+        "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.": 147
       }
     },
     "2026_10_HEMATOLOGIA Y ONCOLOGIA CLINICA": {
-      "total": 1,
+      "total": 4,
       "procedimientos": {
-        "BIOPSIA POR ASPIRACION DE MEDULA OSEA": 1
+        "BIOPSIA POR ASPIRACION DE MEDULA OSEA": 4
+      }
+    },
+    "2026_10_CIRUGIA MAXILOFACIAL": {
+      "total": 2,
+      "procedimientos": {
+        "RETIRO DE CERCLAJE INTER O INTRA MAXILAR    (164)": 1,
+        "RETIRO DE MATERIAL DE FIJACION INTERNA (DISPOSITIVOS DE FIJACION  U OSTEOSINTESIS) DE HUESO FACIAL N": 1
       }
     }
   },
@@ -3993,6 +4081,17 @@
       "especialidad": "ENFERMERA(O) JEFE",
       "totalProcedimientos": 432,
       "pacientesUnicos": 357
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "992990",
+      "procedimiento": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
+      "especialista": "JESSICA ANDREA MUÑOZ GOMEZ",
+      "especialidad": "ENFERMERA(O) JEFE",
+      "totalProcedimientos": 424,
+      "pacientesUnicos": 361
     },
     {
       "anio": 2026,
@@ -4106,6 +4205,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "869501",
+      "procedimiento": "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL",
+      "especialista": "CARLOS ARIEL DIAZ CHANDILLO",
+      "especialidad": "TERAPISTA ENTEROSTOMAL",
+      "totalProcedimientos": 298,
+      "pacientesUnicos": 103
+    },
+    {
+      "anio": 2026,
       "mes": "Agosto",
       "mesNum": 8,
       "codigo": "992990",
@@ -4114,17 +4224,6 @@
       "especialidad": "ENFERMERA(O) JEFE",
       "totalProcedimientos": 260,
       "pacientesUnicos": 247
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "992990",
-      "procedimiento": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
-      "especialista": "JESSICA ANDREA MUÑOZ GOMEZ",
-      "especialidad": "ENFERMERA(O) JEFE",
-      "totalProcedimientos": 230,
-      "pacientesUnicos": 210
     },
     {
       "anio": 2026,
@@ -4273,12 +4372,12 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "869501",
-      "procedimiento": "LIMPIEZA DE LESIÓN EN LA PIEL O DEL TEJIDO DEBAJO DE LA PIEL",
-      "especialista": "CARLOS ARIEL DIAZ CHANDILLO",
-      "especialidad": "TERAPISTA ENTEROSTOMAL",
-      "totalProcedimientos": 146,
-      "pacientesUnicos": 86
+      "codigo": "991202",
+      "procedimiento": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.",
+      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
+      "especialidad": "ALERGOLOGIA",
+      "totalProcedimientos": 147,
+      "pacientesUnicos": 130
     },
     {
       "anio": 2026,
@@ -4700,17 +4799,6 @@
     },
     {
       "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "991202",
-      "procedimiento": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBCUTANEA.",
-      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
-      "especialidad": "ALERGOLOGIA",
-      "totalProcedimientos": 54,
-      "pacientesUnicos": 48
-    },
-    {
-      "anio": 2026,
       "mes": "Enero",
       "mesNum": 1,
       "codigo": "860101",
@@ -4920,6 +5008,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "860203",
+      "procedimiento": "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I",
+      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
+      "especialidad": "ALERGOLOGIA",
+      "totalProcedimientos": 41,
+      "pacientesUnicos": 27
+    },
+    {
+      "anio": 2026,
       "mes": "Mayo",
       "mesNum": 5,
       "codigo": "964900",
@@ -5043,6 +5142,17 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
+      "codigo": "992990",
+      "procedimiento": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
+      "especialista": "FERNANDO ARCESIO URREA CALDAS",
+      "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA",
+      "totalProcedimientos": 33,
+      "pacientesUnicos": 30
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
       "codigo": "964900",
       "procedimiento": "INSTILACIÓN GENITOURINARIA",
       "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
@@ -5140,6 +5250,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "964901",
+      "procedimiento": "INSTILACIÓN GENITOURINARIA",
+      "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
+      "especialidad": "AUXILIAR DE ENFERMERIA",
+      "totalProcedimientos": 30,
+      "pacientesUnicos": 26
+    },
+    {
+      "anio": 2026,
       "mes": "Agosto",
       "mesNum": 8,
       "codigo": "892001",
@@ -5179,17 +5300,6 @@
       "procedimiento": "INSERCION DE DISPOSITIVO URINARIO (VESICAL)",
       "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
       "especialidad": "AUXILIAR DE ENFERMERIA",
-      "totalProcedimientos": 28,
-      "pacientesUnicos": 18
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "860203",
-      "procedimiento": "PRUEBA INTRAEPIDÉRMICA DE ALERGIA CON ESCARIFICACIÓN O PINTURA (AEROALERGENOS ALIMENTOS VENENOS DE I",
-      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
-      "especialidad": "ALERGOLOGIA",
       "totalProcedimientos": 28,
       "pacientesUnicos": 18
     },
@@ -5258,6 +5368,28 @@
       "especialidad": "DERMATOLOGIA",
       "totalProcedimientos": 26,
       "pacientesUnicos": 24
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "573201",
+      "procedimiento": "CISTOSCOPIA TRANSURETRAL    (40)",
+      "especialista": "JOHANA ANDREA BENAVIDES MARTINEZ",
+      "especialidad": "UROLOGIA",
+      "totalProcedimientos": 26,
+      "pacientesUnicos": 26
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "892400",
+      "procedimiento": "UROFLUJOMETRÍA",
+      "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
+      "especialidad": "AUXILIAR DE ENFERMERIA",
+      "totalProcedimientos": 26,
+      "pacientesUnicos": 26
     },
     {
       "anio": 2026,
@@ -5404,6 +5536,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "861411",
+      "procedimiento": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
+      "especialista": "JOSE MANUEL GOMEZ SIERRA",
+      "especialidad": "NEUROLOGIA",
+      "totalProcedimientos": 23,
+      "pacientesUnicos": 23
+    },
+    {
+      "anio": 2026,
       "mes": "Enero",
       "mesNum": 1,
       "codigo": "202401",
@@ -5516,10 +5659,10 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "861411",
-      "procedimiento": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
-      "especialista": "JOSE MANUEL GOMEZ SIERRA",
-      "especialidad": "NEUROLOGIA",
+      "codigo": "202401",
+      "procedimiento": "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA",
+      "especialista": "ADRIANA LISETTE DAZA HERNANDEZ",
+      "especialidad": "OTORRINOLARINGOLOGIA",
       "totalProcedimientos": 21,
       "pacientesUnicos": 21
     },
@@ -5767,6 +5910,28 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "991203",
+      "procedimiento": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.",
+      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
+      "especialidad": "ALERGOLOGIA",
+      "totalProcedimientos": 17,
+      "pacientesUnicos": 16
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "637300",
+      "procedimiento": "VASECTOMÍA",
+      "especialista": "ANTONIO JOSE URIBE BAYONA",
+      "especialidad": "UROLOGIA",
+      "totalProcedimientos": 17,
+      "pacientesUnicos": 17
+    },
+    {
+      "anio": 2026,
       "mes": "Abril",
       "mesNum": 4,
       "codigo": "637300",
@@ -5846,20 +6011,20 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "992990",
-      "procedimiento": "INYECCION O INFUSION DE OTRA SUSTANCIA TERAPEUTICA O PROFILACTICA",
-      "especialista": "FERNANDO ARCESIO URREA CALDAS",
-      "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA",
+      "codigo": "860101",
+      "procedimiento": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
+      "especialista": "ELIZABETH MILENA ARCINIEGAS BASTIDAS",
+      "especialidad": "DERMATOLOGIA",
       "totalProcedimientos": 16,
-      "pacientesUnicos": 13
+      "pacientesUnicos": 16
     },
     {
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "860101",
-      "procedimiento": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
-      "especialista": "ELIZABETH MILENA ARCINIEGAS BASTIDAS",
+      "codigo": "863104",
+      "procedimiento": "RESECCION DE LESIONES CUTANEAS POR CAUTERIZACION  FULGURACION O CRIOTERAPIA EN AREA ESPECIAL  ENTRE",
+      "especialista": "MONICA ANDREA VELASCO RIVERA",
       "especialidad": "DERMATOLOGIA",
       "totalProcedimientos": 16,
       "pacientesUnicos": 16
@@ -5929,28 +6094,6 @@
       "especialidad": "AUXILIAR DE ENFERMERIA",
       "totalProcedimientos": 15,
       "pacientesUnicos": 14
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "573201",
-      "procedimiento": "CISTOSCOPIA TRANSURETRAL    (40)",
-      "especialista": "JOHANA ANDREA BENAVIDES MARTINEZ",
-      "especialidad": "UROLOGIA",
-      "totalProcedimientos": 15,
-      "pacientesUnicos": 15
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "892400",
-      "procedimiento": "UROFLUJOMETRÍA",
-      "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
-      "especialidad": "AUXILIAR DE ENFERMERIA",
-      "totalProcedimientos": 15,
-      "pacientesUnicos": 15
     },
     {
       "anio": 2026,
@@ -6251,6 +6394,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "053105",
+      "procedimiento": "BLOQUEO DE UNION MIONEURAL",
+      "especialista": "JOSE MANUEL GOMEZ SIERRA",
+      "especialidad": "NEUROLOGIA",
+      "totalProcedimientos": 12,
+      "pacientesUnicos": 12
+    },
+    {
+      "anio": 2026,
       "mes": "Enero",
       "mesNum": 1,
       "codigo": "991203",
@@ -6482,17 +6636,6 @@
     },
     {
       "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "991203",
-      "procedimiento": "INMUNOTERAPIA CON EXTRACTO ALERGENICO POR VIA SUBLINGUAL.",
-      "especialista": "ISABEL CRISTINA MORIBE QUINTERO",
-      "especialidad": "ALERGOLOGIA",
-      "totalProcedimientos": 10,
-      "pacientesUnicos": 9
-    },
-    {
-      "anio": 2026,
       "mes": "Enero",
       "mesNum": 1,
       "codigo": "261002",
@@ -6713,6 +6856,17 @@
     },
     {
       "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "261002",
+      "procedimiento": "BIOPSIA ABIERTA DE GLÁNDULA SALIVAL MENOR (CON CONDUCTO SALIVAL)",
+      "especialista": "ADRIANA LISETTE DAZA HERNANDEZ",
+      "especialidad": "OTORRINOLARINGOLOGIA",
+      "totalProcedimientos": 8,
+      "pacientesUnicos": 8
+    },
+    {
+      "anio": 2026,
       "mes": "Febrero",
       "mesNum": 2,
       "codigo": "202401",
@@ -6836,12 +6990,12 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "637300",
-      "procedimiento": "VASECTOMÍA",
-      "especialista": "ANTONIO JOSE URIBE BAYONA",
-      "especialidad": "UROLOGIA",
+      "codigo": "860101",
+      "procedimiento": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
+      "especialista": "MONICA ANDREA VELASCO RIVERA",
+      "especialidad": "DERMATOLOGIA",
       "totalProcedimientos": 7,
-      "pacientesUnicos": 7
+      "pacientesUnicos": 6
     },
     {
       "anio": 2026,
@@ -6968,10 +7122,10 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "053105",
-      "procedimiento": "BLOQUEO DE UNION MIONEURAL",
-      "especialista": "JOSE MANUEL GOMEZ SIERRA",
-      "especialidad": "NEUROLOGIA",
+      "codigo": "210901",
+      "procedimiento": "CONTROL DE EPISTAXIS POR DERMOPLASTIA VÍA TRANSNASAL",
+      "especialista": "ADRIANA LISETTE DAZA HERNANDEZ",
+      "especialidad": "OTORRINOLARINGOLOGIA",
       "totalProcedimientos": 6,
       "pacientesUnicos": 6
     },
@@ -7312,6 +7466,28 @@
       "codigo": "860102",
       "procedimiento": "BIOPSIA INCISIONAL O ESCISIONAL DE PIEL  TEJIDO CELULAR SUBCUTANEO O MUCOSA (CON SUTURA)",
       "especialista": "ELIZABETH MILENA ARCINIEGAS BASTIDAS",
+      "especialidad": "DERMATOLOGIA",
+      "totalProcedimientos": 4,
+      "pacientesUnicos": 4
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "413101",
+      "procedimiento": "BIOPSIA POR ASPIRACION DE MEDULA OSEA",
+      "especialista": "JOSE FERNANDO HUERTAS GAMBOA",
+      "especialidad": "HEMATOLOGIA Y ONCOLOGIA CLINICA",
+      "totalProcedimientos": 4,
+      "pacientesUnicos": 4
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "861401",
+      "procedimiento": "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES",
+      "especialista": "MONICA ANDREA VELASCO RIVERA",
       "especialidad": "DERMATOLOGIA",
       "totalProcedimientos": 4,
       "pacientesUnicos": 4
@@ -8640,10 +8816,10 @@
       "anio": 2026,
       "mes": "Mayo",
       "mesNum": 5,
-      "codigo": "697101",
-      "procedimiento": "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]",
-      "especialista": "VANESSA CRUZ OSORIO",
-      "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+      "codigo": "892001",
+      "procedimiento": "URODINAMIA ESTANDAR",
+      "especialista": "JOHANA ANDREA BENAVIDES MARTINEZ",
+      "especialidad": "UROLOGIA",
       "totalProcedimientos": 1,
       "pacientesUnicos": 1
     },
@@ -8651,10 +8827,10 @@
       "anio": 2026,
       "mes": "Mayo",
       "mesNum": 5,
-      "codigo": "892001",
-      "procedimiento": "URODINAMIA ESTANDAR",
-      "especialista": "JOHANA ANDREA BENAVIDES MARTINEZ",
-      "especialidad": "UROLOGIA",
+      "codigo": "697101",
+      "procedimiento": "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO [DIU]",
+      "especialista": "VANESSA CRUZ OSORIO",
+      "especialidad": "GINECOLOGIA Y OBSTETRICIA",
       "totalProcedimientos": 1,
       "pacientesUnicos": 1
     },
@@ -8904,6 +9080,17 @@
       "anio": 2026,
       "mes": "Agosto",
       "mesNum": 8,
+      "codigo": "740001",
+      "procedimiento": "CESAREA SEGMENTARIA TRANSPERITONEAL",
+      "especialista": "JORGE HERNAN URREGO GRUESO",
+      "especialidad": "GINECOLOGIA Y OBSTETRICIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Agosto",
+      "mesNum": 8,
       "codigo": "961601",
       "procedimiento": "INSERCION DE DISPOSITIVO EN URETRA",
       "especialista": "NARLY NORELY RODRIGUEZ CASTILLO",
@@ -9069,6 +9256,17 @@
       "anio": 2026,
       "mes": "Septiembre",
       "mesNum": 9,
+      "codigo": "834920",
+      "procedimiento": "LIMPIEZA Y DESBRIDAMIENTO QUIRURGICOS  DE MUSCULOS   TENDONES Y FASCIA EN ANTEBRAZO",
+      "especialista": "JESUS ANTONIO VELEZ MARIN",
+      "especialidad": "ORTOPEDIA Y TRAUMATOLOGIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Septiembre",
+      "mesNum": 9,
       "codigo": "690103",
       "procedimiento": "LEGRADO UTERINO GINECOLOGICO",
       "especialista": "JORGE LUIS ORJUELA GIL",
@@ -9091,28 +9289,6 @@
       "anio": 2026,
       "mes": "Octubre",
       "mesNum": 10,
-      "codigo": "202401",
-      "procedimiento": "ASPIRACIÓN DE OÍDO MEDIO O CAVIDAD MASTOIDEA",
-      "especialista": "ADRIANA LISETTE DAZA HERNANDEZ",
-      "especialidad": "OTORRINOLARINGOLOGIA",
-      "totalProcedimientos": 1,
-      "pacientesUnicos": 1
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
-      "codigo": "413101",
-      "procedimiento": "BIOPSIA POR ASPIRACION DE MEDULA OSEA",
-      "especialista": "JOSE FERNANDO HUERTAS GAMBOA",
-      "especialidad": "HEMATOLOGIA Y ONCOLOGIA CLINICA",
-      "totalProcedimientos": 1,
-      "pacientesUnicos": 1
-    },
-    {
-      "anio": 2026,
-      "mes": "Octubre",
-      "mesNum": 10,
       "codigo": "861411",
       "procedimiento": "INYECCIÓN DE MATERIAL MIORELAJANTE (TOXINA BOTULÍNICA)",
       "especialista": "IDARLYS MASSIEL YATE MORALES",
@@ -9128,6 +9304,72 @@
       "procedimiento": "INFILTRACION INTRALESIONAL CON MEDICAMENTO HASTA DE CINCO LESIONES",
       "especialista": "IDARLYS MASSIEL YATE MORALES",
       "especialidad": "NEUROLOGIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "768702",
+      "procedimiento": "RETIRO DE CERCLAJE INTER O INTRA MAXILAR    (164)",
+      "especialista": "VALENTINA SANCHEZ FERNANDEZ",
+      "especialidad": "CIRUGIA MAXILOFACIAL",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "768701",
+      "procedimiento": "RETIRO DE MATERIAL DE FIJACION INTERNA (DISPOSITIVOS DE FIJACION  U OSTEOSINTESIS) DE HUESO FACIAL N",
+      "especialista": "VALENTINA SANCHEZ FERNANDEZ",
+      "especialidad": "CIRUGIA MAXILOFACIAL",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "642100",
+      "procedimiento": "FULGURACIÓN O RESECCIÓN DE LESIÓN EN PENE",
+      "especialista": "ANTONIO JOSE URIBE BAYONA",
+      "especialidad": "UROLOGIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "964901",
+      "procedimiento": "INSTILACIÓN GENITOURINARIA",
+      "especialista": "RUBY JHOANA ZAMORA OLAVE",
+      "especialidad": "AUXILIAR DE ENFERMERIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "033101",
+      "procedimiento": "PUNCION LUMBAR (DIAGNOSTICA O TERAPEUTICA)",
+      "especialista": "JOSE MANUEL GOMEZ SIERRA",
+      "especialidad": "NEUROLOGIA",
+      "totalProcedimientos": 1,
+      "pacientesUnicos": 1
+    },
+    {
+      "anio": 2026,
+      "mes": "Octubre",
+      "mesNum": 10,
+      "codigo": "892400",
+      "procedimiento": "UROFLUJOMETRÍA",
+      "especialista": "RUBY JHOANA ZAMORA OLAVE",
+      "especialidad": "AUXILIAR DE ENFERMERIA",
       "totalProcedimientos": 1,
       "pacientesUnicos": 1
     }
