@@ -2513,7 +2513,23 @@ function DataTable({
 }
 
 function AttendanceView() {
-  const dbData = centralEspecialistasData;
+  const [dbData, setDbData] = useState(centralEspecialistasData);
+  const [syncing, setSyncing] = useState(false);
+  const [lastSync, setLastSync] = useState(null);
+
+  const handleSyncData = async () => {
+    setSyncing(true);
+    try {
+      const res = await fetch('/api/sync/asistencia', { method: 'POST' });
+      if (res.ok) {
+        setLastSync(new Date().toLocaleTimeString());
+      }
+    } catch (err) {
+      console.error('Error sincronizando asistencia:', err);
+    } finally {
+      setSyncing(false);
+    }
+  };
   const [year, setYear] = useState('2026');
   const [month, setMonth] = useState('Todos los Meses');
   const [specialty, setSpecialty] = useState('Todas las Especialidades');
@@ -2901,12 +2917,33 @@ function AttendanceView() {
           placeholder="Buscar especialista, especialidad o identificación..."
         />
 
-        <div className="filter-actions">
+        <div className="filter-actions" style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <button
+            type="button"
+            className="apply-button"
+            style={{
+              background: syncing ? '#64748b' : 'linear-gradient(135deg, #0d9488, #0f766e)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 6
+            }}
+            onClick={handleSyncData}
+            disabled={syncing}
+            title="Actualizar datos de asistencia directamente desde la base de datos"
+          >
+            <Icon name={syncing ? 'refresh-cw' : 'database'} size={15} className={syncing ? 'spin-icon' : ''} />
+            {syncing ? 'Actualizando...' : 'Actualizar Datos'}
+          </button>
           <CIEDropdownFilter
             value={selectedDiagnosis}
             onChange={setSelectedDiagnosis}
             options={diagnosisOptions}
           />
+          {lastSync && (
+            <span style={{ color: '#0d9488', fontWeight: 600, fontSize: 11, marginLeft: 4 }}>
+              ✓ Actualizado {lastSync}
+            </span>
+          )}
         </div>
       </section>
 
@@ -3616,7 +3653,7 @@ function ProcedimientosView() {
             title="Ejecutar Quirofanos-V3-juan.sql directamente contra PostgreSQL para actualizar los datos en vivo"
           >
             <Icon name={syncing ? 'refresh-cw' : 'database'} size={15} className={syncing ? 'spin-icon' : ''} />
-            {syncing ? 'Ejecutando SQL...' : 'Actualizar desde SQL'}
+            {syncing ? 'Actualizando...' : 'Actualizar Datos'}
           </button>
           <button className="reset-button" onClick={reset}>Restablecer</button>
           {lastSync && (
@@ -3978,11 +4015,36 @@ function ProcedimientosView() {
 }
 
 function Dashboard({ activePage, setActivePage }) {
+  const [liveDataOverrides, setLiveDataOverrides] = useState({});
+  const [syncing, setSyncing] = useState(false);
+  const [lastSync, setLastSync] = useState(null);
+
   const dbData = useMemo(() => {
+    if (liveDataOverrides[activePage]) return liveDataOverrides[activePage];
     if (activePage === 'odontologia') return odontologiaData;
     if (activePage === 'cisen') return cisenData;
     return centralEspecialistasData;
-  }, [activePage]);
+  }, [activePage, liveDataOverrides]);
+
+  const handleSyncData = async () => {
+    setSyncing(true);
+    try {
+      const res = await fetch(`/api/sync/${activePage}`, { method: 'POST' });
+      if (res.ok) {
+        const fresh = await res.json();
+        if (fresh && (fresh.dataByYearMonth || fresh.tableData)) {
+          setLiveDataOverrides((prev) => ({ ...prev, [activePage]: fresh }));
+          setLastSync(new Date().toLocaleTimeString());
+        }
+      } else {
+        alert('Hubo un error al actualizar los datos en el servidor.');
+      }
+    } catch (err) {
+      console.error('Error sincronizando datos:', err);
+    } finally {
+      setSyncing(false);
+    }
+  };
 
   const [year, setYear] = useState('2026');
   const [month, setMonth] = useState('Todos los Meses');
@@ -4605,7 +4667,29 @@ function Dashboard({ activePage, setActivePage }) {
                 groupOptions={groupOptions}
                 placeholder="Buscar procedimiento, CUPS, especialista, especialidad..."
               />
-              <div className="filter-actions">
+              <div className="filter-actions" style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+                <button
+                  type="button"
+                  className="apply-button"
+                  style={{
+                    background: syncing
+                      ? '#64748b'
+                      : activePage === 'cisen'
+                        ? 'linear-gradient(135deg, #4338ca, #3730a3)'
+                        : activePage === 'odontologia'
+                          ? 'linear-gradient(135deg, #0e7490, #155e75)'
+                          : 'linear-gradient(135deg, #0d9488, #0f766e)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 6
+                  }}
+                  onClick={handleSyncData}
+                  disabled={syncing}
+                  title={`Actualizar datos de ${currentPageInfo.name} directamente desde la base de datos`}
+                >
+                  <Icon name={syncing ? 'refresh-cw' : 'database'} size={15} className={syncing ? 'spin-icon' : ''} />
+                  {syncing ? 'Actualizando...' : 'Actualizar Datos'}
+                </button>
                 <button className="apply-button" onClick={() => setFiltersApplied(true)}>{filterSummary}</button>
                 <button className="reset-button" onClick={reset}>Restablecer</button>
                 <CIEDropdownFilter
@@ -4613,6 +4697,11 @@ function Dashboard({ activePage, setActivePage }) {
                   onChange={setSelectedDiagnosis}
                   options={diagnosisOptions}
                 />
+                {lastSync && (
+                  <span style={{ color: '#0d9488', fontWeight: 600, fontSize: 11, marginLeft: 4 }}>
+                    ✓ Actualizado {lastSync}
+                  </span>
+                )}
               </div>
             </section>
 

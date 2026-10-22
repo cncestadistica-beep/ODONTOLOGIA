@@ -1,6 +1,4 @@
 import { spawn } from 'node:child_process';
-import fs from 'node:fs';
-import path from 'node:path';
 import { defineConfig } from 'vite';
 
 function sqlSyncAndAttendanceApi() {
@@ -22,28 +20,30 @@ function sqlSyncAndAttendanceApi() {
         });
       });
 
-      server.middlewares.use('/api/sync/procedimientos', (req, res) => {
-        const child = spawn('python', ['scripts/sync_procedimientos_menores.py'], { cwd: process.cwd() });
-        let output = '';
-        let error = '';
-        child.stdout.on('data', chunk => { output += chunk; });
-        child.stderr.on('data', chunk => { error += chunk; });
-        child.on('close', code => {
-          res.setHeader('Content-Type', 'application/json; charset=utf-8');
-          if (code === 0) {
-            try {
-              const freshData = fs.readFileSync(path.join(process.cwd(), 'src/data/procedimientosMenoresData.json'), 'utf8');
+      server.middlewares.use((req, res, next) => {
+        if (req.url && req.url.startsWith('/api/sync/')) {
+          const target = req.url.split('/api/sync/')[1]?.split('?')[0];
+          const child = spawn('python', ['scripts/sync_target.py', target || 'all'], { cwd: process.cwd(), shell: true });
+          let output = '';
+          let error = '';
+          child.stdout.on('data', chunk => { output += chunk; });
+          child.stderr.on('data', chunk => { error += chunk; });
+          child.on('close', code => {
+            res.setHeader('Content-Type', 'application/json; charset=utf-8');
+            if (code === 0 && output) {
               res.statusCode = 200;
-              res.end(freshData);
-            } catch (readErr) {
+              res.end(output);
+            } else if (code === 0) {
               res.statusCode = 200;
-              res.end(JSON.stringify({ success: true, message: 'Sincronizado con éxito' }));
+              res.end(JSON.stringify({ success: true, message: `Tablero ${target} actualizado con éxito` }));
+            } else {
+              res.statusCode = 500;
+              res.end(JSON.stringify({ error: error || `Error al actualizar datos de ${target}` }));
             }
-          } else {
-            res.statusCode = 500;
-            res.end(JSON.stringify({ error: error || 'Error ejecutando Quirofanos-V3-juan.sql' }));
-          }
-        });
+          });
+          return;
+        }
+        next();
       });
     }
   };
