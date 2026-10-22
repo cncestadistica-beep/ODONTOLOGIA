@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import glob
 from collections import defaultdict
@@ -49,7 +50,13 @@ def sync_appointments():
 
     os.makedirs('public/data/citas', exist_ok=True)
 
-    for yr in [2026, 2025, 2024]:
+    if '--all' in sys.argv:
+        years_to_process = [2026, 2025, 2024]
+    else:
+        # Default to current year for fast 10-second updates; use --all for full historical sync
+        years_to_process = [2026]
+
+    for yr in years_to_process:
         print(f'Procesando {yr}: extrayendo órdenes completas de fórmulas aprobadas...')
         cur.execute(f'''
         SELECT 
@@ -268,12 +275,43 @@ def sync_appointments():
         # Convert defaultdict to standard dict for JSON serialization
         final_by_month_doc = {m: dict(docs) for m, docs in by_month_doc.items()}
 
-        with open(f'public/data/citas_{yr}.json', 'w', encoding='utf-8') as f:
-            json.dump(final_by_month_doc, f, ensure_ascii=False)
-
         for mes_nom, doc_dict in final_by_month_doc.items():
             with open(f'public/data/citas/{yr}_{mes_nom}.json', 'w', encoding='utf-8') as mf:
                 json.dump(doc_dict, mf, ensure_ascii=False)
+
+        # Synchronize exact orders directly into centralEspecialistasData.json for 100% mathematical zero-discrepancy
+        if yr == 2026 and os.path.exists('src/data/centralEspecialistasData.json'):
+            try:
+                with open('src/data/centralEspecialistasData.json', 'r', encoding='utf-8') as fp:
+                    ce_json = json.load(fp)
+
+                if 'dataByYearMonth' in ce_json and '2026' in ce_json['dataByYearMonth']:
+                    for mes_nom, doc_dict in final_by_month_doc.items():
+                        m_orders = {
+                            'medicamentos': 0, 'laboratorios': 0, 'honorarios': 0,
+                            'procedimientos': 0, 'ecografias': 0, 'imagenes': 0
+                        }
+                        for doc, clist in doc_dict.items():
+                            for c in clist:
+                                for o in c.get('ord', []):
+                                    g = o.get('g', '')
+                                    if g == 'Medicamentos': m_orders['medicamentos'] += 1
+                                    elif g == 'Laboratorio Clínico': m_orders['laboratorios'] += 1
+                                    elif g == 'Honorarios Médicos': m_orders['honorarios'] += 1
+                                    elif g == 'Procedimientos Quirúrgicos': m_orders['procedimientos'] += 1
+                                    elif g == 'Ecografías': m_orders['ecografias'] += 1
+                                    elif g == 'Imágenes Diagnósticas': m_orders['imagenes'] += 1
+
+                        if mes_nom in ce_json['dataByYearMonth']['2026']:
+                            ce_json['dataByYearMonth']['2026'][mes_nom]['orders'] = m_orders
+                            ce_json['dataByYearMonth']['2026'][mes_nom]['totalLaboratorios'] = m_orders['laboratorios']
+                            ce_json['dataByYearMonth']['2026'][mes_nom]['totalMedicamentos'] = m_orders['medicamentos']
+
+                with open('src/data/centralEspecialistasData.json', 'w', encoding='utf-8') as fp:
+                    json.dump(ce_json, fp, ensure_ascii=False, indent=2)
+                print(f"      [OK] centralEspecialistasData.json sincronizado al 100% con las ordenes de {yr}.")
+            except Exception as ex:
+                print(f"      [AVISO] No se pudo sincronizar centralEspecialistasData.json: {ex}")
 
         print(f'Completado {yr} exitosamente.')
 

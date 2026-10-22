@@ -344,14 +344,24 @@ async function processAll() {
         cisenOrders.push(orderItem);
       }
 
+      const cleanOrderItem = {
+        g: grupo,
+        c: concepto,
+        cod: servicio,
+        d: descripcion,
+        cant: cantidad,
+        fr: frecuencia,
+        obs: observacion
+      };
+
       // Link to cita for detail modals without duplicating across domains
       let attachedToCita = false;
       if (reg && regToCitaMap.has(reg)) {
         const citas = regToCitaMap.get(reg);
-        const matchingCita = citas.find(c => c.isOdonto === isOdonto && c.medico === medico) || 
-                             citas.find(c => c.isOdonto === isOdonto);
+        const matchingCita = citas.find(c => c.year === yr && c.monthName === monthName && c.isOdonto === isOdonto && c.medico === medico) || 
+                             citas.find(c => c.year === yr && c.monthName === monthName && c.isOdonto === isOdonto);
         if (matchingCita) {
-          matchingCita.ord.push(orderItem);
+          matchingCita.ord.push(cleanOrderItem);
           attachedToCita = true;
         }
       }
@@ -375,16 +385,7 @@ async function processAll() {
           s: descripcion,
           t: 'Prescripción',
           r: 'S',
-          ord: [orderItem],
-          year: yr,
-          monthName,
-          monthNum,
-          medico,
-          especialidad,
-          cumplida: true,
-          cancelada: false,
-          primeraVez: false,
-          isOdonto
+          ord: [cleanOrderItem]
         });
       }
     }
@@ -628,6 +629,9 @@ async function processAll() {
   if (!fs.existsSync(odontoCitasDir)) fs.mkdirSync(odontoCitasDir, { recursive: true });
 
   const currentMaxMonthNum = new Date().getMonth() + 1;
+
+  // Clean up any obsolete master file that causes stale modal counts
+  try { fs.unlinkSync(path.join(publicDataDir, 'citas_cisen_2026.json')); } catch (e) {}
 
   // Clean up any future month files for 2026
   for (let mIdx = currentMaxMonthNum; mIdx < 12; mIdx++) {

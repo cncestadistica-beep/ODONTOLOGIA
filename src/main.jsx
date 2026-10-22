@@ -565,7 +565,6 @@ function GroupOrdersDetailModal({
     const loadData = async () => {
       try {
         const detailDir = activePage === 'cisen' ? 'citas_cisen' : activePage === 'odontologia' ? 'citas_odonto' : 'citas';
-        const masterFile = activePage === 'cisen' ? `/data/citas_cisen_${year}.json` : activePage === 'odontologia' ? `/data/citas_odonto_${year}.json` : `/data/citas_${year}.json`;
 
         if (selectedM && selectedM !== 'Todos los Meses') {
           const res = await fetch(`/data/${detailDir}/${year}_${selectedM}.json`);
@@ -574,16 +573,6 @@ function GroupOrdersDetailModal({
           setRawCitasMap({ [selectedM]: data });
           setLoading(false);
         } else {
-          try {
-            const res = await fetch(masterFile);
-            if (res.ok) {
-              const data = await res.json();
-              setRawCitasMap(data);
-              setLoading(false);
-              return;
-            }
-          } catch (e) {}
-
           const curMonthIdx = new Date().getMonth();
           const curYear = new Date().getFullYear();
           let monthsToFetch = dbData?.months || MONTH_NAMES;
@@ -598,7 +587,9 @@ function GroupOrdersDetailModal({
                 if (r.ok) {
                   map[m] = await r.json();
                 }
-              } catch (err) {}
+              } catch (err) {
+                console.warn(`No se pudo cargar detalle de ${m}:`, err);
+              }
             })
           );
           setRawCitasMap(map);
@@ -653,9 +644,6 @@ function GroupOrdersDetailModal({
       Object.entries(monthDocsData).forEach(([docName, citasArr]) => {
         const docUpper = (docName || '').trim().toUpperCase();
         const docNorm = normDoc(docName);
-        if (allowedDocsSet && !allowedDocsSet.has(docUpper) && !allowedDocsSet.has(docNorm)) {
-          return;
-        }
 
         if (selectedDoc && selectedDoc !== 'Todos los Especialistas') {
           if (docName !== selectedDoc && normDoc(docName) !== normDoc(selectedDoc)) {
@@ -1116,7 +1104,6 @@ function DoctorAppointmentsModal({
     const { anio, especialista } = doctorRow;
 
     const detailDir = activePage === 'cisen' ? 'citas_cisen' : activePage === 'odontologia' ? 'citas_odonto' : 'citas';
-    const masterFile = activePage === 'cisen' ? `/data/citas_cisen_${anio}.json` : activePage === 'odontologia' ? `/data/citas_odonto_${anio}.json` : `/data/citas_${anio}.json`;
 
     if (selectedMonth && selectedMonth !== 'Todos los Meses') {
       fetch(`/data/${detailDir}/${anio}_${selectedMonth}.json`)
@@ -1130,29 +1117,31 @@ function DoctorAppointmentsModal({
           setLoading(false);
         })
         .catch((err) => {
-          fetch(masterFile)
-            .then((r) => r.json())
-            .then((ydata) => {
-              const list = (ydata[selectedMonth]?.[especialista] || []).map((item) => ({ ...item, mesName: selectedMonth }));
-              setRawCitas(list);
-              setLoading(false);
-            })
-            .catch((e) => {
-              console.error(e);
-              setError('No se pudieron cargar los datos del especialista.');
-              setLoading(false);
-            });
+          console.error(err);
+          setError('No se pudieron cargar los datos del especialista.');
+          setLoading(false);
         });
     } else {
-      fetch(masterFile)
-        .then((res) => res.json())
-        .then((data) => {
-          const list = [];
-          Object.keys(data).forEach((m) => {
-            const arr = data[m]?.[especialista] || [];
-            arr.forEach((item) => list.push({ ...item, mesName: m }));
-          });
-          setRawCitas(list);
+      const curMonthIdx = new Date().getMonth();
+      const curYear = new Date().getFullYear();
+      let monthsToFetch = dbData?.months || MONTH_NAMES;
+      if (Number(anio) === curYear) {
+        monthsToFetch = monthsToFetch.filter((_, idx) => idx <= curMonthIdx);
+      }
+      Promise.all(
+        monthsToFetch.map(async (m) => {
+          try {
+            const res = await fetch(`/data/${detailDir}/${anio}_${m}.json`);
+            if (!res.ok) return [];
+            const data = await res.json();
+            return (data[especialista] || []).map((item) => ({ ...item, mesName: m }));
+          } catch {
+            return [];
+          }
+        })
+      )
+        .then((results) => {
+          setRawCitas(results.flat());
           setLoading(false);
         })
         .catch((err) => {
